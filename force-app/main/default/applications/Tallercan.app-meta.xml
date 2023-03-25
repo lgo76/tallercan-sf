@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#39A1AB</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Tallercan</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Vehicle__c</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>Registration__c</tabs>
+    <tabs>Accident__c</tabs>
+    <tabs>standard-Quote</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Tallercan_UtilityBar</utilityBar>
+</CustomApplication>

@@ -4121,6 +4121,18 @@
     </fieldPermissions>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Customer_Delete_related_records</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Deactivate_customer</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Deactivation_confirmation</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Tallercan_Delete_Account_Trigger</flow>
     </flowAccesses>
     <layoutAssignments>

@@ -17,4 +17,8 @@
         <label></label>
         <name>Billing</name>
     </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Deactivate_customer</name>
+    </webLinks>
 </CustomObjectTranslation>

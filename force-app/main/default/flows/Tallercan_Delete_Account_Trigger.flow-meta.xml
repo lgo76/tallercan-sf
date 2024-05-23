@@ -6,6 +6,9 @@
         <label>Exists active receptions?</label>
         <locationX>182</locationX>
         <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>Call_subflow_to_delete_related_records_of_customer</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Yes</name>
@@ -23,6 +26,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
+    <description>Adding account id to the condition</description>
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Account Trigger {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Tallercan] Delete Account Trigger</label>
@@ -59,7 +63,14 @@
             <field>IsClosed</field>
             <operator>EqualTo</operator>
             <value>
-                <booleanValue>true</booleanValue>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -85,4 +96,17 @@
         <triggerType>RecordBeforeDelete</triggerType>
     </start>
     <status>Active</status>
+    <subflows>
+        <name>Call_subflow_to_delete_related_records_of_customer</name>
+        <label>Call subflow to delete related records of customer</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <flowName>Customer_Delete_related_records</flowName>
+        <inputAssignments>
+            <name>customertodelete</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
 </Flow>

@@ -46,7 +46,7 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>Active__c</field>
             </layoutItems>
             <layoutItems>

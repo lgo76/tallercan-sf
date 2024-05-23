@@ -461,10 +461,16 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>Customer_Delete_related_records</members>
+        <members>Tallercan_Deactivate_customer</members>
+        <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
         <name>Flow</name>
     </types>
     <types>
+        <members>Customer_Delete_related_records</members>
+        <members>Tallercan_Deactivate_customer</members>
+        <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
         <name>FlowDefinition</name>
     </types>
@@ -1367,6 +1373,7 @@
     </types>
     <types>
         <members>Account.Billing</members>
+        <members>Account.Deactivate_customer</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>

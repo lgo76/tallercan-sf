@@ -7,10 +7,13 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
+                            <value>Edit</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>Global.NewOpportunity</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>Edit</value>
+                            <value>CustomButton.Account.Deactivate_customer</value>
                         </valueListItems>
                         <valueListItems>
                             <value>Delete</value>
@@ -35,7 +38,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>numVisibleActions</name>
-                    <value>3</value>
+                    <value>4</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
                 <identifier>force_highlightsPanel</identifier>

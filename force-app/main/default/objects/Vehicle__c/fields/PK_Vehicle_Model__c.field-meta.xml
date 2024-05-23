@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PK_Vehicle_Model__c</fullName>
+    <externalId>false</externalId>
+    <label>Vehicle Model</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>PK_Vehicle_Brand__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ILX</fullName>
+                <default>false</default>
+                <label>ILX</label>
+            </value>
+            <value>
+                <fullName>MDX</fullName>
+                <default>false</default>
+                <label>MDX</label>
+            </value>
+            <value>
+                <fullName>MDX Sport Hybrid</fullName>
+                <default>false</default>
+                <label>MDX Sport Hybrid</label>
+            </value>
+            <value>
+                <fullName>NSX</fullName>
+                <default>false</default>
+                <label>NSX</label>
+            </value>
+            <value>
+                <fullName>RDX</fullName>
+                <default>false</default>
+                <label>RDX</label>
+            </value>
+            <value>
+                <fullName>RLX</fullName>
+                <default>false</default>
+                <label>RLX</label>
+            </value>
+            <value>
+                <fullName>RLX Sport Hybrid</fullName>
+                <default>false</default>
+                <label>RLX Sport Hybrid</label>
+            </value>
+            <value>
+                <fullName>TLX</fullName>
+                <default>false</default>
+                <label>TLX</label>
+            </value>
+            <value>
+                <fullName>4C Spider</fullName>
+                <default>false</default>
+                <label>4C Spider</label>
+            </value>
+            <value>
+                <fullName>Giulia</fullName>
+                <default>false</default>
+                <label>Giulia</label>
+            </value>
+            <value>
+                <fullName>Stelvio</fullName>
+                <default>false</default>
+                <label>Stelvio</label>
+            </value>
+            <value>
+                <fullName>A3</fullName>
+                <default>false</default>
+                <label>A3</label>
+            </value>
+            <value>
+                <fullName>A4</fullName>
+                <default>false</default>
+                <label>A4</label>
+            </value>
+            <value>
+                <fullName>A5</fullName>
+                <default>false</default>
+                <label>A5</label>
+            </value>
+            <value>
+                <fullName>A6</fullName>
+                <default>false</default>
+                <label>A6</label>
+            </value>
+            <value>
+                <fullName>A6 allroad</fullName>
+                <default>false</default>
+                <label>A6 allroad</label>
+            </value>
+            <value>
+                <fullName>A7</fullName>
+                <default>false</default>
+                <label>A7</label>
+            </value>
+            <value>
+                <fullName>Q3</fullName>
+                <default>false</default>
+                <label>Q3</label>
+            </value>
+            <value>
+                <fullName>Q5</fullName>
+                <default>false</default>
+                <label>Q5</label>
+            </value>
+            <value>
+                <fullName>Q7</fullName>
+                <default>false</default>
+                <label>Q7</label>
+            </value>
+            <value>
+                <fullName>Q8</fullName>
+                <default>false</default>
+                <label>Q8</label>
+            </value>
+            <value>
+                <fullName>R8</fullName>
+                <default>false</default>
+                <label>R8</label>
+            </value>
+            <value>
+                <fullName>S4</fullName>
+                <default>false</default>
+                <label>S4</label>
+            </value>
+            <value>
+                <fullName>S8</fullName>
+                <default>false</default>
+                <label>S8</label>
+            </value>
+            <value>
+                <fullName>SQ5</fullName>
+                <default>false</default>
+                <label>SQ5</label>
+            </value>
+            <value>
+                <fullName>TT</fullName>
+                <default>false</default>
+                <label>TT</label>
+            </value>
+            <value>
+                <fullName>2 Series</fullName>
+                <default>false</default>
+                <label>2 Series</label>
+            </value>
+            <value>
+                <fullName>3 Series</fullName>
+                <default>false</default>
+                <label>3 Series</label>
+            </value>
+            <value>
+                <fullName>4 Series</fullName>
+                <default>false</default>
+                <label>4 Series</label>
+            </value>
+            <value>
+                <fullName>5 Series</fullName>
+                <default>false</default>
+                <label>5 Series</label>
+            </value>
+            <value>
+                <fullName>7 Series</fullName>
+                <default>false</default>
+                <label>7 Series</label>
+            </value>
+            <value>
+                <fullName>8 Series</fullName>
+                <default>false</default>
+                <label>8 Series</label>
+            </value>
+            <value>
+                <fullName>M2</fullName>
+                <default>false</default>
+                <label>M2</label>
+            </value>
+            <value>
+                <fullName>X1</fullName>
+                <default>false</default>
+                <label>X1</label>
+            </value>
+            <value>
+                <fullName>X2</fullName>
+                <default>false</default>
+                <label>X2</label>
+            </value>
+            <value>
+                <fullName>X3</fullName>
+                <default>false</default>
+                <label>X3</label>
+            </value>
+            <value>
+                <fullName>X3 M</fullName>
+                <default>false</default>
+                <label>X3 M</label>
+            </value>
+            <value>
+                <fullName>X4</fullName>
+                <default>false</default>
+                <label>X4</label>
+            </value>
+            <value>
+                <fullName>X5</fullName>
+                <default>false</default>
+                <label>X5</label>
+            </value>
+            <value>
+                <fullName>X6</fullName>
+                <default>false</default>
+                <label>X6</label>
+            </value>
+            <value>
+                <fullName>X7</fullName>
+                <default>false</default>
+                <label>X7</label>
+            </value>
+            <value>
+                <fullName>Z4</fullName>
+                <default>false</default>
+                <label>Z4</label>
+            </value>
+            <value>
+                <fullName>Enclave</fullName>
+                <default>false</default>
+                <label>Enclave</label>
+            </value>
+            <value>
+                <fullName>Encore</fullName>
+                <default>false</default>
+                <label>Encore</label>
+            </value>
+            <value>
+                <fullName>Encore GX</fullName>
+                <default>false</default>
+                <label>Encore GX</label>
+            </value>
+            <value>
+                <fullName>Envision</fullName>
+                <default>false</default>
+                <label>Envision</label>
+            </value>
+            <value>
+                <fullName>Regal Sportback</fullName>
+                <default>false</default>
+                <label>Regal Sportback</label>
+            </value>
+            <value>
+                <fullName>Regal TourX</fullName>
+                <default>false</default>
+                <label>Regal TourX</label>
+            </value>
+            <value>
+                <fullName>CT4</fullName>
+                <default>false</default>
+                <label>CT4</label>
+            </value>
+            <value>
+                <fullName>CT5</fullName>
+                <default>false</default>
+                <label>CT5</label>
+            </value>
+            <value>
+                <fullName>CT6</fullName>
+                <default>false</default>
+                <label>CT6</label>
+            </value>
+            <value>
+                <fullName>CT6-V</fullName>
+                <default>false</default>
+                <label>CT6-V</label>
+            </value>
+            <value>
+                <fullName>Escalade</fullName>
+                <default>false</default>
+                <label>Escalade</label>
+            </value>
+            <value>
+                <fullName>Escalade ESV</fullName>
+                <default>false</default>
+                <label>Escalade ESV</label>
+            </value>
+            <value>
+                <fullName>XT4</fullName>
+                <default>false</default>
+                <label>XT4</label>
+            </value>
+            <value>
+                <fullName>XT5</fullName>
+                <default>false</default>
+                <label>XT5</label>
+            </value>
+            <value>
+                <fullName>XT6</fullName>
+                <default>false</default>
+                <label>XT6</label>
+            </value>
+            <value>
+                <fullName>Blazer</fullName>
+                <default>false</default>
+                <label>Blazer</label>
+            </value>
+            <value>
+                <fullName>Bolt EV</fullName>
+                <default>false</default>
+                <label>Bolt EV</label>
+            </value>
+            <value>
+                <fullName>Camaro</fullName>
+                <default>false</default>
+                <label>Camaro</label>
+            </value>
+            <value>
+                <fullName>Colorado Crew Cab</fullName>
+                <default>false</default>
+                <label>Colorado Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Colorado Extended Cab</fullName>
+                <default>false</default>
+                <label>Colorado Extended Cab</label>
+            </value>
+            <value>
+                <fullName>Corvette</fullName>
+                <default>false</default>
+                <label>Corvette</label>
+            </value>
+            <value>
+                <fullName>Equinox</fullName>
+                <default>false</default>
+                <label>Equinox</label>
+            </value>
+            <value>
+                <fullName>Express 2500 Cargo</fullName>
+                <default>false</default>
+                <label>Express 2500 Cargo</label>
+            </value>
+            <value>
+                <fullName>Express 3500 Cargo</fullName>
+                <default>false</default>
+                <label>Express 3500 Cargo</label>
+            </value>
+            <value>
+                <fullName>Impala</fullName>
+                <default>false</default>
+                <label>Impala</label>
+            </value>
+            <value>
+                <fullName>Malibu</fullName>
+                <default>false</default>
+                <label>Malibu</label>
+            </value>
+            <value>
+                <fullName>Silverado 1500 Crew Cab</fullName>
+                <default>false</default>
+                <label>Silverado 1500 Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Silverado 1500 Double Cab</fullName>
+                <default>false</default>
+                <label>Silverado 1500 Double Cab</label>
+            </value>
+            <value>
+                <fullName>Silverado 1500 Regular Cab</fullName>
+                <default>false</default>
+                <label>Silverado 1500 Regular Cab</label>
+            </value>
+            <value>
+                <fullName>Silverado 2500 HD Crew Cab</fullName>
+                <default>false</default>
+                <label>Silverado 2500 HD Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Silverado 2500 HD Double Cab</fullName>
+                <default>false</default>
+                <label>Silverado 2500 HD Double Cab</label>
+            </value>
+            <value>
+                <fullName>Silverado 3500 HD Crew Cab</fullName>
+                <default>false</default>
+                <label>Silverado 3500 HD Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Sonic</fullName>
+                <default>false</default>
+                <label>Sonic</label>
+            </value>
+            <value>
+                <fullName>Spark</fullName>
+                <default>false</default>
+                <label>Spark</label>
+            </value>
+            <value>
+                <fullName>Suburban</fullName>
+                <default>false</default>
+                <label>Suburban</label>
+            </value>
+            <value>
+                <fullName>Tahoe</fullName>
+                <default>false</default>
+                <label>Tahoe</label>
+            </value>
+            <value>
+                <fullName>Traverse</fullName>
+                <default>false</default>
+                <label>Traverse</label>
+            </value>
+            <value>
+                <fullName>Trax</fullName>
+                <default>false</default>
+                <label>Trax</label>
+            </value>
+            <value>
+                <fullName>300</fullName>
+                <default>false</default>
+                <label>300</label>
+            </value>
+            <value>
+                <fullName>Pacifica</fullName>
+                <default>false</default>
+                <label>Pacifica</label>
+            </value>
+            <value>
+                <fullName>Pacifica Hybrid</fullName>
+                <default>false</default>
+                <label>Pacifica Hybrid</label>
+            </value>
+            <value>
+                <fullName>Voyager</fullName>
+                <default>false</default>
+                <label>Voyager</label>
+            </value>
+            <value>
+                <fullName>Challenger</fullName>
+                <default>false</default>
+                <label>Challenger</label>
+            </value>
+            <value>
+                <fullName>Charger</fullName>
+                <default>false</default>
+                <label>Charger</label>
+            </value>
+            <value>
+                <fullName>Durango</fullName>
+                <default>false</default>
+                <label>Durango</label>
+            </value>
+            <value>
+                <fullName>Grand Caravan Passenger</fullName>
+                <default>false</default>
+                <label>Grand Caravan Passenger</label>
+            </value>
+            <value>
+                <fullName>Journey</fullName>
+                <default>false</default>
+                <label>Journey</label>
+            </value>
+            <value>
+                <fullName>124 Spider</fullName>
+                <default>false</default>
+                <label>124 Spider</label>
+            </value>
+            <value>
+                <fullName>500L</fullName>
+                <default>false</default>
+                <label>500L</label>
+            </value>
+            <value>
+                <fullName>500X</fullName>
+                <default>false</default>
+                <label>500X</label>
+            </value>
+            <value>
+                <fullName>EcoSport</fullName>
+                <default>false</default>
+                <label>EcoSport</label>
+            </value>
+            <value>
+                <fullName>Edge</fullName>
+                <default>false</default>
+                <label>Edge</label>
+            </value>
+            <value>
+                <fullName>Escape</fullName>
+                <default>false</default>
+                <label>Escape</label>
+            </value>
+            <value>
+                <fullName>Expedition</fullName>
+                <default>false</default>
+                <label>Expedition</label>
+            </value>
+            <value>
+                <fullName>Expedition MAX</fullName>
+                <default>false</default>
+                <label>Expedition MAX</label>
+            </value>
+            <value>
+                <fullName>Explorer</fullName>
+                <default>false</default>
+                <label>Explorer</label>
+            </value>
+            <value>
+                <fullName>F150 Regular Cab</fullName>
+                <default>false</default>
+                <label>F150 Regular Cab</label>
+            </value>
+            <value>
+                <fullName>F150 Super Cab</fullName>
+                <default>false</default>
+                <label>F150 Super Cab</label>
+            </value>
+            <value>
+                <fullName>F150 SuperCrew Cab</fullName>
+                <default>false</default>
+                <label>F150 SuperCrew Cab</label>
+            </value>
+            <value>
+                <fullName>F250 Super Duty Crew Cab</fullName>
+                <default>false</default>
+                <label>F250 Super Duty Crew Cab</label>
+            </value>
+            <value>
+                <fullName>F250 Super Duty Regular Cab</fullName>
+                <default>false</default>
+                <label>F250 Super Duty Regular Cab</label>
+            </value>
+            <value>
+                <fullName>F250 Super Duty Super Cab</fullName>
+                <default>false</default>
+                <label>F250 Super Duty Super Cab</label>
+            </value>
+            <value>
+                <fullName>F350 Super Duty Crew Cab</fullName>
+                <default>false</default>
+                <label>F350 Super Duty Crew Cab</label>
+            </value>
+            <value>
+                <fullName>F350 Super Duty Super Cab</fullName>
+                <default>false</default>
+                <label>F350 Super Duty Super Cab</label>
+            </value>
+            <value>
+                <fullName>F450 Super Duty Crew Cab</fullName>
+                <default>false</default>
+                <label>F450 Super Duty Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Fusion</fullName>
+                <default>false</default>
+                <label>Fusion</label>
+            </value>
+            <value>
+                <fullName>Fusion Plug-in Hybrid</fullName>
+                <default>false</default>
+                <label>Fusion Plug-in Hybrid</label>
+            </value>
+            <value>
+                <fullName>Mustang</fullName>
+                <default>false</default>
+                <label>Mustang</label>
+            </value>
+            <value>
+                <fullName>Ranger SuperCab</fullName>
+                <default>false</default>
+                <label>Ranger SuperCab</label>
+            </value>
+            <value>
+                <fullName>Ranger SuperCrew</fullName>
+                <default>false</default>
+                <label>Ranger SuperCrew</label>
+            </value>
+            <value>
+                <fullName>Transit 250 Cargo Van</fullName>
+                <default>false</default>
+                <label>Transit 250 Cargo Van</label>
+            </value>
+            <value>
+                <fullName>Transit 350 Passenger Van</fullName>
+                <default>false</default>
+                <label>Transit 350 Passenger Van</label>
+            </value>
+            <value>
+                <fullName>Transit Connect Cargo Van</fullName>
+                <default>false</default>
+                <label>Transit Connect Cargo Van</label>
+            </value>
+            <value>
+                <fullName>Transit Connect Passenger Wagon</fullName>
+                <default>false</default>
+                <label>Transit Connect Passenger Wagon</label>
+            </value>
+            <value>
+                <fullName>Sprinter 1500 Cargo</fullName>
+                <default>false</default>
+                <label>Sprinter 1500 Cargo</label>
+            </value>
+            <value>
+                <fullName>Sprinter 1500 Passenger</fullName>
+                <default>false</default>
+                <label>Sprinter 1500 Passenger</label>
+            </value>
+            <value>
+                <fullName>Sprinter 2500 Cargo</fullName>
+                <default>false</default>
+                <label>Sprinter 2500 Cargo</label>
+            </value>
+            <value>
+                <fullName>Sprinter 2500 Crew</fullName>
+                <default>false</default>
+                <label>Sprinter 2500 Crew</label>
+            </value>
+            <value>
+                <fullName>Sprinter 2500 Passenger</fullName>
+                <default>false</default>
+                <label>Sprinter 2500 Passenger</label>
+            </value>
+            <value>
+                <fullName>Sprinter 3500 Cargo</fullName>
+                <default>false</default>
+                <label>Sprinter 3500 Cargo</label>
+            </value>
+            <value>
+                <fullName>Sprinter 3500 Crew</fullName>
+                <default>false</default>
+                <label>Sprinter 3500 Crew</label>
+            </value>
+            <value>
+                <fullName>Sprinter 3500 XD Crew</fullName>
+                <default>false</default>
+                <label>Sprinter 3500 XD Crew</label>
+            </value>
+            <value>
+                <fullName>Sprinter 3500XD Cargo</fullName>
+                <default>false</default>
+                <label>Sprinter 3500XD Cargo</label>
+            </value>
+            <value>
+                <fullName>Sprinter 4500 Cargo</fullName>
+                <default>false</default>
+                <label>Sprinter 4500 Cargo</label>
+            </value>
+            <value>
+                <fullName>Sprinter 4500 Crew</fullName>
+                <default>false</default>
+                <label>Sprinter 4500 Crew</label>
+            </value>
+            <value>
+                <fullName>G70</fullName>
+                <default>false</default>
+                <label>G70</label>
+            </value>
+            <value>
+                <fullName>G80</fullName>
+                <default>false</default>
+                <label>G80</label>
+            </value>
+            <value>
+                <fullName>G90</fullName>
+                <default>false</default>
+                <label>G90</label>
+            </value>
+            <value>
+                <fullName>Acadia</fullName>
+                <default>false</default>
+                <label>Acadia</label>
+            </value>
+            <value>
+                <fullName>Canyon Crew Cab</fullName>
+                <default>false</default>
+                <label>Canyon Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Sierra 1500 Crew Cab</fullName>
+                <default>false</default>
+                <label>Sierra 1500 Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Sierra 1500 Double Cab</fullName>
+                <default>false</default>
+                <label>Sierra 1500 Double Cab</label>
+            </value>
+            <value>
+                <fullName>Sierra 1500 Regular Cab</fullName>
+                <default>false</default>
+                <label>Sierra 1500 Regular Cab</label>
+            </value>
+            <value>
+                <fullName>Sierra 2500 HD Crew Cab</fullName>
+                <default>false</default>
+                <label>Sierra 2500 HD Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Sierra 3500 HD Crew Cab</fullName>
+                <default>false</default>
+                <label>Sierra 3500 HD Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Terrain</fullName>
+                <default>false</default>
+                <label>Terrain</label>
+            </value>
+            <value>
+                <fullName>Yukon</fullName>
+                <default>false</default>
+                <label>Yukon</label>
+            </value>
+            <value>
+                <fullName>Yukon XL</fullName>
+                <default>false</default>
+                <label>Yukon XL</label>
+            </value>
+            <value>
+                <fullName>Accord</fullName>
+                <default>false</default>
+                <label>Accord</label>
+            </value>
+            <value>
+                <fullName>Accord Hybrid</fullName>
+                <default>false</default>
+                <label>Accord Hybrid</label>
+            </value>
+            <value>
+                <fullName>Civic</fullName>
+                <default>false</default>
+                <label>Civic</label>
+            </value>
+            <value>
+                <fullName>Civic Type R</fullName>
+                <default>false</default>
+                <label>Civic Type R</label>
+            </value>
+            <value>
+                <fullName>Clarity Fuel Cell</fullName>
+                <default>false</default>
+                <label>Clarity Fuel Cell</label>
+            </value>
+            <value>
+                <fullName>Clarity Plug-in Hybrid</fullName>
+                <default>false</default>
+                <label>Clarity Plug-in Hybrid</label>
+            </value>
+            <value>
+                <fullName>CR-V</fullName>
+                <default>false</default>
+                <label>CR-V</label>
+            </value>
+            <value>
+                <fullName>CR-V Hybrid</fullName>
+                <default>false</default>
+                <label>CR-V Hybrid</label>
+            </value>
+            <value>
+                <fullName>Fit</fullName>
+                <default>false</default>
+                <label>Fit</label>
+            </value>
+            <value>
+                <fullName>HR-V</fullName>
+                <default>false</default>
+                <label>HR-V</label>
+            </value>
+            <value>
+                <fullName>Insight</fullName>
+                <default>false</default>
+                <label>Insight</label>
+            </value>
+            <value>
+                <fullName>Odyssey</fullName>
+                <default>false</default>
+                <label>Odyssey</label>
+            </value>
+            <value>
+                <fullName>Passport</fullName>
+                <default>false</default>
+                <label>Passport</label>
+            </value>
+            <value>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+                <label>Pilot</label>
+            </value>
+            <value>
+                <fullName>Ridgeline</fullName>
+                <default>false</default>
+                <label>Ridgeline</label>
+            </value>
+            <value>
+                <fullName>Accent</fullName>
+                <default>false</default>
+                <label>Accent</label>
+            </value>
+            <value>
+                <fullName>Elantra</fullName>
+                <default>false</default>
+                <label>Elantra</label>
+            </value>
+            <value>
+                <fullName>Elantra GT</fullName>
+                <default>false</default>
+                <label>Elantra GT</label>
+            </value>
+            <value>
+                <fullName>Ioniq Electric</fullName>
+                <default>false</default>
+                <label>Ioniq Electric</label>
+            </value>
+            <value>
+                <fullName>Ioniq Hybrid</fullName>
+                <default>false</default>
+                <label>Ioniq Hybrid</label>
+            </value>
+            <value>
+                <fullName>Ioniq Plug-in Hybrid</fullName>
+                <default>false</default>
+                <label>Ioniq Plug-in Hybrid</label>
+            </value>
+            <value>
+                <fullName>Kona</fullName>
+                <default>false</default>
+                <label>Kona</label>
+            </value>
+            <value>
+                <fullName>Kona Electric</fullName>
+                <default>false</default>
+                <label>Kona Electric</label>
+            </value>
+            <value>
+                <fullName>NEXO</fullName>
+                <default>false</default>
+                <label>NEXO</label>
+            </value>
+            <value>
+                <fullName>Palisade</fullName>
+                <default>false</default>
+                <label>Palisade</label>
+            </value>
+            <value>
+                <fullName>Santa Fe</fullName>
+                <default>false</default>
+                <label>Santa Fe</label>
+            </value>
+            <value>
+                <fullName>Sonata</fullName>
+                <default>false</default>
+                <label>Sonata</label>
+            </value>
+            <value>
+                <fullName>Sonata Hybrid</fullName>
+                <default>false</default>
+                <label>Sonata Hybrid</label>
+            </value>
+            <value>
+                <fullName>Tucson</fullName>
+                <default>false</default>
+                <label>Tucson</label>
+            </value>
+            <value>
+                <fullName>Veloster</fullName>
+                <default>false</default>
+                <label>Veloster</label>
+            </value>
+            <value>
+                <fullName>Venue</fullName>
+                <default>false</default>
+                <label>Venue</label>
+            </value>
+            <value>
+                <fullName>Q50</fullName>
+                <default>false</default>
+                <label>Q50</label>
+            </value>
+            <value>
+                <fullName>Q60</fullName>
+                <default>false</default>
+                <label>Q60</label>
+            </value>
+            <value>
+                <fullName>QX50</fullName>
+                <default>false</default>
+                <label>QX50</label>
+            </value>
+            <value>
+                <fullName>QX60</fullName>
+                <default>false</default>
+                <label>QX60</label>
+            </value>
+            <value>
+                <fullName>QX80</fullName>
+                <default>false</default>
+                <label>QX80</label>
+            </value>
+            <value>
+                <fullName>E-PACE</fullName>
+                <default>false</default>
+                <label>E-PACE</label>
+            </value>
+            <value>
+                <fullName>F-PACE</fullName>
+                <default>false</default>
+                <label>F-PACE</label>
+            </value>
+            <value>
+                <fullName>F-TYPE</fullName>
+                <default>false</default>
+                <label>F-TYPE</label>
+            </value>
+            <value>
+                <fullName>I-PACE</fullName>
+                <default>false</default>
+                <label>I-PACE</label>
+            </value>
+            <value>
+                <fullName>XE</fullName>
+                <default>false</default>
+                <label>XE</label>
+            </value>
+            <value>
+                <fullName>XF</fullName>
+                <default>false</default>
+                <label>XF</label>
+            </value>
+            <value>
+                <fullName>Cherokee</fullName>
+                <default>false</default>
+                <label>Cherokee</label>
+            </value>
+            <value>
+                <fullName>Compass</fullName>
+                <default>false</default>
+                <label>Compass</label>
+            </value>
+            <value>
+                <fullName>Gladiator</fullName>
+                <default>false</default>
+                <label>Gladiator</label>
+            </value>
+            <value>
+                <fullName>Grand Cherokee</fullName>
+                <default>false</default>
+                <label>Grand Cherokee</label>
+            </value>
+            <value>
+                <fullName>Renegade</fullName>
+                <default>false</default>
+                <label>Renegade</label>
+            </value>
+            <value>
+                <fullName>Wrangler</fullName>
+                <default>false</default>
+                <label>Wrangler</label>
+            </value>
+            <value>
+                <fullName>Wrangler Unlimited</fullName>
+                <default>false</default>
+                <label>Wrangler Unlimited</label>
+            </value>
+            <value>
+                <fullName>Cadenza</fullName>
+                <default>false</default>
+                <label>Cadenza</label>
+            </value>
+            <value>
+                <fullName>Forte</fullName>
+                <default>false</default>
+                <label>Forte</label>
+            </value>
+            <value>
+                <fullName>K900</fullName>
+                <default>false</default>
+                <label>K900</label>
+            </value>
+            <value>
+                <fullName>Niro</fullName>
+                <default>false</default>
+                <label>Niro</label>
+            </value>
+            <value>
+                <fullName>Niro EV</fullName>
+                <default>false</default>
+                <label>Niro EV</label>
+            </value>
+            <value>
+                <fullName>Niro Plug-in Hybrid</fullName>
+                <default>false</default>
+                <label>Niro Plug-in Hybrid</label>
+            </value>
+            <value>
+                <fullName>Optima</fullName>
+                <default>false</default>
+                <label>Optima</label>
+            </value>
+            <value>
+                <fullName>Optima Hybrid</fullName>
+                <default>false</default>
+                <label>Optima Hybrid</label>
+            </value>
+            <value>
+                <fullName>Optima Plug-in Hybrid</fullName>
+                <default>false</default>
+                <label>Optima Plug-in Hybrid</label>
+            </value>
+            <value>
+                <fullName>Rio</fullName>
+                <default>false</default>
+                <label>Rio</label>
+            </value>
+            <value>
+                <fullName>Sedona</fullName>
+                <default>false</default>
+                <label>Sedona</label>
+            </value>
+            <value>
+                <fullName>Sorento</fullName>
+                <default>false</default>
+                <label>Sorento</label>
+            </value>
+            <value>
+                <fullName>Soul</fullName>
+                <default>false</default>
+                <label>Soul</label>
+            </value>
+            <value>
+                <fullName>Sportage</fullName>
+                <default>false</default>
+                <label>Sportage</label>
+            </value>
+            <value>
+                <fullName>Stinger</fullName>
+                <default>false</default>
+                <label>Stinger</label>
+            </value>
+            <value>
+                <fullName>Telluride</fullName>
+                <default>false</default>
+                <label>Telluride</label>
+            </value>
+            <value>
+                <fullName>Defender 110</fullName>
+                <default>false</default>
+                <label>Defender 110</label>
+            </value>
+            <value>
+                <fullName>Defender 90</fullName>
+                <default>false</default>
+                <label>Defender 90</label>
+            </value>
+            <value>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+                <label>Discovery</label>
+            </value>
+            <value>
+                <fullName>Discovery Sport</fullName>
+                <default>false</default>
+                <label>Discovery Sport</label>
+            </value>
+            <value>
+                <fullName>Range Rover</fullName>
+                <default>false</default>
+                <label>Range Rover</label>
+            </value>
+            <value>
+                <fullName>Range Rover Evoque</fullName>
+                <default>false</default>
+                <label>Range Rover Evoque</label>
+            </value>
+            <value>
+                <fullName>Range Rover Sport</fullName>
+                <default>false</default>
+                <label>Range Rover Sport</label>
+            </value>
+            <value>
+                <fullName>Range Rover Velar</fullName>
+                <default>false</default>
+                <label>Range Rover Velar</label>
+            </value>
+            <value>
+                <fullName>ES</fullName>
+                <default>false</default>
+                <label>ES</label>
+            </value>
+            <value>
+                <fullName>GS</fullName>
+                <default>false</default>
+                <label>GS</label>
+            </value>
+            <value>
+                <fullName>GX</fullName>
+                <default>false</default>
+                <label>GX</label>
+            </value>
+            <value>
+                <fullName>IS</fullName>
+                <default>false</default>
+                <label>IS</label>
+            </value>
+            <value>
+                <fullName>LC</fullName>
+                <default>false</default>
+                <label>LC</label>
+            </value>
+            <value>
+                <fullName>LS</fullName>
+                <default>false</default>
+                <label>LS</label>
+            </value>
+            <value>
+                <fullName>LX</fullName>
+                <default>false</default>
+                <label>LX</label>
+            </value>
+            <value>
+                <fullName>NX</fullName>
+                <default>false</default>
+                <label>NX</label>
+            </value>
+            <value>
+                <fullName>RC</fullName>
+                <default>false</default>
+                <label>RC</label>
+            </value>
+            <value>
+                <fullName>RX</fullName>
+                <default>false</default>
+                <label>RX</label>
+            </value>
+            <value>
+                <fullName>UX</fullName>
+                <default>false</default>
+                <label>UX</label>
+            </value>
+            <value>
+                <fullName>Aviator</fullName>
+                <default>false</default>
+                <label>Aviator</label>
+            </value>
+            <value>
+                <fullName>Continental</fullName>
+                <default>false</default>
+                <label>Continental</label>
+            </value>
+            <value>
+                <fullName>Corsair</fullName>
+                <default>false</default>
+                <label>Corsair</label>
+            </value>
+            <value>
+                <fullName>MKZ</fullName>
+                <default>false</default>
+                <label>MKZ</label>
+            </value>
+            <value>
+                <fullName>Nautilus</fullName>
+                <default>false</default>
+                <label>Nautilus</label>
+            </value>
+            <value>
+                <fullName>Navigator</fullName>
+                <default>false</default>
+                <label>Navigator</label>
+            </value>
+            <value>
+                <fullName>Navigator L</fullName>
+                <default>false</default>
+                <label>Navigator L</label>
+            </value>
+            <value>
+                <fullName>CX-3</fullName>
+                <default>false</default>
+                <label>CX-3</label>
+            </value>
+            <value>
+                <fullName>CX-30</fullName>
+                <default>false</default>
+                <label>CX-30</label>
+            </value>
+            <value>
+                <fullName>CX-5</fullName>
+                <default>false</default>
+                <label>CX-5</label>
+            </value>
+            <value>
+                <fullName>CX-9</fullName>
+                <default>false</default>
+                <label>CX-9</label>
+            </value>
+            <value>
+                <fullName>MAZDA3</fullName>
+                <default>false</default>
+                <label>MAZDA3</label>
+            </value>
+            <value>
+                <fullName>MAZDA6</fullName>
+                <default>false</default>
+                <label>MAZDA6</label>
+            </value>
+            <value>
+                <fullName>MX-5 Miata</fullName>
+                <default>false</default>
+                <label>MX-5 Miata</label>
+            </value>
+            <value>
+                <fullName>MX-5 Miata RF</fullName>
+                <default>false</default>
+                <label>MX-5 Miata RF</label>
+            </value>
+            <value>
+                <fullName>A-Class</fullName>
+                <default>false</default>
+                <label>A-Class</label>
+            </value>
+            <value>
+                <fullName>C-Class</fullName>
+                <default>false</default>
+                <label>C-Class</label>
+            </value>
+            <value>
+                <fullName>CLA</fullName>
+                <default>false</default>
+                <label>CLA</label>
+            </value>
+            <value>
+                <fullName>CLS</fullName>
+                <default>false</default>
+                <label>CLS</label>
+            </value>
+            <value>
+                <fullName>E-Class</fullName>
+                <default>false</default>
+                <label>E-Class</label>
+            </value>
+            <value>
+                <fullName>G-Class</fullName>
+                <default>false</default>
+                <label>G-Class</label>
+            </value>
+            <value>
+                <fullName>GLA</fullName>
+                <default>false</default>
+                <label>GLA</label>
+            </value>
+            <value>
+                <fullName>GLB</fullName>
+                <default>false</default>
+                <label>GLB</label>
+            </value>
+            <value>
+                <fullName>GLC</fullName>
+                <default>false</default>
+                <label>GLC</label>
+            </value>
+            <value>
+                <fullName>GLE</fullName>
+                <default>false</default>
+                <label>GLE</label>
+            </value>
+            <value>
+                <fullName>GLS</fullName>
+                <default>false</default>
+                <label>GLS</label>
+            </value>
+            <value>
+                <fullName>Mercedes-AMG A-Class</fullName>
+                <default>false</default>
+                <label>Mercedes-AMG A-Class</label>
+            </value>
+            <value>
+                <fullName>Mercedes-AMG C-Class</fullName>
+                <default>false</default>
+                <label>Mercedes-AMG C-Class</label>
+            </value>
+            <value>
+                <fullName>Mercedes-AMG CLS</fullName>
+                <default>false</default>
+                <label>Mercedes-AMG CLS</label>
+            </value>
+            <value>
+                <fullName>Mercedes-AMG GLC</fullName>
+                <default>false</default>
+                <label>Mercedes-AMG GLC</label>
+            </value>
+            <value>
+                <fullName>Mercedes-AMG GLC Coupe</fullName>
+                <default>false</default>
+                <label>Mercedes-AMG GLC Coupe</label>
+            </value>
+            <value>
+                <fullName>Metris WORKER Cargo</fullName>
+                <default>false</default>
+                <label>Metris WORKER Cargo</label>
+            </value>
+            <value>
+                <fullName>Metris WORKER Passenger</fullName>
+                <default>false</default>
+                <label>Metris WORKER Passenger</label>
+            </value>
+            <value>
+                <fullName>S-Class</fullName>
+                <default>false</default>
+                <label>S-Class</label>
+            </value>
+            <value>
+                <fullName>SLC</fullName>
+                <default>false</default>
+                <label>SLC</label>
+            </value>
+            <value>
+                <fullName>Sprinter 3500 XD Cargo</fullName>
+                <default>false</default>
+                <label>Sprinter 3500 XD Cargo</label>
+            </value>
+            <value>
+                <fullName>Clubman</fullName>
+                <default>false</default>
+                <label>Clubman</label>
+            </value>
+            <value>
+                <fullName>Countryman</fullName>
+                <default>false</default>
+                <label>Countryman</label>
+            </value>
+            <value>
+                <fullName>Hardtop 2 Door</fullName>
+                <default>false</default>
+                <label>Hardtop 2 Door</label>
+            </value>
+            <value>
+                <fullName>Hardtop 4 Door</fullName>
+                <default>false</default>
+                <label>Hardtop 4 Door</label>
+            </value>
+            <value>
+                <fullName>Eclipse Cross</fullName>
+                <default>false</default>
+                <label>Eclipse Cross</label>
+            </value>
+            <value>
+                <fullName>Mirage</fullName>
+                <default>false</default>
+                <label>Mirage</label>
+            </value>
+            <value>
+                <fullName>Mirage G4</fullName>
+                <default>false</default>
+                <label>Mirage G4</label>
+            </value>
+            <value>
+                <fullName>Outlander</fullName>
+                <default>false</default>
+                <label>Outlander</label>
+            </value>
+            <value>
+                <fullName>Outlander PHEV</fullName>
+                <default>false</default>
+                <label>Outlander PHEV</label>
+            </value>
+            <value>
+                <fullName>Outlander Sport</fullName>
+                <default>false</default>
+                <label>Outlander Sport</label>
+            </value>
+            <value>
+                <fullName>370Z</fullName>
+                <default>false</default>
+                <label>370Z</label>
+            </value>
+            <value>
+                <fullName>Altima</fullName>
+                <default>false</default>
+                <label>Altima</label>
+            </value>
+            <value>
+                <fullName>Armada</fullName>
+                <default>false</default>
+                <label>Armada</label>
+            </value>
+            <value>
+                <fullName>Frontier Crew Cab</fullName>
+                <default>false</default>
+                <label>Frontier Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Frontier King Cab</fullName>
+                <default>false</default>
+                <label>Frontier King Cab</label>
+            </value>
+            <value>
+                <fullName>GT-R</fullName>
+                <default>false</default>
+                <label>GT-R</label>
+            </value>
+            <value>
+                <fullName>Kicks</fullName>
+                <default>false</default>
+                <label>Kicks</label>
+            </value>
+            <value>
+                <fullName>LEAF</fullName>
+                <default>false</default>
+                <label>LEAF</label>
+            </value>
+            <value>
+                <fullName>Maxima</fullName>
+                <default>false</default>
+                <label>Maxima</label>
+            </value>
+            <value>
+                <fullName>Murano</fullName>
+                <default>false</default>
+                <label>Murano</label>
+            </value>
+            <value>
+                <fullName>NV1500 Cargo</fullName>
+                <default>false</default>
+                <label>NV1500 Cargo</label>
+            </value>
+            <value>
+                <fullName>NV200</fullName>
+                <default>false</default>
+                <label>NV200</label>
+            </value>
+            <value>
+                <fullName>NV2500 HD Cargo</fullName>
+                <default>false</default>
+                <label>NV2500 HD Cargo</label>
+            </value>
+            <value>
+                <fullName>NV3500 HD Cargo</fullName>
+                <default>false</default>
+                <label>NV3500 HD Cargo</label>
+            </value>
+            <value>
+                <fullName>NV3500 HD Passenger</fullName>
+                <default>false</default>
+                <label>NV3500 HD Passenger</label>
+            </value>
+            <value>
+                <fullName>Pathfinder</fullName>
+                <default>false</default>
+                <label>Pathfinder</label>
+            </value>
+            <value>
+                <fullName>Rogue</fullName>
+                <default>false</default>
+                <label>Rogue</label>
+            </value>
+            <value>
+                <fullName>Rogue Sport</fullName>
+                <default>false</default>
+                <label>Rogue Sport</label>
+            </value>
+            <value>
+                <fullName>Sentra</fullName>
+                <default>false</default>
+                <label>Sentra</label>
+            </value>
+            <value>
+                <fullName>Titan Crew Cab</fullName>
+                <default>false</default>
+                <label>Titan Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Titan King Cab</fullName>
+                <default>false</default>
+                <label>Titan King Cab</label>
+            </value>
+            <value>
+                <fullName>TITAN XD Crew Cab</fullName>
+                <default>false</default>
+                <label>TITAN XD Crew Cab</label>
+            </value>
+            <value>
+                <fullName>Versa</fullName>
+                <default>false</default>
+                <label>Versa</label>
+            </value>
+            <value>
+                <fullName>718 Boxster</fullName>
+                <default>false</default>
+                <label>718 Boxster</label>
+            </value>
+            <value>
+                <fullName>718 Cayman</fullName>
+                <default>false</default>
+                <label>718 Cayman</label>
+            </value>
+            <value>
+                <fullName>718 Spyder</fullName>
+                <default>false</default>
+                <label>718 Spyder</label>
+            </value>
+            <value>
+                <fullName>911</fullName>
+                <default>false</default>
+                <label>911</label>
+            </value>
+            <value>
+                <fullName>Cayenne</fullName>
+                <default>false</default>
+                <label>Cayenne</label>
+            </value>
+            <value>
+                <fullName>Cayenne Coupe</fullName>
+                <default>false</default>
+                <label>Cayenne Coupe</label>
+            </value>
+            <value>
+                <fullName>Macan</fullName>
+                <default>false</default>
+                <label>Macan</label>
+            </value>
+            <value>
+                <fullName>Panamera</fullName>
+                <default>false</default>
+                <label>Panamera</label>
+            </value>
+            <value>
+                <fullName>Taycan</fullName>
+                <default>false</default>
+                <label>Taycan</label>
+            </value>
+            <value>
+                <fullName>1500 Classic Crew Cab</fullName>
+                <default>false</default>
+                <label>1500 Classic Crew Cab</label>
+            </value>
+            <value>
+                <fullName>1500 Classic Quad Cab</fullName>
+                <default>false</default>
+                <label>1500 Classic Quad Cab</label>
+            </value>
+            <value>
+                <fullName>1500 Crew Cab</fullName>
+                <default>false</default>
+                <label>1500 Crew Cab</label>
+            </value>
+            <value>
+                <fullName>1500 Quad Cab</fullName>
+                <default>false</default>
+                <label>1500 Quad Cab</label>
+            </value>
+            <value>
+                <fullName>2500 Crew Cab</fullName>
+                <default>false</default>
+                <label>2500 Crew Cab</label>
+            </value>
+            <value>
+                <fullName>3500 Crew Cab</fullName>
+                <default>false</default>
+                <label>3500 Crew Cab</label>
+            </value>
+            <value>
+                <fullName>ProMaster Cargo Van</fullName>
+                <default>false</default>
+                <label>ProMaster Cargo Van</label>
+            </value>
+            <value>
+                <fullName>ProMaster City</fullName>
+                <default>false</default>
+                <label>ProMaster City</label>
+            </value>
+            <value>
+                <fullName>Ascent</fullName>
+                <default>false</default>
+                <label>Ascent</label>
+            </value>
+            <value>
+                <fullName>BRZ</fullName>
+                <default>false</default>
+                <label>BRZ</label>
+            </value>
+            <value>
+                <fullName>Crosstrek</fullName>
+                <default>false</default>
+                <label>Crosstrek</label>
+            </value>
+            <value>
+                <fullName>Forester</fullName>
+                <default>false</default>
+                <label>Forester</label>
+            </value>
+            <value>
+                <fullName>Impreza</fullName>
+                <default>false</default>
+                <label>Impreza</label>
+            </value>
+            <value>
+                <fullName>Legacy</fullName>
+                <default>false</default>
+                <label>Legacy</label>
+            </value>
+            <value>
+                <fullName>Outback</fullName>
+                <default>false</default>
+                <label>Outback</label>
+            </value>
+            <value>
+                <fullName>WRX</fullName>
+                <default>false</default>
+                <label>WRX</label>
+            </value>
+            <value>
+                <fullName>Model 3</fullName>
+                <default>false</default>
+                <label>Model 3</label>
+            </value>
+            <value>
+                <fullName>Model S</fullName>
+                <default>false</default>
+                <label>Model S</label>
+            </value>
+            <value>
+                <fullName>Model X</fullName>
+                <default>false</default>
+                <label>Model X</label>
+            </value>
+            <value>
+                <fullName>Model Y</fullName>
+                <default>false</default>
+                <label>Model Y</label>
+            </value>
+            <value>
+                <fullName>4Runner</fullName>
+                <default>false</default>
+                <label>4Runner</label>
+            </value>
+            <value>
+                <fullName>86</fullName>
+                <default>false</default>
+                <label>86</label>
+            </value>
+            <value>
+                <fullName>Avalon</fullName>
+                <default>false</default>
+                <label>Avalon</label>
+            </value>
+            <value>
+                <fullName>Avalon Hybrid</fullName>
+                <default>false</default>
+                <label>Avalon Hybrid</label>
+            </value>
+            <value>
+                <fullName>Camry</fullName>
+                <default>false</default>
+                <label>Camry</label>
+            </value>
+            <value>
+                <fullName>Camry Hybrid</fullName>
+                <default>false</default>
+                <label>Camry Hybrid</label>
+            </value>
+            <value>
+                <fullName>C-HR</fullName>
+                <default>false</default>
+                <label>C-HR</label>
+            </value>
+            <value>
+                <fullName>Corolla</fullName>
+                <default>false</default>
+                <label>Corolla</label>
+            </value>
+            <value>
+                <fullName>Corolla Hatchback</fullName>
+                <default>false</default>
+                <label>Corolla Hatchback</label>
+            </value>
+            <value>
+                <fullName>Corolla Hybrid</fullName>
+                <default>false</default>
+                <label>Corolla Hybrid</label>
+            </value>
+            <value>
+                <fullName>GR Supra</fullName>
+                <default>false</default>
+                <label>GR Supra</label>
+            </value>
+            <value>
+                <fullName>Highlander</fullName>
+                <default>false</default>
+                <label>Highlander</label>
+            </value>
+            <value>
+                <fullName>Highlander Hybrid</fullName>
+                <default>false</default>
+                <label>Highlander Hybrid</label>
+            </value>
+            <value>
+                <fullName>Land Cruiser</fullName>
+                <default>false</default>
+                <label>Land Cruiser</label>
+            </value>
+            <value>
+                <fullName>Mirai</fullName>
+                <default>false</default>
+                <label>Mirai</label>
+            </value>
+            <value>
+                <fullName>Prius</fullName>
+                <default>false</default>
+                <label>Prius</label>
+            </value>
+            <value>
+                <fullName>Prius Prime</fullName>
+                <default>false</default>
+                <label>Prius Prime</label>
+            </value>
+            <value>
+                <fullName>RAV4</fullName>
+                <default>false</default>
+                <label>RAV4</label>
+            </value>
+            <value>
+                <fullName>RAV4 Hybrid</fullName>
+                <default>false</default>
+                <label>RAV4 Hybrid</label>
+            </value>
+            <value>
+                <fullName>Sequoia</fullName>
+                <default>false</default>
+                <label>Sequoia</label>
+            </value>
+            <value>
+                <fullName>Sienna</fullName>
+                <default>false</default>
+                <label>Sienna</label>
+            </value>
+            <value>
+                <fullName>Tacoma Access Cab</fullName>
+                <default>false</default>
+                <label>Tacoma Access Cab</label>
+            </value>
+            <value>
+                <fullName>Tacoma Double Cab</fullName>
+                <default>false</default>
+                <label>Tacoma Double Cab</label>
+            </value>
+            <value>
+                <fullName>Tundra CrewMax</fullName>
+                <default>false</default>
+                <label>Tundra CrewMax</label>
+            </value>
+            <value>
+                <fullName>Tundra Double Cab</fullName>
+                <default>false</default>
+                <label>Tundra Double Cab</label>
+            </value>
+            <value>
+                <fullName>Yaris</fullName>
+                <default>false</default>
+                <label>Yaris</label>
+            </value>
+            <value>
+                <fullName>Yaris Hatchback</fullName>
+                <default>false</default>
+                <label>Yaris Hatchback</label>
+            </value>
+            <value>
+                <fullName>Arteon</fullName>
+                <default>false</default>
+                <label>Arteon</label>
+            </value>
+            <value>
+                <fullName>Atlas</fullName>
+                <default>false</default>
+                <label>Atlas</label>
+            </value>
+            <value>
+                <fullName>Atlas Cross Sport</fullName>
+                <default>false</default>
+                <label>Atlas Cross Sport</label>
+            </value>
+            <value>
+                <fullName>Golf</fullName>
+                <default>false</default>
+                <label>Golf</label>
+            </value>
+            <value>
+                <fullName>Golf GTI</fullName>
+                <default>false</default>
+                <label>Golf GTI</label>
+            </value>
+            <value>
+                <fullName>Jetta</fullName>
+                <default>false</default>
+                <label>Jetta</label>
+            </value>
+            <value>
+                <fullName>Jetta GLI</fullName>
+                <default>false</default>
+                <label>Jetta GLI</label>
+            </value>
+            <value>
+                <fullName>Passat</fullName>
+                <default>false</default>
+                <label>Passat</label>
+            </value>
+            <value>
+                <fullName>Tiguan</fullName>
+                <default>false</default>
+                <label>Tiguan</label>
+            </value>
+            <value>
+                <fullName>S60</fullName>
+                <default>false</default>
+                <label>S60</label>
+            </value>
+            <value>
+                <fullName>S90</fullName>
+                <default>false</default>
+                <label>S90</label>
+            </value>
+            <value>
+                <fullName>V60</fullName>
+                <default>false</default>
+                <label>V60</label>
+            </value>
+            <value>
+                <fullName>V90</fullName>
+                <default>false</default>
+                <label>V90</label>
+            </value>
+            <value>
+                <fullName>XC40</fullName>
+                <default>false</default>
+                <label>XC40</label>
+            </value>
+            <value>
+                <fullName>XC60</fullName>
+                <default>false</default>
+                <label>XC60</label>
+            </value>
+            <value>
+                <fullName>XC90</fullName>
+                <default>false</default>
+                <label>XC90</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Acura</controllingFieldValue>
+            <valueName>ILX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acura</controllingFieldValue>
+            <valueName>MDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acura</controllingFieldValue>
+            <valueName>MDX Sport Hybrid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acura</controllingFieldValue>
+            <valueName>NSX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acura</controllingFieldValue>
+            <valueName>RDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acura</controllingFieldValue>
+            <valueName>RLX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acura</controllingFieldValue>
+            <valueName>RLX Sport Hybrid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acura</controllingFieldValue>
+            <valueName>TLX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alfa Romeo</controllingFieldValue>
+            <valueName>4C Spider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alfa Romeo</controllingFieldValue>
+            <valueName>Giulia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alfa Romeo</controllingFieldValue>
+            <valueName>Stelvio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>A3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>A4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>A5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>A6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>A6 allroad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>A7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>Q3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>Q5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>Q7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>Q8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>R8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>S4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>S8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>SQ5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audi</controllingFieldValue>
+            <valueName>TT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>2 Series</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>3 Series</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>4 Series</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>5 Series</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>7 Series</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>8 Series</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>M2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X3 M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>X7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BMW</controllingFieldValue>
+            <valueName>Z4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buick</controllingFieldValue>
+            <valueName>Enclave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buick</controllingFieldValue>
+            <valueName>Encore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buick</controllingFieldValue>
+            <valueName>Encore GX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buick</controllingFieldValue>
+            <valueName>Envision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buick</controllingFieldValue>
+            <valueName>Regal Sportback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buick</controllingFieldValue>
+            <valueName>Regal TourX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadillac</controllingFieldValue>
+            <valueName>CT4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadillac</controllingFieldValue>
+            <valueName>CT5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadillac</controllingFieldValue>
+            <valueName>CT6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadillac</controllingFieldValue>
+            <valueName>CT6-V</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadillac</controllingFieldValue>
+            <valueName>Escalade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadillac</controllingFieldValue>
+            <valueName>Escalade ESV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadillac</controllingFieldValue>
+            <valueName>XT4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadillac</controllingFieldValue>
+            <valueName>XT5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cadillac</controllingFieldValue>
+            <valueName>XT6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Blazer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Bolt EV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Camaro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Colorado Crew Cab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Colorado Extended Cab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Corvette</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Equinox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Express 2500 Cargo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Express 3500 Cargo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Impala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Malibu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Silverado 1500 Crew Cab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Silverado 1500 Double Cab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Silverado 1500 Regular Cab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Silverado 2500 HD Crew Cab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Silverado 2500 HD Double Cab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Silverado 3500 HD Crew Cab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Sonic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Spark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Suburban</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Tahoe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Traverse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chevrolet</controllingFieldValue>
+            <valueName>Trax</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

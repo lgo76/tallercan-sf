@@ -459,6 +459,8 @@
     </types>
     <types>
         <members>Customer_Delete_related_records</members>
+        <members>Tallercan_Cancel_Vehicle</members>
+        <members>Tallercan_Cancel_vehicle_functionality</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
@@ -466,6 +468,8 @@
     </types>
     <types>
         <members>Customer_Delete_related_records</members>
+        <members>Tallercan_Cancel_Vehicle</members>
+        <members>Tallercan_Cancel_vehicle_functionality</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
@@ -1372,6 +1376,7 @@
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
+        <members>Vehicle__c.Cancel_vehicle</members>
         <name>WebLink</name>
     </types>
     <types>

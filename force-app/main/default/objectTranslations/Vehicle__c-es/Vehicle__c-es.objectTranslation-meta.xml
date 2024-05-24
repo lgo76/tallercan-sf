@@ -17,4 +17,8 @@
         <errorMessage></errorMessage>
         <name>VR_NextITVRevisionDate</name>
     </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Cancel_vehicle</name>
+    </webLinks>
 </CustomObjectTranslation>

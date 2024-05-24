@@ -13,6 +13,9 @@
                             <value>Edit</value>
                         </valueListItems>
                         <valueListItems>
+                            <value>CustomButton.Vehicle__c.Cancel_vehicle</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>Delete</value>
                         </valueListItems>
                     </valueList>
@@ -35,7 +38,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>numVisibleActions</name>
-                    <value>3</value>
+                    <value>4</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
                 <identifier>force_highlightsPanel</identifier>

@@ -4115,6 +4115,14 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Tallercan_Cancel_Vehicle</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Cancel_vehicle_functionality</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Tallercan_Deactivate_customer</flow>
     </flowAccesses>
     <flowAccesses>

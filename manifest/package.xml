@@ -464,6 +464,7 @@
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
+        <members>Tallercan_Vehicle_deletion</members>
         <name>Flow</name>
     </types>
     <types>
@@ -473,6 +474,7 @@
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
+        <members>Tallercan_Vehicle_deletion</members>
         <name>FlowDefinition</name>
     </types>
     <types>

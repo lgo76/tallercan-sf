@@ -4133,6 +4133,10 @@
         <enabled>false</enabled>
         <flow>Tallercan_Delete_Account_Trigger</flow>
     </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Vehicle_deletion</flow>
+    </flowAccesses>
     <layoutAssignments>
         <layout>Accident__c-Accident Layout</layout>
     </layoutAssignments>

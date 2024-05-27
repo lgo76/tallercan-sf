@@ -3616,6 +3616,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Vehicle_Model__c.PK_Brand__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3626,6 +3627,8 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+=======
+>>>>>>> Vehicles_UseCase
         <field>Vehicle__c.Chasis_number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4125,6 +4128,17 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+<<<<<<< HEAD
+=======
+        <flow>Tallercan_Cancel_Vehicle</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Cancel_vehicle_functionality</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+>>>>>>> Vehicles_UseCase
         <flow>Tallercan_Deactivate_customer</flow>
     </flowAccesses>
     <flowAccesses>
@@ -4135,6 +4149,13 @@
         <enabled>false</enabled>
         <flow>Tallercan_Delete_Account_Trigger</flow>
     </flowAccesses>
+<<<<<<< HEAD
+=======
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Vehicle_deletion</flow>
+    </flowAccesses>
+>>>>>>> Vehicles_UseCase
     <layoutAssignments>
         <layout>Accident__c-Accident Layout</layout>
     </layoutAssignments>
@@ -4525,9 +4546,12 @@
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+<<<<<<< HEAD
         <layout>Vehicle_Model__c-Vehicle Model Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+=======
+>>>>>>> Vehicles_UseCase
         <layout>Vehicle__c-Vehicle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5652,6 +5676,7 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+<<<<<<< HEAD
         <object>Vehicle_Model__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -5661,6 +5686,8 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+=======
+>>>>>>> Vehicles_UseCase
         <object>Vehicle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>

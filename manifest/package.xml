@@ -46,6 +46,10 @@
         <name>Community</name>
     </types>
     <types>
+        <members>Opportunity.Reception_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
         <members>Tallercan</members>
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
@@ -96,23 +100,29 @@
         <members>Lead.ProductInterest__c</members>
         <members>Lead.SICCode__c</members>
         <members>Metric.OrigMetricId__c</members>
+        <members>Opportunity.Accident_Date__c</members>
+        <members>Opportunity.Accident_code__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
+        <members>Opportunity.Customer_Amount__c</members>
+        <members>Opportunity.Damage_description__c</members>
+        <members>Opportunity.Date_Time_of_Reception__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.Expert_name__c</members>
+        <members>Opportunity.Instructions__c</members>
+        <members>Opportunity.Insurance__c</members>
         <members>Opportunity.LK_Vehicle__c</members>
         <members>Opportunity.MainCompetitors__c</members>
-        <members>Opportunity.NU_km__c</members>
+        <members>Opportunity.Number_of_km__c</members>
         <members>Opportunity.OrderNumber__c</members>
+        <members>Opportunity.Policyholder_name__c</members>
+        <members>Opportunity.Reasons__c</members>
+        <members>Opportunity.TXT_Policy_Number__c</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Registration__c.LK_Customer__c</members>
         <members>Registration__c.LK_Vehicle__c</members>
         <members>Registration__c.NU_km__c</members>
         <members>Registration__c.TX_Indications__c</members>
         <members>Registration__c.TX_Reasons__c</members>
-<<<<<<< HEAD
-        <members>Vehicle_Model__c.PK_Brand__c</members>
-        <members>Vehicle_Model__c.TX_Year__c</members>
-=======
->>>>>>> Vehicles_UseCase
         <members>Vehicle__c.Chasis_number__c</members>
         <members>Vehicle__c.DT_Cancellation_Date__c</members>
         <members>Vehicle__c.DT_Car_Registration_Date__c</members>
@@ -363,10 +373,6 @@
         <members>UserExternalCredential</members>
         <members>UserPrioritizedRecord</members>
         <members>UserProvisioningRequest</members>
-<<<<<<< HEAD
-        <members>Vehicle_Model__c</members>
-=======
->>>>>>> Vehicles_UseCase
         <members>Vehicle__c</members>
         <members>VoiceCall</members>
         <members>Waitlist</members>
@@ -397,10 +403,6 @@
         <members>Account-en_US</members>
         <members>Opportunity-en_US</members>
         <members>Registration__c-es</members>
-<<<<<<< HEAD
-        <members>Vehicle_Model__c-es</members>
-=======
->>>>>>> Vehicles_UseCase
         <members>Vehicle__c-es</members>
         <name>CustomObjectTranslation</name>
     </types>
@@ -467,45 +469,35 @@
         <members>LightningService_UtilityBar</members>
         <members>RevenueCloudConsole_UtilityBar</members>
         <members>Tallercan_UtilityBar</members>
-<<<<<<< HEAD
-=======
         <members>Vehicle_Record_Page</members>
->>>>>>> Vehicles_UseCase
         <name>FlexiPage</name>
     </types>
     <types>
         <members>Customer_Delete_related_records</members>
-<<<<<<< HEAD
-        <members>Tallercan_Deactivate_customer</members>
-        <members>Tallercan_Deactivation_confirmation</members>
-        <members>Tallercan_Delete_Account_Trigger</members>
-=======
         <members>Tallercan_Cancel_Vehicle</members>
         <members>Tallercan_Cancel_vehicle_functionality</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
+        <members>Tallercan_Reception_close_date</members>
+        <members>Tallercan_Repection_deletion</members>
         <members>Tallercan_Vehicle_deletion</members>
->>>>>>> Vehicles_UseCase
         <name>Flow</name>
     </types>
     <types>
         <members>Customer_Delete_related_records</members>
-<<<<<<< HEAD
-        <members>Tallercan_Deactivate_customer</members>
-        <members>Tallercan_Deactivation_confirmation</members>
-        <members>Tallercan_Delete_Account_Trigger</members>
-=======
         <members>Tallercan_Cancel_Vehicle</members>
         <members>Tallercan_Cancel_vehicle_functionality</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
+        <members>Tallercan_Reception_close_date</members>
+        <members>Tallercan_Repection_deletion</members>
         <members>Tallercan_Vehicle_deletion</members>
->>>>>>> Vehicles_UseCase
         <name>FlowDefinition</name>
     </types>
     <types>
+        <members>Insurance_List</members>
         <members>Vehicle_Brands</members>
         <name>GlobalValueSet</name>
     </types>
@@ -661,10 +653,6 @@
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-<<<<<<< HEAD
-        <members>Vehicle_Model__c-Vehicle Model Layout</members>
-=======
->>>>>>> Vehicles_UseCase
         <members>Vehicle__c-Vehicle Layout</members>
         <members>Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts</members>
         <members>WebCart-Cart Layout</members>
@@ -1277,10 +1265,6 @@
         <members>UserExternalCredential</members>
         <members>UserPrioritizedRecord</members>
         <members>UserProvisioningRequest</members>
-<<<<<<< HEAD
-        <members>Vehicle_Model__c</members>
-=======
->>>>>>> Vehicles_UseCase
         <members>Vehicle__c</members>
         <members>VoiceCall</members>
         <members>VoiceChnlInteractionEvent</members>
@@ -1387,10 +1371,6 @@
         <members>Shipment</members>
         <members>Solution</members>
         <members>Task</members>
-<<<<<<< HEAD
-        <members>Vehicle_Model__c</members>
-=======
->>>>>>> Vehicles_UseCase
         <members>Vehicle__c</members>
         <members>WorkOrder</members>
         <members>WorkOrderLineItem</members>
@@ -1404,10 +1384,7 @@
     <types>
         <members>Account_Record_Page</members>
         <members>Car_Registration_Record_Page</members>
-<<<<<<< HEAD
-=======
         <members>Vehicle_Record_Page</members>
->>>>>>> Vehicles_UseCase
         <name>UiViewDefinition</name>
     </types>
     <types>
@@ -1421,10 +1398,7 @@
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
-<<<<<<< HEAD
-=======
         <members>Vehicle__c.Cancel_vehicle</members>
->>>>>>> Vehicles_UseCase
         <name>WebLink</name>
     </types>
     <types>

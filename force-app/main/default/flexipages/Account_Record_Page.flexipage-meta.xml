@@ -14,8 +14,6 @@
                         </valueListItems>
                         <valueListItems>
                             <value>CustomButton.Account.Deactivate_customer</value>
-<<<<<<< HEAD
-=======
                             <visibilityRule>
                                 <criteria>
                                     <leftValue>{!Record.Active__c}</leftValue>
@@ -23,7 +21,6 @@
                                     <rightValue>true</rightValue>
                                 </criteria>
                             </visibilityRule>
->>>>>>> Vehicles_UseCase
                         </valueListItems>
                         <valueListItems>
                             <value>Delete</value>

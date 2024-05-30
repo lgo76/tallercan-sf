@@ -1,31 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>60.0</apiVersion>
-    <decisions>
-        <name>Exists_active_receptions</name>
-        <label>Exists active receptions?</label>
+    <assignments>
+        <name>Assign_receptions_size</name>
+        <label>Assign receptions size</label>
         <locationX>182</locationX>
-        <locationY>395</locationY>
+        <locationY>995</locationY>
+        <assignmentItems>
+            <assignToReference>receptionssize</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_receptions</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Exists_receptions</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Exists_receptions</name>
+        <label>Exists receptions?</label>
+        <locationX>182</locationX>
+        <locationY>1103</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Yes</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Get_active_receptions</leftValueReference>
-                <operator>IsNull</operator>
+                <leftValueReference>receptionssize</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Delete_related_receptions</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_active_reception</name>
+        <label>Is active reception?</label>
+        <locationX>402</locationX>
+        <locationY>503</locationY>
+        <defaultConnector>
+            <targetReference>Find_active_receptions</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes_active</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Find_active_receptions.IsClosed</leftValueReference>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Error_cancellation</targetReference>
+                <targetReference>Error_deletion</targetReference>
             </connector>
-            <label>Yes</label>
+            <label>Yes active</label>
         </rules>
     </decisions>
+    <description>Adding receptions deletion</description>
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Vehicle deletion {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Tallercan] Vehicle deletion</label>
+    <loops>
+        <name>Find_active_receptions</name>
+        <label>Find active receptions</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <collectionReference>Get_receptions</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Is_active_reception</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Assign_receptions_size</targetReference>
+        </noMoreValuesConnector>
+    </loops>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -45,15 +101,11 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
-    <recordLookups>
-        <name>Get_active_receptions</name>
-        <label>Get active receptions</label>
-        <locationX>182</locationX>
-        <locationY>287</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Exists_active_receptions</targetReference>
-        </connector>
+    <recordDeletes>
+        <name>Delete_related_receptions</name>
+        <label>Delete related receptions</label>
+        <locationX>50</locationX>
+        <locationY>1211</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>LK_Vehicle__c</field>
@@ -66,10 +118,29 @@
             <field>IsClosed</field>
             <operator>EqualTo</operator>
             <value>
-                <booleanValue>false</booleanValue>
+                <booleanValue>true</booleanValue>
             </value>
         </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Opportunity</object>
+    </recordDeletes>
+    <recordLookups>
+        <name>Get_receptions</name>
+        <label>Get receptions</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Find_active_receptions</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>LK_Vehicle__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>Opportunity</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
@@ -77,11 +148,29 @@
         <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Get_active_receptions</targetReference>
+            <targetReference>Get_receptions</targetReference>
         </connector>
         <object>Vehicle__c</object>
         <recordTriggerType>Delete</recordTriggerType>
         <triggerType>RecordBeforeDelete</triggerType>
     </start>
     <status>Active</status>
+    <variables>
+        <name>receptionisactive</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>receptionssize</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
 </Flow>

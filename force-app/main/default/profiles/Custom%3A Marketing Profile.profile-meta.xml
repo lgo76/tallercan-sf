@@ -2346,6 +2346,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Accident_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Accident_code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2370,6 +2380,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Customer_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Damage_description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Date_Time_of_Reception__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.DeliveryInstallationStatus__c</field>
         <readable>false</readable>
@@ -2382,6 +2407,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.ExpectedRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Expert_name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Instructions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Insurance__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2401,12 +2441,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.NU_km__c</field>
+        <field>Opportunity.NextStep</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.NextStep</field>
+        <field>Opportunity.Number_of_km__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2416,7 +2456,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Policyholder_name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Probability</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Reasons__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.TXT_Policy_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3616,19 +3671,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-<<<<<<< HEAD
-        <field>Vehicle_Model__c.PK_Brand__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Vehicle_Model__c.TX_Year__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-=======
->>>>>>> Vehicles_UseCase
         <field>Vehicle__c.Chasis_number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4128,8 +4170,6 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-<<<<<<< HEAD
-=======
         <flow>Tallercan_Cancel_Vehicle</flow>
     </flowAccesses>
     <flowAccesses>
@@ -4138,7 +4178,6 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
->>>>>>> Vehicles_UseCase
         <flow>Tallercan_Deactivate_customer</flow>
     </flowAccesses>
     <flowAccesses>
@@ -4149,13 +4188,18 @@
         <enabled>false</enabled>
         <flow>Tallercan_Delete_Account_Trigger</flow>
     </flowAccesses>
-<<<<<<< HEAD
-=======
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Reception_close_date</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Repection_deletion</flow>
+    </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Tallercan_Vehicle_deletion</flow>
     </flowAccesses>
->>>>>>> Vehicles_UseCase
     <layoutAssignments>
         <layout>Accident__c-Accident Layout</layout>
     </layoutAssignments>
@@ -4546,12 +4590,6 @@
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-<<<<<<< HEAD
-        <layout>Vehicle_Model__c-Vehicle Model Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-=======
->>>>>>> Vehicles_UseCase
         <layout>Vehicle__c-Vehicle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

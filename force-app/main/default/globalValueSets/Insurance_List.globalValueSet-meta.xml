@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Mapfre</fullName>
+        <default>false</default>
+        <label>Mapfre</label>
+    </customValue>
+    <customValue>
+        <fullName>Allianz</fullName>
+        <default>false</default>
+        <label>Allianz</label>
+    </customValue>
+    <customValue>
+        <fullName>Mutua Madrileña</fullName>
+        <default>false</default>
+        <label>Mutua Madrileña</label>
+    </customValue>
+    <customValue>
+        <fullName>AXA</fullName>
+        <default>false</default>
+        <label>AXA</label>
+    </customValue>
+    <customValue>
+        <fullName>Línea Directa</fullName>
+        <default>false</default>
+        <label>Línea Directa</label>
+    </customValue>
+    <customValue>
+        <fullName>Catalana Occidente</fullName>
+        <default>false</default>
+        <label>Catalana Occidente</label>
+    </customValue>
+    <customValue>
+        <fullName>Generali</fullName>
+        <default>false</default>
+        <label>Generali</label>
+    </customValue>
+    <customValue>
+        <fullName>Helvetia</fullName>
+        <default>false</default>
+        <label>Helvetia</label>
+    </customValue>
+    <customValue>
+        <fullName>Reale</fullName>
+        <default>false</default>
+        <label>Reale</label>
+    </customValue>
+    <customValue>
+        <fullName>Liberty</fullName>
+        <default>false</default>
+        <label>Liberty</label>
+    </customValue>
+    <customValue>
+        <fullName>Zurich</fullName>
+        <default>false</default>
+        <label>Zurich</label>
+    </customValue>
+    <customValue>
+        <fullName>Regal</fullName>
+        <default>false</default>
+        <label>Regal</label>
+    </customValue>
+    <customValue>
+        <fullName>RACC</fullName>
+        <default>false</default>
+        <label>RACC</label>
+    </customValue>
+    <customValue>
+        <fullName>AMA</fullName>
+        <default>false</default>
+        <label>AMA</label>
+    </customValue>
+    <customValue>
+        <fullName>Race</fullName>
+        <default>false</default>
+        <label>Race</label>
+    </customValue>
+    <customValue>
+        <fullName>Bilbao</fullName>
+        <default>false</default>
+        <label>Bilbao</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlantis</fullName>
+        <default>false</default>
+        <label>Atlantis</label>
+    </customValue>
+    <customValue>
+        <fullName>Génesis</fullName>
+        <default>false</default>
+        <label>Génesis</label>
+    </customValue>
+    <customValue>
+        <fullName>SegurCaixa Adeslas</fullName>
+        <default>false</default>
+        <label>SegurCaixa Adeslas</label>
+    </customValue>
+    <customValue>
+        <fullName>MMT</fullName>
+        <default>false</default>
+        <label>MMT</label>
+    </customValue>
+    <customValue>
+        <fullName>Verti</fullName>
+        <default>false</default>
+        <label>Verti</label>
+    </customValue>
+    <customValue>
+        <fullName>Aro</fullName>
+        <default>false</default>
+        <label>Aro</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Seguros</fullName>
+        <default>false</default>
+        <label>Direct Seguros</label>
+    </customValue>
+    <customValue>
+        <fullName>Pelayo</fullName>
+        <default>false</default>
+        <label>Pelayo</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiatc</fullName>
+        <default>false</default>
+        <label>Fiatc</label>
+    </customValue>
+    <customValue>
+        <fullName>Plus Ultra</fullName>
+        <default>false</default>
+        <label>Plus Ultra</label>
+    </customValue>
+    <customValue>
+        <fullName>Asefa</fullName>
+        <default>false</default>
+        <label>Asefa</label>
+    </customValue>
+    <customValue>
+        <fullName>Fénix Directo</fullName>
+        <default>false</default>
+        <label>Fénix Directo</label>
+    </customValue>
+    <customValue>
+        <fullName>Caser</fullName>
+        <default>false</default>
+        <label>Caser</label>
+    </customValue>
+    <customValue>
+        <fullName>Ocaso</fullName>
+        <default>false</default>
+        <label>Ocaso</label>
+    </customValue>
+    <customValue>
+        <fullName>Balumba</fullName>
+        <default>false</default>
+        <label>Balumba</label>
+    </customValue>
+    <customValue>
+        <fullName>Qualitas Auto</fullName>
+        <default>false</default>
+        <label>Qualitas Auto</label>
+    </customValue>
+    <customValue>
+        <fullName>Nuez</fullName>
+        <default>false</default>
+        <label>Nuez</label>
+    </customValue>
+    <customValue>
+        <fullName>Ima Ibérica</fullName>
+        <default>false</default>
+        <label>Ima Ibérica</label>
+    </customValue>
+    <customValue>
+        <fullName>GES</fullName>
+        <default>false</default>
+        <label>GES</label>
+    </customValue>
+    <customValue>
+        <fullName>MGS</fullName>
+        <default>false</default>
+        <label>MGS</label>
+    </customValue>
+    <customValue>
+        <fullName>DAS (asistencia)</fullName>
+        <default>false</default>
+        <label>DAS (asistencia)</label>
+    </customValue>
+    <customValue>
+        <fullName>PSN</fullName>
+        <default>false</default>
+        <label>PSN</label>
+    </customValue>
+    <customValue>
+        <fullName>Legálitas (asistencia)</fullName>
+        <default>false</default>
+        <label>Legálitas (asistencia)</label>
+    </customValue>
+    <customValue>
+        <fullName>Europ – Assistance (Asistencia)</fullName>
+        <default>false</default>
+        <label>Europ – Assistance (Asistencia)</label>
+    </customValue>
+    <customValue>
+        <fullName>Mussap</fullName>
+        <default>false</default>
+        <label>Mussap</label>
+    </customValue>
+    <customValue>
+        <fullName>Mutualidad de Levante</fullName>
+        <default>false</default>
+        <label>Mutualidad de Levante</label>
+    </customValue>
+    <customValue>
+        <fullName>drive&amp;win</fullName>
+        <default>false</default>
+        <label>drive&amp;win</label>
+    </customValue>
+    <customValue>
+        <fullName>Penélope Seguros</fullName>
+        <default>false</default>
+        <label>Penélope Seguros</label>
+    </customValue>
+    <customValue>
+        <fullName>Santa Lucía</fullName>
+        <default>false</default>
+        <label>Santa Lucía</label>
+    </customValue>
+    <customValue>
+        <fullName>AMIC</fullName>
+        <default>false</default>
+        <label>AMIC</label>
+    </customValue>
+    <customValue>
+        <fullName>Globalty</fullName>
+        <default>false</default>
+        <label>Globalty</label>
+    </customValue>
+    <customValue>
+        <fullName>HDI</fullName>
+        <default>false</default>
+        <label>HDI</label>
+    </customValue>
+    <customValue>
+        <fullName>INEAS</fullName>
+        <default>false</default>
+        <label>INEAS</label>
+    </customValue>
+    <customValue>
+        <fullName>Internauto</fullName>
+        <default>false</default>
+        <label>Internauto</label>
+    </customValue>
+    <customValue>
+        <fullName>Mutua Sergobina</fullName>
+        <default>false</default>
+        <label>Mutua Sergobina</label>
+    </customValue>
+    <customValue>
+        <fullName>Mutua Tinerfeña</fullName>
+        <default>false</default>
+        <label>Mutua Tinerfeña</label>
+    </customValue>
+    <customValue>
+        <fullName>Nationale Suisse</fullName>
+        <default>false</default>
+        <label>Nationale Suisse</label>
+    </customValue>
+    <customValue>
+        <fullName>Patria Hispana</fullName>
+        <default>false</default>
+        <label>Patria Hispana</label>
+    </customValue>
+    <customValue>
+        <fullName>Segurísima</fullName>
+        <default>false</default>
+        <label>Segurísima</label>
+    </customValue>
+    <customValue>
+        <fullName>Soliss</fullName>
+        <default>false</default>
+        <label>Soliss</label>
+    </customValue>
+    <customValue>
+        <fullName>Sovag</fullName>
+        <default>false</default>
+        <label>Sovag</label>
+    </customValue>
+    <customValue>
+        <fullName>Umas</fullName>
+        <default>false</default>
+        <label>Umas</label>
+    </customValue>
+    <customValue>
+        <fullName>Unión Alcoyana</fullName>
+        <default>false</default>
+        <label>Unión Alcoyana</label>
+    </customValue>
+    <customValue>
+        <fullName>Vitalicio</fullName>
+        <default>false</default>
+        <label>Vitalicio</label>
+    </customValue>
+    <masterLabel>Insurance List</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -224,24 +224,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -294,11 +338,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -451,24 +506,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -521,11 +620,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -682,24 +792,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -753,11 +907,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -910,24 +1075,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -980,11 +1189,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1141,24 +1361,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -1212,11 +1476,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1369,24 +1644,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -1439,11 +1758,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1600,24 +1930,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -1671,11 +2045,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1828,24 +2213,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -1898,11 +2327,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2059,24 +2499,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -2130,11 +2614,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2287,24 +2782,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -2357,11 +2896,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2518,24 +3068,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -2589,11 +3183,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2746,24 +3351,68 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4h</field>
+            <label>Accident code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4m</field>
+            <label>Accident Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsG</field>
             <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4w</field>
+            <label>Customer Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4r</field>
+            <label>Damage description</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cr9</field>
+            <label>Date/Time of Reception</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsH</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4X</field>
+            <label>Expert name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqu</field>
+            <label>Instructions</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d51</field>
+            <label>Insurance</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N680000038OsI</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <label>Number of km</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsJ</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4c</field>
+            <label>Policyholder name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043d4S</field>
+            <label>Policy Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N680000043cqz</field>
+            <label>Reasons</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N680000038OsK</field>
@@ -2816,11 +3465,22 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N680000043d4h</field>
+            <field>00N680000043d4m</field>
             <field>00N680000038OsG</field>
+            <field>00N680000043d4w</field>
+            <field>00N680000043d4r</field>
+            <field>00N680000043cr9</field>
             <field>00N680000038OsH</field>
+            <field>00N680000043d4X</field>
+            <field>00N680000043cqu</field>
+            <field>00N680000043d51</field>
             <field>00N680000038OsI</field>
-            <field>00N68000003a915</field>
+            <field>00N680000043cr4</field>
             <field>00N680000038OsJ</field>
+            <field>00N680000043d4c</field>
+            <field>00N680000043d4S</field>
+            <field>00N680000043cqz</field>
             <field>00N680000038OsK</field>
             <field>00N68000003a91A</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>

@@ -451,15 +451,6 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-<<<<<<< HEAD
-            <name>Vehicle_Model__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-=======
->>>>>>> Vehicles_UseCase
             <name>Vehicle__c</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>

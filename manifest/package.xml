@@ -54,10 +54,10 @@
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
-        <members>standard__Commerce</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
         <members>standard__DataManager</members>
+        <members>standard__FlowsApp</members>
         <members>standard__Insights</members>
         <members>standard__LightningBolt</members>
         <members>standard__LightningInstrumentation</members>
@@ -118,11 +118,20 @@
         <members>Opportunity.Reasons__c</members>
         <members>Opportunity.TXT_Policy_Number__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Product2.Estimation_of_time_days__c</members>
+        <members>Product2.Is_service__c</members>
+        <members>Product2.Parent_material__c</members>
+        <members>Product2.Related_service_product__c</members>
+        <members>Product2.Stock__c</members>
         <members>Registration__c.LK_Customer__c</members>
         <members>Registration__c.LK_Vehicle__c</members>
         <members>Registration__c.NU_km__c</members>
         <members>Registration__c.TX_Indications__c</members>
         <members>Registration__c.TX_Reasons__c</members>
+        <members>Service_monitoring__c.Comments__c</members>
+        <members>Service_monitoring__c.LK_Related_Reception__c</members>
+        <members>Service_monitoring__c.Status__c</members>
+        <members>Service_monitoring__c.related_service__c</members>
         <members>Vehicle__c.Chasis_number__c</members>
         <members>Vehicle__c.DT_Cancellation_Date__c</members>
         <members>Vehicle__c.DT_Car_Registration_Date__c</members>
@@ -153,14 +162,29 @@
         <members>AppointmentInvitee</members>
         <members>AppointmentScheduleLog</members>
         <members>AppointmentTopicTimeSlot</members>
+        <members>ApptBundleAggrDurDnscale</members>
+        <members>ApptBundleAggrPolicy</members>
+        <members>ApptBundleConfig</members>
+        <members>ApptBundlePolicy</members>
+        <members>ApptBundlePolicySvcTerr</members>
+        <members>ApptBundlePropagatePolicy</members>
+        <members>ApptBundleRestrictPolicy</members>
+        <members>ApptBundleSortPolicy</members>
         <members>Asset</members>
+        <members>AssetAccountParticipant</members>
         <members>AssetAction</members>
         <members>AssetActionSource</members>
+        <members>AssetContactParticipant</members>
+        <members>AssetDowntimePeriod</members>
         <members>AssetRelationship</members>
         <members>AssetStatePeriod</members>
+        <members>AssetWarranty</members>
         <members>AssignedResource</members>
         <members>AssistantProgress</members>
         <members>AssociatedLocation</members>
+        <members>AttributeDefinition</members>
+        <members>AttributePicklist</members>
+        <members>AttributePicklistValue</members>
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
@@ -206,6 +230,8 @@
         <members>Contract</members>
         <members>ContractContactRole</members>
         <members>ContractLineItem</members>
+        <members>ContractLineOutcome</members>
+        <members>ContractLineOutcomeData</members>
         <members>Coupon</members>
         <members>CouponCodeRedemption</members>
         <members>CredentialStuffingEventStore</members>
@@ -214,8 +240,10 @@
         <members>CreditMemoLine</members>
         <members>Customer</members>
         <members>DandBCompany</members>
+        <members>DataMaskPolicy</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
+        <members>DigitalSignature</members>
         <members>DigitalWallet</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -227,6 +255,9 @@
         <members>EntityMilestone</members>
         <members>Event</members>
         <members>ExchangeUserMapping</members>
+        <members>Expense</members>
+        <members>ExpenseReport</members>
+        <members>ExpenseReportEntry</members>
         <members>ExpressionFilter</members>
         <members>ExpressionFilterCriteria</members>
         <members>ExternalEventMapping</members>
@@ -241,6 +272,7 @@
         <members>FulfillmentOrderItemAdjustment</members>
         <members>FulfillmentOrderItemTax</members>
         <members>FulfillmentOrderLineItem</members>
+        <members>GeolocationBasedAction</members>
         <members>GuestUserAnomalyEventStore</members>
         <members>Idea</members>
         <members>Image</members>
@@ -251,6 +283,7 @@
         <members>InventoryReservation</members>
         <members>Invoice</members>
         <members>InvoiceLine</members>
+        <members>JobProfile</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>LearningAssignment</members>
@@ -268,6 +301,9 @@
         <members>MacroAction</members>
         <members>MacroInstruction</members>
         <members>MacroUsage</members>
+        <members>MaintenanceAsset</members>
+        <members>MaintenancePlan</members>
+        <members>MaintenanceWorkRule</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
         <members>OperatingHours</members>
@@ -295,6 +331,7 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>PrivacyJobSession</members>
+        <members>PrivacyPolicy</members>
         <members>PrivacyRTBFRequest</members>
         <members>Problem</members>
         <members>ProblemIncident</members>
@@ -306,7 +343,19 @@
         <members>ProductCatalog</members>
         <members>ProductCategory</members>
         <members>ProductCategoryProduct</members>
+        <members>ProductConsumed</members>
+        <members>ProductConsumedState</members>
         <members>ProductConsumptionSchedule</members>
+        <members>ProductItem</members>
+        <members>ProductItemTransaction</members>
+        <members>ProductRequest</members>
+        <members>ProductRequestLineItem</members>
+        <members>ProductRequired</members>
+        <members>ProductServiceCampaign</members>
+        <members>ProductServiceCampaignItem</members>
+        <members>ProductTransfer</members>
+        <members>ProductTransferState</members>
+        <members>ProductWarrantyTerm</members>
         <members>Promotion</members>
         <members>PromotionLineItemRule</members>
         <members>PromotionMarketSegment</members>
@@ -325,6 +374,9 @@
         <members>Recommendation</members>
         <members>RecordAction</members>
         <members>RecordMergeHistory</members>
+        <members>RecordsetFilterCriteria</members>
+        <members>RecordsetFilterCriteriaRule</members>
+        <members>RecordsetFltrCritMonitor</members>
         <members>Refund</members>
         <members>RefundLinePayment</members>
         <members>Registration__c</members>
@@ -336,24 +388,43 @@
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
         <members>SalesStore</members>
+        <members>SchedulingConstraint</members>
+        <members>SchedulingWorkspace</members>
+        <members>SchedulingWorkspaceTerritory</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
         <members>Seller</members>
+        <members>SerializedProduct</members>
+        <members>SerializedProductTransaction</members>
         <members>ServiceAppointment</members>
         <members>ServiceAppointmentAttendee</members>
+        <members>ServiceAppointmentCapacityUsage</members>
         <members>ServiceContract</members>
+        <members>ServiceCrew</members>
+        <members>ServiceCrewMember</members>
+        <members>ServiceReport</members>
         <members>ServiceResource</members>
+        <members>ServiceResourceCapacity</members>
+        <members>ServiceResourcePreference</members>
         <members>ServiceResourceSkill</members>
         <members>ServiceTerritory</members>
+        <members>ServiceTerritoryLocation</members>
         <members>ServiceTerritoryMember</members>
         <members>ServiceTerritoryWorkType</members>
+        <members>Service_monitoring__c</members>
         <members>SessionHijackingEventStore</members>
         <members>Shift</members>
         <members>ShiftEngagementChannel</members>
+        <members>ShiftPattern</members>
+        <members>ShiftPatternEntry</members>
+        <members>ShiftSchedulingOperation</members>
+        <members>ShiftTemplate</members>
         <members>ShiftWorkTopic</members>
         <members>Shipment</members>
         <members>ShipmentItem</members>
+        <members>ShippingCarrier</members>
+        <members>ShippingCarrierMethod</members>
         <members>ShippingConfigurationSet</members>
         <members>ShippingRateArea</members>
         <members>ShippingRateGroup</members>
@@ -364,11 +435,17 @@
         <members>StandardShippingRate</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
+        <members>Swarm</members>
+        <members>SwarmMember</members>
         <members>TableauHostMapping</members>
         <members>Task</members>
+        <members>TimeSheet</members>
+        <members>TimeSheetEntry</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
+        <members>TravelMode</members>
+        <members>UnitOfMeasure</members>
         <members>User</members>
         <members>UserExternalCredential</members>
         <members>UserPrioritizedRecord</members>
@@ -379,6 +456,7 @@
         <members>WaitlistParticipant</members>
         <members>WaitlistServiceResource</members>
         <members>WaitlistWorkType</members>
+        <members>WarrantyTerm</members>
         <members>WebCart</members>
         <members>WebCartAdjustmentBasis</members>
         <members>WebCartAdjustmentGroup</members>
@@ -386,9 +464,13 @@
         <members>WebStoreBuyerGroup</members>
         <members>WebStoreCatalog</members>
         <members>WebStoreInventorySource</members>
+        <members>WorkCapacityAvailability</members>
+        <members>WorkCapacityLimit</members>
+        <members>WorkCapacityUsage</members>
         <members>WorkOrder</members>
         <members>WorkOrderLineItem</members>
         <members>WorkPlan</members>
+        <members>WorkPlanSelectionRule</members>
         <members>WorkPlanTemplate</members>
         <members>WorkPlanTemplateEntry</members>
         <members>WorkStep</members>
@@ -403,12 +485,16 @@
         <members>Account-en_US</members>
         <members>Opportunity-en_US</members>
         <members>Registration__c-es</members>
+        <members>Service_monitoring__c-es</members>
         <members>Vehicle__c-es</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
         <members>Accident__c</members>
+        <members>Materials</members>
         <members>Registration__c</members>
+        <members>Service_monitoring__c</members>
+        <members>Services</members>
         <members>Vehicle__c</members>
         <name>CustomTab</name>
     </types>
@@ -427,6 +513,10 @@
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
         <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SalesforceSchedulerCancelApptEmailTemplate</members>
+        <members>unfiled$public/SalesforceSchedulerCreateApptEmailTemplate</members>
+        <members>unfiled$public/SalesforceSchedulerGroupApptEmailTemplate</members>
+        <members>unfiled$public/SalesforceSchedulerModifyApptEmailTemplate</members>
         <members>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForAmazonChime</members>
         <members>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForThirdParty</members>
         <members>unfiled$public/SchedulerUnauthenticatedUserEngagementChannelEmailTemplateForAmazonChime</members>
@@ -462,37 +552,48 @@
         <members>Car_Registration_Record_Page</members>
         <members>ContactCenter_UtilityBar</members>
         <members>CrisisCenter_UtilityBar</members>
+        <members>FlowsApp_UtilityBar</members>
         <members>Home_Page_Default</members>
         <members>Home_Page_Default1</members>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningSales_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
+        <members>Materials</members>
         <members>RevenueCloudConsole_UtilityBar</members>
+        <members>Service_monitoring_Record_Page</members>
+        <members>Services</members>
+        <members>Services_and_materials</members>
         <members>Tallercan_UtilityBar</members>
         <members>Vehicle_Record_Page</members>
         <name>FlexiPage</name>
     </types>
     <types>
         <members>Customer_Delete_related_records</members>
+        <members>Reparation_Assistant</members>
         <members>Tallercan_Cancel_Vehicle</members>
         <members>Tallercan_Cancel_vehicle_functionality</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
+        <members>Tallercan_Quote_trigger</members>
         <members>Tallercan_Reception_close_date</members>
         <members>Tallercan_Repection_deletion</members>
+        <members>Tallercan_Service_monitoring_trigger</members>
         <members>Tallercan_Vehicle_deletion</members>
         <name>Flow</name>
     </types>
     <types>
         <members>Customer_Delete_related_records</members>
+        <members>Reparation_Assistant</members>
         <members>Tallercan_Cancel_Vehicle</members>
         <members>Tallercan_Cancel_vehicle_functionality</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
+        <members>Tallercan_Quote_trigger</members>
         <members>Tallercan_Reception_close_date</members>
         <members>Tallercan_Repection_deletion</members>
+        <members>Tallercan_Service_monitoring_trigger</members>
         <members>Tallercan_Vehicle_deletion</members>
         <name>FlowDefinition</name>
     </types>
@@ -515,9 +616,12 @@
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>Address-Address Layout</members>
         <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
         <members>ApiAnomalyEventStore-API Anomaly Event Store Layout</members>
         <members>AppointmentInvitation-Appointment Invitation Layout</members>
+        <members>ApptBundleConfig-Appointment Bundle Config Layout</members>
+        <members>ApptBundlePolicy-Appointment Bundle Policy Layout</members>
         <members>Asset-Asset Layout</members>
         <members>AssetAction-Asset Action Layout</members>
         <members>AssetActionSource-Asset Action Source Layout</members>
@@ -560,6 +664,8 @@
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
         <members>ContractLineItem-Formato de partida de contrato</members>
+        <members>ContractLineOutcome-Contract Line Outcome Layout</members>
+        <members>ContractLineOutcomeData-Contract Line Outcome Data Layout</members>
         <members>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</members>
         <members>CreditMemo-Credit Memo Layout</members>
         <members>CreditMemoInvApplication-Credit Memo Invoice Application Layout</members>
@@ -575,9 +681,13 @@
         <members>Entitlement-Formato de asignación</members>
         <members>EntityMilestone-Formato de eventos clave de objeto</members>
         <members>Event-Event Layout</members>
+        <members>Expense-Expense Layout</members>
+        <members>ExpenseReport-Expense Report Layout</members>
+        <members>ExpenseReportEntry-Expense Report Entry Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
+        <members>FlowRecord-Flow Layout</members>
         <members>FulfillmentOrder-Fulfillment Order Layout</members>
         <members>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</members>
         <members>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</members>
@@ -587,6 +697,7 @@
         <members>Individual-Individual Layout</members>
         <members>Invoice-Invoice Layout</members>
         <members>InvoiceLine-Invoice Line Layout</members>
+        <members>JobProfile-Job Profile Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
@@ -596,7 +707,11 @@
         <members>LocationGroup-Formato Grupo de ubicación</members>
         <members>LocationGroupAssignment-Formato Asignación de grupo de ubicación</members>
         <members>Macro-Macro Layout</members>
+        <members>MaintenanceAsset-Maintenance Asset Layout</members>
+        <members>MaintenancePlan-Maintenance Plan Layout</members>
+        <members>MaintenanceWorkRule-Maintenance Work Rule Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
+        <members>OperatingHoursHoliday-Operating Hours Holiday Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
@@ -616,10 +731,26 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>ProcessException-Process Exception Layout</members>
         <members>Product2-Product Layout</members>
+        <members>ProductCatalog-Catalog Layout</members>
+        <members>ProductCategory-Category Layout</members>
+        <members>ProductCategoryProduct-Product Category Product Layout</members>
+        <members>ProductConsumed-Product Consumed Layout</members>
+        <members>ProductConsumedState-Product Consumed State Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
+        <members>ProductItem-Product Item Layout</members>
+        <members>ProductItemTransaction-Product Item Transaction Layout</members>
+        <members>ProductRequest-Product Request Layout</members>
+        <members>ProductRequestLineItem-Product Request Line Item Layout</members>
+        <members>ProductRequired-Product Required Layout</members>
+        <members>ProductServiceCampaign-Product Service Campaign Layout</members>
+        <members>ProductServiceCampaignItem-Product Service Campaign Item Layout</members>
+        <members>ProductTransfer-Product Transfer Layout</members>
+        <members>ProductTransferState-Product Transfer State Layout</members>
         <members>QuickText-Quick Text Layout</members>
         <members>Quote-Quote Layout</members>
         <members>QuoteLineItem-Quote Line Item Layout</members>
+        <members>RecordsetFilterCriteria-Recordset Filter Criteria Layout</members>
+        <members>RecordsetFilterCriteriaRule-Recordset Filter Criteria Rule Layout</members>
         <members>Refund-Refund Layout</members>
         <members>RefundLinePayment-Refund Line Payment Layout</members>
         <members>Registration__c-Registration Layout</members>
@@ -630,38 +761,65 @@
         <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
         <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+        <members>SchedulingConstraint-Scheduling Constraint Layout</members>
+        <members>SchedulingObjective-Scheduling Objective Layout</members>
+        <members>SchedulingRule-Scheduling Rule Layout</members>
+        <members>SchedulingWorkspace-Formato Espacio de trabajo de programación</members>
+        <members>SchedulingWorkspaceTerritory-Formato Territorio de espacio de trabajo de programación</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Seller-Seller Layout</members>
         <members>ServiceAppointment-Service Appointment Layout</members>
+        <members>ServiceAppointmentCapacityUsage-Service Appointment Capacity Usage Layout</members>
         <members>ServiceContract-Formato del contrato de servicio</members>
+        <members>ServiceCrew-Service Crew Layout</members>
+        <members>ServiceCrewMember-Service Crew Member Layout</members>
         <members>ServiceResource-Service Resource Layout</members>
+        <members>ServiceResourceCapacity-Resource Capacity Layout</members>
+        <members>ServiceResourcePreference-Service Resource Preference Layout</members>
         <members>ServiceResourceSkill-Service Resource Skill Layout</members>
         <members>ServiceTerritory-Service Territory Layout</members>
         <members>ServiceTerritoryMember-Service Territory Member Layout</members>
+        <members>Service_monitoring__c-Service monitoring Layout</members>
         <members>SessionHijackingEventStore-Session Hijacking Event Store Layout</members>
         <members>Shift-Shift Layout</members>
+        <members>ShiftPattern-Shift Pattern Layout</members>
+        <members>ShiftPatternEntry-Shift Pattern Entry Layout</members>
+        <members>ShiftSchedulingOperation-Shift Scheduling Operation Layout</members>
+        <members>ShiftTemplate-Shift Template Layout</members>
         <members>ShiftWorkTopic-%5F%5FMISSING LABEL%5F%5F PropertyFile - val ShiftWorkTopic not found in section StandardLayouts</members>
+        <members>Shipment-Shipment Layout</members>
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>SocialPersona-Social Persona Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>Swarm-Swarm Layout</members>
+        <members>SwarmMember-Swarm Member Layout</members>
         <members>Task-Task Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
+        <members>TimeSheet-Time Sheet Layout</members>
+        <members>TimeSheetEntry-Time Sheet Entry Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
+        <members>TravelMode-Travel Mode Layout</members>
         <members>User-User Layout</members>
+        <members>UserAlt-User Profile Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
         <members>Vehicle__c-Vehicle Layout</members>
         <members>Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts</members>
+        <members>WarrantyTerm-Warranty Term Layout</members>
         <members>WebCart-Cart Layout</members>
         <members>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</members>
         <members>WebCartAdjustmentGroup-Cart Adjustment Group Layout</members>
         <members>WebStore-Store Layout</members>
+        <members>WorkCapacityAvailability-Work Capacity Availability Layout</members>
+        <members>WorkCapacityLimit-Work Capacity Limit Layout</members>
+        <members>WorkCapacityUsage-Work Capacity Usage Layout</members>
         <members>WorkOrder-Work Order Layout</members>
         <members>WorkOrderLineItem-Work Order Line Item Layout</members>
         <members>WorkPlan-Work Plan Layout</members>
+        <members>WorkPlanSelectionRule-Work Plan Selection Rule Layout</members>
         <members>WorkPlanTemplate-Work Plan Template Layout</members>
         <members>WorkPlanTemplateEntry-Work Plan Template Entry Layout</members>
         <members>WorkStep-Work Step Layout</members>
@@ -685,10 +843,16 @@
         <members>AlternativePaymentMethod.AlternativePaymentMethod</members>
         <members>AppointmentInvitation.All_AppointmentInvitations</members>
         <members>AppointmentInvitation.My_AppointmentInvitations</members>
+        <members>ApptBundleConfig.All_ApptBundleConfigs</members>
+        <members>ApptBundleConfig.My_ApptBundleConfigs</members>
+        <members>ApptBundlePolicy.All_ApptBundlePolicies</members>
+        <members>ApptBundlePolicy.My_ApptBundlePolicies</members>
         <members>Asset.AllAssets</members>
         <members>AssetAction.AssetAction</members>
         <members>AssetActionSource.AssetActionSource</members>
         <members>AssetStatePeriod.AssetStatePeriod</members>
+        <members>AttributeDefinition.All_AttributeDefinitions</members>
+        <members>AttributeDefinition.My_AttributeDefinitions</members>
         <members>AuthorizationForm.All_AuthorizationForms</members>
         <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
@@ -729,6 +893,8 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
+        <members>ContractLineOutcome.All_ContractLineOutcomes</members>
+        <members>ContractLineOutcome.My_ContractLineOutcomes</members>
         <members>Coupon.ALL_Coupons</members>
         <members>CreditMemo.mine</members>
         <members>Customer.All_Customers</members>
@@ -744,6 +910,11 @@
         <members>Event.MyTeamsUpcomingEvents</members>
         <members>Event.MyUpcomingEvents</members>
         <members>Event.TodaysAgenda</members>
+        <members>Expense.All_Expenses</members>
+        <members>Expense.My_Expenses</members>
+        <members>ExpenseReport.All_ExpenseReports</members>
+        <members>ExpenseReport.My_ExpenseReports</members>
+        <members>ExpenseReportEntry.All_ExpenseReportEntries</members>
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
         <members>FlowOrchestrationInstance.All_Orchestration_Instances</members>
@@ -754,6 +925,8 @@
         <members>Incident.AllIncidentsDefault</members>
         <members>Individual.All_Individuals</members>
         <members>Invoice.mine</members>
+        <members>JobProfile.All_JobProfiles</members>
+        <members>JobProfile.My_JobProfiles</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
@@ -762,8 +935,11 @@
         <members>LegalEntity.mine</members>
         <members>Location.all_locations</members>
         <members>LocationGroup.LocationGroup</members>
+        <members>MaintenancePlan.All_MaintenancePlans</members>
+        <members>MaintenancePlan.My_MaintenancePlans</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>OperatingHours.All_OperatingHours</members>
+        <members>OperatingHoursHoliday.All_OperatingHoursHolidays</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
@@ -785,37 +961,82 @@
         <members>PaymentLineInvoice.PaymentLineInvoice</members>
         <members>ProcessException.all_process_exceptions</members>
         <members>Product2.AllProducts</members>
+        <members>Product2.Materials</members>
+        <members>Product2.Services</members>
         <members>ProductCatalog.All_Product_Catalogs_List_View</members>
         <members>ProductCategory.All_Product_Categories_List_View</members>
         <members>ProductCategory.Category_Hierarchy_SM</members>
         <members>ProductCategory.Org_ProductCategory_Hierarchy</members>
+        <members>ProductConsumedState.All_ProductConsumedStates</members>
+        <members>ProductConsumedState.My_ProductConsumedStates</members>
+        <members>ProductItem.All_ProductItems</members>
+        <members>ProductItem.My_ProductItems</members>
+        <members>ProductRequest.All_ProductRequests</members>
+        <members>ProductRequest.My_ProductRequests</members>
+        <members>ProductRequestLineItem.All_ProductRequestLineItems</members>
+        <members>ProductServiceCampaign.All_ProductServiceCampaigns</members>
+        <members>ProductServiceCampaign.My_ProductServiceCampaigns</members>
+        <members>ProductServiceCampaignItem.All_ProductServiceCampaignItems</members>
+        <members>ProductServiceCampaignItem.My_ProductServiceCampaignItems</members>
+        <members>ProductTransfer.All_ProductTransfers</members>
+        <members>ProductTransfer.My_ProductTransfers</members>
+        <members>ProductTransferState.All_ProductTransferStates</members>
+        <members>ProductTransferState.My_ProductTransferStates</members>
         <members>Quote.mine</members>
         <members>Recommendation.All_Recommendations</members>
+        <members>RecordsetFilterCriteria.All_RecordsetFilterCriterias</members>
+        <members>RecordsetFilterCriteria.My_RecordsetFilterCriterias</members>
+        <members>RecordsetFilterCriteriaRule.All_RecordsetFilterCriteriaRules</members>
+        <members>RecordsetFilterCriteriaRule.My_RecordsetFilterCriteriaRules</members>
         <members>Refund.Refund</members>
         <members>RefundLinePayment.RefundLinePayment</members>
         <members>Registration__c.All</members>
         <members>ReturnOrder.All_ReturnOrders</members>
         <members>ReturnOrder.My_ReturnOrders</members>
+        <members>SchedulingConstraint.All_SchedulingConstraints</members>
+        <members>SchedulingConstraint.My_SchedulingConstraints</members>
+        <members>SchedulingWorkspace.All_SchedulingWorkspaces</members>
+        <members>SchedulingWorkspace.My_SchedulingWorkspaces</members>
+        <members>SchedulingWorkspaceTerritory.All_SchedulingWorkspaceTerritories</members>
+        <members>SchedulingWorkspaceTerritory.My_SchedulingWorkspaceTerritories</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
         <members>Seller.All_Sellers</members>
+        <members>SerializedProduct.All_SerializedProducts</members>
         <members>ServiceAppointment.All_ServiceAppointments</members>
         <members>ServiceAppointment.MyPendingAppointments</members>
         <members>ServiceAppointment.MyScheduledAppointments</members>
         <members>ServiceContract.All_ServiceContracts</members>
+        <members>ServiceCrew.All_ServiceCrews</members>
+        <members>ServiceCrew.My_ServiceCrews</members>
+        <members>ServiceCrewMember.All_ServiceCrewMembers</members>
         <members>ServiceResource.All_ServiceResources</members>
         <members>ServiceResource.My_ServiceResources</members>
+        <members>ServiceResourcePreference.All_ServiceResourcePreferences</members>
+        <members>ServiceResourcePreference.My_ServiceResourcePreferences</members>
         <members>ServiceTerritory.All_ServiceTerritories</members>
         <members>ServiceTerritory.My_ServiceTerritories</members>
+        <members>Service_monitoring__c.All</members>
         <members>Shift.All_Shifts</members>
         <members>Shift.My_Shifts</members>
         <members>ShiftEngagementChannel.All_ShiftEngagementChannels</members>
         <members>ShiftEngagementChannel.My_ShiftEngagementChannels</members>
+        <members>ShiftPattern.All_ShiftPatterns</members>
+        <members>ShiftPattern.My_ShiftPatterns</members>
+        <members>ShiftPatternEntry.All_ShiftPatternEntries</members>
+        <members>ShiftSchedulingOperation.All_ShiftSchedulingOperations</members>
+        <members>ShiftSchedulingOperation.My_ShiftSchedulingOperations</members>
+        <members>ShiftTemplate.All_ShiftTemplates</members>
+        <members>ShiftTemplate.My_ShiftTemplates</members>
         <members>ShiftWorkTopic.All_ShiftWorkTopics</members>
         <members>ShiftWorkTopic.My_ShiftWorkTopics</members>
+        <members>Shipment.All_Shipments</members>
+        <members>Shipment.My_Shipments</members>
         <members>SocialPersona.AllSocialPersonas</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
+        <members>Swarm.My_Swarms</members>
+        <members>SwarmMember.My_SwarmMembers</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
         <members>Task.OpenTasks</members>
@@ -823,6 +1044,10 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>TimeSheet.All_TimeSheets</members>
+        <members>TimeSheet.My_TimeSheets</members>
+        <members>TravelMode.All_TravelModes</members>
+        <members>TravelMode.My_TravelModes</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
@@ -830,10 +1055,26 @@
         <members>VoiceCall.My_VoiceCalls</members>
         <members>Waitlist.All_Waitlists</members>
         <members>Waitlist.My_Waitlists</members>
+        <members>WarrantyTerm.All_WarrantyTerms</members>
+        <members>WarrantyTerm.My_WarrantyTerms</members>
         <members>WebCart.All_WebCarts</members>
         <members>WebCart.Owned_WebCarts</members>
+        <members>WorkCapacityAvailability.All_WorkCapacityAvailabilities</members>
+        <members>WorkCapacityAvailability.My_WorkCapacityAvailabilities</members>
+        <members>WorkCapacityLimit.All_WorkCapacityLimits</members>
+        <members>WorkCapacityLimit.My_WorkCapacityLimits</members>
+        <members>WorkCapacityUsage.All_WorkCapacityUsages</members>
+        <members>WorkCapacityUsage.My_WorkCapacityUsages</members>
         <members>WorkOrder.All_WorkOrders</members>
         <members>WorkOrder.My_WorkOrders</members>
+        <members>WorkPlan.All_WorkPlans</members>
+        <members>WorkPlan.My_WorkPlans</members>
+        <members>WorkPlanSelectionRule.All_WorkPlanSelectionRules</members>
+        <members>WorkPlanSelectionRule.My_WorkPlanSelectionRules</members>
+        <members>WorkPlanTemplate.All_WorkPlanTemplates</members>
+        <members>WorkPlanTemplate.My_WorkPlanTemplates</members>
+        <members>WorkStepTemplate.All_WorkStepTemplates</members>
+        <members>WorkStepTemplate.My_WorkStepTemplates</members>
         <members>WorkType.All_WorkTypes</members>
         <members>WorkType.My_WorkTypes</members>
         <members>WorkTypeGroup.All_WorkTypeGroups</members>
@@ -872,11 +1113,17 @@
         <name>NotificationTypeConfig</name>
     </types>
     <types>
+        <members>Service_Monitoring_Path</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
         <members>Experience_Profile_Manager</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
+        <members>sfdc_fieldservice</members>
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>force__Commerce_Shopper</members>
         <members>force__SubscriptionManagementBillingAdmin</members>
         <members>force__SubscriptionManagementBillingOperations</members>
         <members>force__SubscriptionManagementBuyerIntegrationUser</members>
@@ -960,10 +1207,13 @@
         <members>NewTask</members>
         <members>Quote.SendEmail</members>
         <members>SendEmail</members>
+        <members>ServiceAppointment.SendEmail</members>
         <members>Task.Defer</members>
         <members>Task.EditDescription</members>
         <members>Task.UpdatePriority</members>
         <members>Task.UpdateStatus</members>
+        <members>WorkOrder.SendEmail</members>
+        <members>WorkOrderLineItem.SendEmail</members>
         <name>QuickAction</name>
     </types>
     <types>
@@ -1159,10 +1409,14 @@
         <members>ActivityRecurrence2Exception</members>
         <members>AlternativePaymentMethod</members>
         <members>AppointmentInvitation</members>
+        <members>ApptBundleConfig</members>
+        <members>ApptBundlePolicy</members>
         <members>Asset</members>
         <members>AssistantInteraction</members>
         <members>AssistantProgress</members>
         <members>AssistantRecommendation</members>
+        <members>AttributeDefinition</members>
+        <members>AttributePicklist</members>
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
@@ -1184,6 +1438,7 @@
         <members>ContactPointConsent</members>
         <members>ContactPointTypeConsent</members>
         <members>ContactRequest</members>
+        <members>ContractLineOutcome</members>
         <members>ConvCoachingRecommendation</members>
         <members>Coupon</members>
         <members>CouponCodeRedemption</members>
@@ -1193,6 +1448,8 @@
         <members>DataUsePurpose</members>
         <members>EngagementChannelType</members>
         <members>ExchangeUserMapping</members>
+        <members>Expense</members>
+        <members>ExpenseReport</members>
         <members>ExternalEventMapping</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
@@ -1202,13 +1459,16 @@
         <members>FlowOrchestrationStageInstance</members>
         <members>FlowOrchestrationStepInstance</members>
         <members>FlowOrchestrationWorkItem</members>
+        <members>FlowRecord</members>
         <members>FlowTestResult</members>
         <members>FulfillmentOrder</members>
+        <members>GeolocationBasedAction</members>
         <members>Image</members>
         <members>Incident</members>
         <members>Individual</members>
         <members>InventoryReservation</members>
         <members>Invoice</members>
+        <members>JobProfile</members>
         <members>Lead</members>
         <members>LearningItem</members>
         <members>LegalEntity</members>
@@ -1217,6 +1477,8 @@
         <members>LocationGroup</members>
         <members>Macro</members>
         <members>MacroUsage</members>
+        <members>MaintenancePlan</members>
+        <members>MaintenanceWorkRule</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
         <members>NotifDeliveryUserPref</members>
@@ -1233,6 +1495,10 @@
         <members>ProcessException</members>
         <members>Product2</members>
         <members>ProductCatalog</members>
+        <members>ProductItem</members>
+        <members>ProductRequest</members>
+        <members>ProductServiceCampaign</members>
+        <members>ProductTransfer</members>
         <members>Promotion</members>
         <members>PromotionLineItemRule</members>
         <members>PromotionSegment</members>
@@ -1241,26 +1507,44 @@
         <members>QuickText</members>
         <members>QuickTextUsage</members>
         <members>RecordMergeHistory</members>
+        <members>RecordsetFilterCriteria</members>
         <members>Registration__c</members>
         <members>ReportResultBlob</members>
         <members>ReturnOrder</members>
+        <members>SchedulingConstraint</members>
+        <members>SchedulingWorkspace</members>
         <members>Scorecard</members>
         <members>Seller</members>
+        <members>SerializedProduct</members>
         <members>ServiceAppointment</members>
         <members>ServiceAppointmentAttendee</members>
         <members>ServiceContract</members>
+        <members>ServiceCrew</members>
         <members>ServiceResource</members>
+        <members>ServiceResourcePreference</members>
         <members>ServiceTerritory</members>
         <members>Shift</members>
+        <members>ShiftPattern</members>
+        <members>ShiftSchedulingOperation</members>
+        <members>ShiftTemplate</members>
         <members>Shipment</members>
+        <members>ShippingCarrier</members>
+        <members>ShippingCarrierMethod</members>
         <members>ShippingConfigurationSet</members>
         <members>SiqUserBlacklist</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
+        <members>Swarm</members>
+        <members>SwarmMember</members>
         <members>TableauHostMapping</members>
+        <members>TimeSheet</members>
         <members>TodayGoal</members>
+        <members>TravelMode</members>
+        <members>UnitOfMeasure</members>
         <members>User</members>
         <members>UserAppMenuCustomization</members>
+        <members>UserDefinedLabel</members>
+        <members>UserDefinedLabelAssignment</members>
         <members>UserEmailPreferredPerson</members>
         <members>UserExternalCredential</members>
         <members>UserPrioritizedRecord</members>
@@ -1269,10 +1553,15 @@
         <members>VoiceCall</members>
         <members>VoiceChnlInteractionEvent</members>
         <members>Waitlist</members>
+        <members>WarrantyTerm</members>
         <members>WebCart</members>
         <members>WebStore</members>
+        <members>WorkCapacityAvailability</members>
+        <members>WorkCapacityLimit</members>
+        <members>WorkCapacityUsage</members>
         <members>WorkOrder</members>
         <members>WorkPlan</members>
+        <members>WorkPlanSelectionRule</members>
         <members>WorkPlanTemplate</members>
         <members>WorkStepTemplate</members>
         <members>WorkType</members>
@@ -1344,37 +1633,79 @@
     <types>
         <members>Accident__c</members>
         <members>Account</members>
+        <members>ApptBundleAggrDurDnscale</members>
+        <members>ApptBundleAggrPolicy</members>
+        <members>ApptBundleConfig</members>
+        <members>ApptBundlePolicy</members>
+        <members>ApptBundlePolicySvcTerr</members>
+        <members>ApptBundlePropagatePolicy</members>
+        <members>ApptBundleRestrictPolicy</members>
+        <members>ApptBundleSortPolicy</members>
         <members>Asset</members>
+        <members>AssetAccountParticipant</members>
+        <members>AssetContactParticipant</members>
+        <members>AssetDowntimePeriod</members>
+        <members>AssetWarranty</members>
         <members>Campaign</members>
         <members>Case</members>
         <members>ChangeRequest</members>
         <members>Contact</members>
         <members>ContentDocument</members>
         <members>Contract</members>
+        <members>ContractLineOutcomeData</members>
         <members>Event</members>
+        <members>Expense</members>
+        <members>ExpenseReport</members>
+        <members>ExpenseReportEntry</members>
         <members>Incident</members>
+        <members>JobProfile</members>
         <members>Lead</members>
+        <members>MaintenanceAsset</members>
+        <members>MaintenancePlan</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>Problem</members>
+        <members>ProductConsumed</members>
+        <members>ProductItem</members>
+        <members>ProductItemTransaction</members>
+        <members>ProductRequest</members>
+        <members>ProductRequestLineItem</members>
+        <members>ProductRequired</members>
+        <members>ProductServiceCampaign</members>
+        <members>ProductServiceCampaignItem</members>
+        <members>ProductTransfer</members>
         <members>Registration__c</members>
         <members>ResourceAbsence</members>
         <members>ResourcePreference</members>
         <members>ReturnOrder</members>
         <members>ReturnOrderLineItem</members>
+        <members>SchedulingWorkspace</members>
+        <members>SchedulingWorkspaceTerritory</members>
         <members>ServiceAppointment</members>
+        <members>ServiceCrew</members>
+        <members>ServiceCrewMember</members>
         <members>ServiceResource</members>
+        <members>ServiceResourceCapacity</members>
         <members>ServiceResourceSkill</members>
         <members>ServiceTerritory</members>
         <members>ServiceTerritoryMember</members>
+        <members>Service_monitoring__c</members>
         <members>Shift</members>
         <members>Shipment</members>
         <members>Solution</members>
         <members>Task</members>
+        <members>TimeSheet</members>
+        <members>TimeSheetEntry</members>
+        <members>TravelMode</members>
         <members>Vehicle__c</members>
+        <members>WarrantyTerm</members>
+        <members>WorkCapacityAvailability</members>
+        <members>WorkCapacityLimit</members>
+        <members>WorkCapacityUsage</members>
         <members>WorkOrder</members>
         <members>WorkOrderLineItem</members>
         <members>WorkPlan</members>
+        <members>WorkPlanSelectionRule</members>
         <members>WorkPlanTemplate</members>
         <members>WorkPlanTemplateEntry</members>
         <members>WorkStep</members>
@@ -1384,6 +1715,10 @@
     <types>
         <members>Account_Record_Page</members>
         <members>Car_Registration_Record_Page</members>
+        <members>Materials</members>
+        <members>Service_monitoring_Record_Page</members>
+        <members>Services</members>
+        <members>Services_and_materials</members>
         <members>Vehicle_Record_Page</members>
         <name>UiViewDefinition</name>
     </types>

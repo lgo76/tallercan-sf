@@ -2,30 +2,75 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Needs Analysis</fullName>
+        <fullName>Created</fullName>
         <default>false</default>
-        <label>Needs Analysis</label>
+        <label>Created</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
-        <probability>20</probability>
+        <probability>10</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Closed Won</fullName>
+        <fullName>Making budget</fullName>
         <default>false</default>
-        <label>Closed Won</label>
+        <label>Making budget</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>25</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Budget Approvation</fullName>
+        <default>false</default>
+        <label>Pending Budget Approvation</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Budged Approved</fullName>
+        <default>false</default>
+        <label>Budged Approved</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>75</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Reparation in progress</fullName>
+        <default>false</default>
+        <label>Reparation in progress</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>80</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>100</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Out for Delivery</fullName>
+        <default>false</default>
+        <label>Out for Delivery</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Deilvered</fullName>
+        <default>false</default>
+        <label>Deilvered</label>
         <closed>true</closed>
         <forecastCategory>Closed</forecastCategory>
         <probability>100</probability>
         <won>true</won>
-    </standardValue>
-    <standardValue>
-        <fullName>Closed Lost</fullName>
-        <default>false</default>
-        <label>Closed Lost</label>
-        <closed>true</closed>
-        <forecastCategory>Omitted</forecastCategory>
-        <probability>0</probability>
-        <won>false</won>
     </standardValue>
 </StandardValueSet>

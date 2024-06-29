@@ -10,15 +10,15 @@
     </caseValues>
     <gender>Masculine</gender>
     <validationRules>
-        <errorMessage></errorMessage>
+        <errorMessage><!-- Matrícula errónea --></errorMessage>
         <name>VR_CarNumberPlate</name>
     </validationRules>
     <validationRules>
-        <errorMessage></errorMessage>
+        <errorMessage><!-- Introduce una fecha posterior a hoy --></errorMessage>
         <name>VR_NextITVRevisionDate</name>
     </validationRules>
     <webLinks>
-        <label></label>
+        <label><!-- Cancel_vehicle --></label>
         <name>Cancel_vehicle</name>
     </webLinks>
 </CustomObjectTranslation>

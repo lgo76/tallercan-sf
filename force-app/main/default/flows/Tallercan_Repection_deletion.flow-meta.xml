@@ -2,34 +2,70 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>60.0</apiVersion>
     <assignments>
-        <name>Desassignment_of_Opportunity</name>
-        <label>Desassignment of Opportunity</label>
-        <locationX>264</locationX>
-        <locationY>503</locationY>
+        <name>Assign_Dummy_Account_and_reception</name>
+        <label>Assign Dummy Account and reception</label>
+        <locationX>270</locationX>
+        <locationY>1019</locationY>
         <assignmentItems>
-            <assignToReference>Relatedquotesloop.OpportunityId</assignToReference>
+            <assignToReference>Loopofquotes.AccountId</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue></stringValue>
+                <elementReference>Get_Dummy_Metadata.AccountId__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Loopofquotes.OpportunityId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Dummy_Metadata.ReceptionId__c</elementReference>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Relatedquotesloop</targetReference>
+            <targetReference>Loopofquotes</targetReference>
         </connector>
     </assignments>
+    <decisions>
+        <name>Exists_work_statuses</name>
+        <label>Exists work statuses?</label>
+        <locationX>182</locationX>
+        <locationY>503</locationY>
+        <defaultConnector>
+            <targetReference>Get_quotes</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_work_statuses</leftValueReference>
+                <operator>IsEmpty</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Delete_related_work_statuses</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <description>Preventing deletion errors.</description>
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Repection deletion {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Tallercan] Repection deletion</label>
     <loops>
-        <name>Relatedquotesloop</name>
-        <label>Related quotes loop</label>
-        <locationX>176</locationX>
-        <locationY>395</locationY>
-        <collectionReference>Get_related_quotes</collectionReference>
+        <name>Loopofquotes</name>
+        <label>Loop of quotes</label>
+        <locationX>182</locationX>
+        <locationY>911</locationY>
+        <collectionReference>Get_quotes</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
-            <targetReference>Desassignment_of_Opportunity</targetReference>
+            <targetReference>Assign_Dummy_Account_and_reception</targetReference>
         </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_quotes_to_Dummy_Account</targetReference>
+        </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -50,16 +86,48 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordDeletes>
+        <name>Delete_related_work_statuses</name>
+        <label>Delete related work statuses</label>
+        <locationX>50</locationX>
+        <locationY>611</locationY>
+        <connector>
+            <targetReference>Get_quotes</targetReference>
+        </connector>
+        <inputReference>Get_work_statuses</inputReference>
+    </recordDeletes>
     <recordLookups>
-        <name>Get_related_quotes</name>
-        <label>Get related quotes</label>
-        <locationX>176</locationX>
+        <name>Get_Dummy_Metadata</name>
+        <label>Get Dummy Metadata</label>
+        <locationX>182</locationX>
         <locationY>287</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Relatedquotesloop</targetReference>
+            <targetReference>Get_work_statuses</targetReference>
+        </connector>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Dummy__mdt</object>
+        <sortField>SystemModstamp</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_quotes</name>
+        <label>Get quotes</label>
+        <locationX>182</locationX>
+        <locationY>803</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loopofquotes</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </filters>
         <filters>
             <field>OpportunityId</field>
             <operator>EqualTo</operator>
@@ -71,11 +139,39 @@
         <object>Quote</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <recordLookups>
+        <name>Get_work_statuses</name>
+        <label>Get work statuses</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Exists_work_statuses</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Related_reception_service__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Service_monitoring__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_quotes_to_Dummy_Account</name>
+        <label>Update quotes to Dummy Account</label>
+        <locationX>182</locationX>
+        <locationY>1211</locationY>
+        <inputReference>Get_quotes</inputReference>
+    </recordUpdates>
     <start>
-        <locationX>50</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Get_related_quotes</targetReference>
+            <targetReference>Get_Dummy_Metadata</targetReference>
         </connector>
         <object>Opportunity</object>
         <recordTriggerType>Delete</recordTriggerType>

@@ -10,7 +10,7 @@
     </caseValues>
     <startsWith>Vowel</startsWith>
     <webLinks>
-        <label></label>
+        <label><!-- DeliveryStatus --></label>
         <name>DeliveryStatus</name>
     </webLinks>
 </CustomObjectTranslation>

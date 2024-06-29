@@ -1,47 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>60.0</apiVersion>
-    <assignments>
-        <name>Clear_customer_id_and_reparation_id_of_quote</name>
-        <label>Clear customer id and reparation id of quote</label>
-        <locationX>264</locationX>
-        <locationY>458</locationY>
-        <assignmentItems>
-            <assignToReference>Quotes_loop.OpportunityId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <stringValue></stringValue>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>Quotes_loop.AccountId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <stringValue></stringValue>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Quotes_loop</targetReference>
-        </connector>
-    </assignments>
-    <description>Quit delete customer</description>
+    <description>Adding fault paths.</description>
     <environments>Default</environments>
     <interviewLabel>Customer: Delete related records {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Customer: Delete related records</label>
-    <loops>
-        <name>Quotes_loop</name>
-        <label>Quotes loop</label>
-        <locationX>176</locationX>
-        <locationY>350</locationY>
-        <collectionReference>Get_quotes_of_customer</collectionReference>
-        <iterationOrder>Asc</iterationOrder>
-        <nextValueConnector>
-            <targetReference>Clear_customer_id_and_reparation_id_of_quote</targetReference>
-        </nextValueConnector>
-        <noMoreValuesConnector>
-            <targetReference>Get_vehicles_of_customer</targetReference>
-        </noMoreValuesConnector>
-    </loops>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -65,87 +28,44 @@
         <name>Delete_receptions</name>
         <label>Delete receptions</label>
         <locationX>176</locationX>
-        <locationY>866</locationY>
-        <inputReference>Get_receptions_of_customer</inputReference>
+        <locationY>134</locationY>
+        <connector>
+            <targetReference>Deletecustomervehicles</targetReference>
+        </connector>
+        <faultConnector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Deletecustomervehicles</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>customertodelete.Id</elementReference>
+            </value>
+        </filters>
+        <object>Opportunity</object>
     </recordDeletes>
-    <recordLookups>
-        <name>Get_quotes_of_customer</name>
-        <label>Get quotes of customer</label>
+    <recordDeletes>
+        <name>Deletecustomervehicles</name>
+        <label>Delete customer vehicles</label>
         <locationX>176</locationX>
         <locationY>242</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Quotes_loop</targetReference>
-        </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>AccountId</field>
+            <field>LK_Vehicle_Owner__c</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>customertodelete.Id</elementReference>
             </value>
         </filters>
-        <getFirstRecordOnly>false</getFirstRecordOnly>
-        <object>Quote</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>Get_receptions_of_customer</name>
-        <label>Get receptions of customer</label>
-        <locationX>176</locationX>
-        <locationY>134</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Get_quotes_of_customer</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>AccountId</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>customertodelete.Id</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>false</getFirstRecordOnly>
-        <object>Opportunity</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>Get_vehicles_of_customer</name>
-        <label>Get vehicles of customer</label>
-        <locationX>176</locationX>
-        <locationY>650</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Update_quotes</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>IsDeleted</field>
-            <operator>EqualTo</operator>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Vehicle__c</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordUpdates>
-        <name>Update_quotes</name>
-        <label>Update quotes</label>
-        <locationX>176</locationX>
-        <locationY>758</locationY>
-        <connector>
-            <targetReference>Delete_receptions</targetReference>
-        </connector>
-        <inputReference>Get_quotes_of_customer</inputReference>
-    </recordUpdates>
+    </recordDeletes>
     <start>
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Get_receptions_of_customer</targetReference>
+            <targetReference>Delete_receptions</targetReference>
         </connector>
     </start>
     <status>Active</status>

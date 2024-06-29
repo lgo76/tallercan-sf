@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionCalls>
+        <name>Create_related_OppLineItems_with_Standard_category</name>
+        <label>Create related OppLineItems with Standard category</label>
+        <locationX>182</locationX>
+        <locationY>1082</locationY>
+        <actionName>TallercanUtils</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>category</name>
+            <value>
+                <elementReference>Categorystandard</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>receptionId</name>
+            <value>
+                <elementReference>Get_recent_reception.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>servicesObject</name>
+            <value>
+                <elementReference>table_services.selectedRows</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
     <apiVersion>61.0</apiVersion>
+    <constants>
+        <name>Categorystandard</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Standard</stringValue>
+        </value>
+    </constants>
     <decisions>
         <name>Is_accident</name>
         <label>Is accident?</label>
@@ -26,7 +60,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>Changing name of vehicle for number plate</description>
+    <description>Adding search list to service table.</description>
     <dynamicChoiceSets>
         <name>Getproducts</name>
         <dataType>String</dataType>
@@ -77,10 +111,22 @@
                 <booleanValue>false</booleanValue>
             </value>
         </filters>
+        <filters>
+            <field>LK_Vehicle_Owner__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
         <object>Vehicle__c</object>
         <valueField>Id</valueField>
     </dynamicChoiceSets>
     <environments>Default</environments>
+    <formulas>
+        <name>Receptionnameconstruction</name>
+        <dataType>String</dataType>
+        <expression>{!Type_of_reception}&amp;&apos;-&apos;&amp;{!Select_the_Vehicle.selectedChoiceLabels}&amp;&apos;-&apos;&amp;TEXT({!Date_time_of_reception})</expression>
+    </formulas>
     <interviewLabel>Reparation Assistant {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Reparation Assistant</label>
     <processMetadataValues>
@@ -102,6 +148,107 @@
         </value>
     </processMetadataValues>
     <processType>Flow</processType>
+    <recordCreates>
+        <name>Insert_reception</name>
+        <label>Insert reception</label>
+        <locationX>182</locationX>
+        <locationY>866</locationY>
+        <connector>
+            <targetReference>Get_recent_reception</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Accident_Date__c</field>
+            <value>
+                <elementReference>Accident_date_time</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Accident_code__c</field>
+            <value>
+                <elementReference>Accident_code</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Customer_Amount__c</field>
+            <value>
+                <elementReference>Customer_amount</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Damage_description__c</field>
+            <value>
+                <elementReference>Damage_description</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Date_Time_of_Reception__c</field>
+            <value>
+                <elementReference>Date_time_of_reception</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Description</field>
+            <value>
+                <elementReference>Description</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Insurance__c</field>
+            <value>
+                <elementReference>Insurance_selection</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>LK_Vehicle__c</field>
+            <value>
+                <elementReference>Select_the_Vehicle.selectedChoiceValues</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>Receptionnameconstruction</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Number_of_km__c</field>
+            <value>
+                <elementReference>Number_of_KMs</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Policyholder_name__c</field>
+            <value>
+                <elementReference>Policyholder_name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>StageName</field>
+            <value>
+                <stringValue>Created</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>TXT_Policy_Number__c</field>
+            <value>
+                <elementReference>Policy_number</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <elementReference>Type_of_reception</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
     <recordLookups>
         <name>Get_active_services</name>
         <label>Get active services</label>
@@ -128,6 +275,21 @@
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>Product2</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_recent_reception</name>
+        <label>Get recent reception</label>
+        <locationX>182</locationX>
+        <locationY>974</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_related_OppLineItems_with_Standard_category</targetReference>
+        </connector>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Opportunity</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Desc</sortOrder>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <screens>
@@ -195,6 +357,13 @@
                     <isRequired>true</isRequired>
                 </fields>
                 <fields>
+                    <name>Accident_code</name>
+                    <dataType>String</dataType>
+                    <fieldText>Accident code</fieldText>
+                    <fieldType>InputField</fieldType>
+                    <isRequired>false</isRequired>
+                </fields>
+                <fields>
                     <name>Damage_description</name>
                     <dataType>String</dataType>
                     <fieldText>Damage description</fieldText>
@@ -251,6 +420,9 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Insert_reception</targetReference>
+        </connector>
         <fields>
             <name>services_title</name>
             <fieldText>&lt;p&gt;Select the services you want to apply: &lt;/p&gt;</fieldText>
@@ -292,6 +464,12 @@
                 <name>columns</name>
                 <value>
                     <stringValue>[{&quot;apiName&quot;:&quot;ProductCode&quot;,&quot;guid&quot;:&quot;column-f1a8&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:true,&quot;order&quot;:0,&quot;label&quot;:&quot;Product Code&quot;,&quot;type&quot;:&quot;text&quot;},{&quot;apiName&quot;:&quot;Name&quot;,&quot;guid&quot;:&quot;column-65a8&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:true,&quot;order&quot;:1,&quot;label&quot;:&quot;Product Name&quot;,&quot;type&quot;:&quot;text&quot;}]</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>isShowSearchBar</name>
+                <value>
+                    <booleanValue>true</booleanValue>
                 </value>
             </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
@@ -411,4 +589,11 @@
         </connector>
     </start>
     <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
 </Flow>

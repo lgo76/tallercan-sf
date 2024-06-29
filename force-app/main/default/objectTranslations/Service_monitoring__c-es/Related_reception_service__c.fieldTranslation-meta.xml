@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Related reception of service --></label>
+    <name>Related_reception_service__c</name>
+    <relationshipLabel><!-- Work Statuses (Related reception of service) --></relationshipLabel>
+</CustomFieldTranslation>

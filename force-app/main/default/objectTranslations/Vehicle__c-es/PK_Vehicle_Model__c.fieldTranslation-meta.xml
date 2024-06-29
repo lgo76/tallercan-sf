@@ -1,1465 +1,1465 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label></label>
+    <label><!-- Vehicle Model --></label>
     <name>PK_Vehicle_Model__c</name>
     <picklistValues>
         <masterLabel>124 Spider</masterLabel>
-        <translation></translation>
+        <translation><!-- 124 Spider --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>1500 Classic Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- 1500 Classic Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>1500 Classic Quad Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- 1500 Classic Quad Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>1500 Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- 1500 Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>1500 Quad Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- 1500 Quad Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>2 Series</masterLabel>
-        <translation></translation>
+        <translation><!-- 2 Series --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>2500 Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- 2500 Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>3 Series</masterLabel>
-        <translation></translation>
+        <translation><!-- 3 Series --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>300</masterLabel>
-        <translation></translation>
+        <translation><!-- 300 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>3500 Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- 3500 Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>370Z</masterLabel>
-        <translation></translation>
+        <translation><!-- 370Z --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>4 Series</masterLabel>
-        <translation></translation>
+        <translation><!-- 4 Series --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>4C Spider</masterLabel>
-        <translation></translation>
+        <translation><!-- 4C Spider --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>4Runner</masterLabel>
-        <translation></translation>
+        <translation><!-- 4Runner --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>5 Series</masterLabel>
-        <translation></translation>
+        <translation><!-- 5 Series --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>500L</masterLabel>
-        <translation></translation>
+        <translation><!-- 500L --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>500X</masterLabel>
-        <translation></translation>
+        <translation><!-- 500X --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>7 Series</masterLabel>
-        <translation></translation>
+        <translation><!-- 7 Series --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>718 Boxster</masterLabel>
-        <translation></translation>
+        <translation><!-- 718 Boxster --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>718 Cayman</masterLabel>
-        <translation></translation>
+        <translation><!-- 718 Cayman --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>718 Spyder</masterLabel>
-        <translation></translation>
+        <translation><!-- 718 Spyder --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>8 Series</masterLabel>
-        <translation></translation>
+        <translation><!-- 8 Series --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>86</masterLabel>
-        <translation></translation>
+        <translation><!-- 86 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>911</masterLabel>
-        <translation></translation>
+        <translation><!-- 911 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>A-Class</masterLabel>
-        <translation></translation>
+        <translation><!-- A-Class --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>A3</masterLabel>
-        <translation></translation>
+        <translation><!-- A3 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>A4</masterLabel>
-        <translation></translation>
+        <translation><!-- A4 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>A5</masterLabel>
-        <translation></translation>
+        <translation><!-- A5 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>A6</masterLabel>
-        <translation></translation>
+        <translation><!-- A6 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>A6 allroad</masterLabel>
-        <translation></translation>
+        <translation><!-- A6 allroad --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>A7</masterLabel>
-        <translation></translation>
+        <translation><!-- A7 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Acadia</masterLabel>
-        <translation></translation>
+        <translation><!-- Acadia --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Accent</masterLabel>
-        <translation></translation>
+        <translation><!-- Accent --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Accord</masterLabel>
-        <translation></translation>
+        <translation><!-- Accord --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Accord Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Accord Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Altima</masterLabel>
-        <translation></translation>
+        <translation><!-- Altima --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Armada</masterLabel>
-        <translation></translation>
+        <translation><!-- Armada --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Arteon</masterLabel>
-        <translation></translation>
+        <translation><!-- Arteon --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Ascent</masterLabel>
-        <translation></translation>
+        <translation><!-- Ascent --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Atlas</masterLabel>
-        <translation></translation>
+        <translation><!-- Atlas --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Atlas Cross Sport</masterLabel>
-        <translation></translation>
+        <translation><!-- Atlas Cross Sport --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Avalon</masterLabel>
-        <translation></translation>
+        <translation><!-- Avalon --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Avalon Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Avalon Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Aviator</masterLabel>
-        <translation></translation>
+        <translation><!-- Aviator --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>BRZ</masterLabel>
-        <translation></translation>
+        <translation><!-- BRZ --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Blazer</masterLabel>
-        <translation></translation>
+        <translation><!-- Blazer --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Bolt EV</masterLabel>
-        <translation></translation>
+        <translation><!-- Bolt EV --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>C-Class</masterLabel>
-        <translation></translation>
+        <translation><!-- C-Class --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>C-HR</masterLabel>
-        <translation></translation>
+        <translation><!-- C-HR --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CLA</masterLabel>
-        <translation></translation>
+        <translation><!-- CLA --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CLS</masterLabel>
-        <translation></translation>
+        <translation><!-- CLS --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CR-V</masterLabel>
-        <translation></translation>
+        <translation><!-- CR-V --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CR-V Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- CR-V Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CT4</masterLabel>
-        <translation></translation>
+        <translation><!-- CT4 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CT5</masterLabel>
-        <translation></translation>
+        <translation><!-- CT5 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CT6</masterLabel>
-        <translation></translation>
+        <translation><!-- CT6 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CT6-V</masterLabel>
-        <translation></translation>
+        <translation><!-- CT6-V --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CX-3</masterLabel>
-        <translation></translation>
+        <translation><!-- CX-3 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CX-30</masterLabel>
-        <translation></translation>
+        <translation><!-- CX-30 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CX-5</masterLabel>
-        <translation></translation>
+        <translation><!-- CX-5 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CX-9</masterLabel>
-        <translation></translation>
+        <translation><!-- CX-9 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Cadenza</masterLabel>
-        <translation></translation>
+        <translation><!-- Cadenza --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Camaro</masterLabel>
-        <translation></translation>
+        <translation><!-- Camaro --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Camry</masterLabel>
-        <translation></translation>
+        <translation><!-- Camry --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Camry Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Camry Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Canyon Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Canyon Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Cayenne</masterLabel>
-        <translation></translation>
+        <translation><!-- Cayenne --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Cayenne Coupe</masterLabel>
-        <translation></translation>
+        <translation><!-- Cayenne Coupe --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Challenger</masterLabel>
-        <translation></translation>
+        <translation><!-- Challenger --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Charger</masterLabel>
-        <translation></translation>
+        <translation><!-- Charger --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Cherokee</masterLabel>
-        <translation></translation>
+        <translation><!-- Cherokee --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Civic</masterLabel>
-        <translation></translation>
+        <translation><!-- Civic --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Civic Type R</masterLabel>
-        <translation></translation>
+        <translation><!-- Civic Type R --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Clarity Fuel Cell</masterLabel>
-        <translation></translation>
+        <translation><!-- Clarity Fuel Cell --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Clarity Plug-in Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Clarity Plug-in Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Clubman</masterLabel>
-        <translation></translation>
+        <translation><!-- Clubman --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Colorado Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Colorado Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Colorado Extended Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Colorado Extended Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Compass</masterLabel>
-        <translation></translation>
+        <translation><!-- Compass --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Continental</masterLabel>
-        <translation></translation>
+        <translation><!-- Continental --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Corolla</masterLabel>
-        <translation></translation>
+        <translation><!-- Corolla --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Corolla Hatchback</masterLabel>
-        <translation></translation>
+        <translation><!-- Corolla Hatchback --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Corolla Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Corolla Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Corsair</masterLabel>
-        <translation></translation>
+        <translation><!-- Corsair --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Corvette</masterLabel>
-        <translation></translation>
+        <translation><!-- Corvette --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Countryman</masterLabel>
-        <translation></translation>
+        <translation><!-- Countryman --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Crosstrek</masterLabel>
-        <translation></translation>
+        <translation><!-- Crosstrek --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Defender 110</masterLabel>
-        <translation></translation>
+        <translation><!-- Defender 110 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Defender 90</masterLabel>
-        <translation></translation>
+        <translation><!-- Defender 90 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Discovery</masterLabel>
-        <translation></translation>
+        <translation><!-- Discovery --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Discovery Sport</masterLabel>
-        <translation></translation>
+        <translation><!-- Discovery Sport --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Durango</masterLabel>
-        <translation></translation>
+        <translation><!-- Durango --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>E-Class</masterLabel>
-        <translation></translation>
+        <translation><!-- E-Class --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>E-PACE</masterLabel>
-        <translation></translation>
+        <translation><!-- E-PACE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>ES</masterLabel>
-        <translation></translation>
+        <translation><!-- ES --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Eclipse Cross</masterLabel>
-        <translation></translation>
+        <translation><!-- Eclipse Cross --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>EcoSport</masterLabel>
-        <translation></translation>
+        <translation><!-- EcoSport --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Edge</masterLabel>
-        <translation></translation>
+        <translation><!-- Edge --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Elantra</masterLabel>
-        <translation></translation>
+        <translation><!-- Elantra --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Elantra GT</masterLabel>
-        <translation></translation>
+        <translation><!-- Elantra GT --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Enclave</masterLabel>
-        <translation></translation>
+        <translation><!-- Enclave --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Encore</masterLabel>
-        <translation></translation>
+        <translation><!-- Encore --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Encore GX</masterLabel>
-        <translation></translation>
+        <translation><!-- Encore GX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Envision</masterLabel>
-        <translation></translation>
+        <translation><!-- Envision --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Equinox</masterLabel>
-        <translation></translation>
+        <translation><!-- Equinox --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Escalade</masterLabel>
-        <translation></translation>
+        <translation><!-- Escalade --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Escalade ESV</masterLabel>
-        <translation></translation>
+        <translation><!-- Escalade ESV --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Escape</masterLabel>
-        <translation></translation>
+        <translation><!-- Escape --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Expedition</masterLabel>
-        <translation></translation>
+        <translation><!-- Expedition --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Expedition MAX</masterLabel>
-        <translation></translation>
+        <translation><!-- Expedition MAX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Explorer</masterLabel>
-        <translation></translation>
+        <translation><!-- Explorer --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Express 2500 Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- Express 2500 Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Express 3500 Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- Express 3500 Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F-PACE</masterLabel>
-        <translation></translation>
+        <translation><!-- F-PACE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F-TYPE</masterLabel>
-        <translation></translation>
+        <translation><!-- F-TYPE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F150 Regular Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- F150 Regular Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F150 Super Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- F150 Super Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F150 SuperCrew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- F150 SuperCrew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F250 Super Duty Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- F250 Super Duty Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F250 Super Duty Regular Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- F250 Super Duty Regular Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F250 Super Duty Super Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- F250 Super Duty Super Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F350 Super Duty Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- F350 Super Duty Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F350 Super Duty Super Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- F350 Super Duty Super Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>F450 Super Duty Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- F450 Super Duty Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Fit</masterLabel>
-        <translation></translation>
+        <translation><!-- Fit --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Forester</masterLabel>
-        <translation></translation>
+        <translation><!-- Forester --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Forte</masterLabel>
-        <translation></translation>
+        <translation><!-- Forte --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Frontier Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Frontier Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Frontier King Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Frontier King Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Fusion</masterLabel>
-        <translation></translation>
+        <translation><!-- Fusion --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Fusion Plug-in Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Fusion Plug-in Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>G-Class</masterLabel>
-        <translation></translation>
+        <translation><!-- G-Class --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>G70</masterLabel>
-        <translation></translation>
+        <translation><!-- G70 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>G80</masterLabel>
-        <translation></translation>
+        <translation><!-- G80 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>G90</masterLabel>
-        <translation></translation>
+        <translation><!-- G90 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>GLA</masterLabel>
-        <translation></translation>
+        <translation><!-- GLA --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>GLB</masterLabel>
-        <translation></translation>
+        <translation><!-- GLB --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>GLC</masterLabel>
-        <translation></translation>
+        <translation><!-- GLC --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>GLE</masterLabel>
-        <translation></translation>
+        <translation><!-- GLE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>GLS</masterLabel>
-        <translation></translation>
+        <translation><!-- GLS --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>GR Supra</masterLabel>
-        <translation></translation>
+        <translation><!-- GR Supra --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>GS</masterLabel>
-        <translation></translation>
+        <translation><!-- GS --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>GT-R</masterLabel>
-        <translation></translation>
+        <translation><!-- GT-R --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>GX</masterLabel>
-        <translation></translation>
+        <translation><!-- GX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Giulia</masterLabel>
-        <translation></translation>
+        <translation><!-- Giulia --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Gladiator</masterLabel>
-        <translation></translation>
+        <translation><!-- Gladiator --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Golf</masterLabel>
-        <translation></translation>
+        <translation><!-- Golf --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Golf GTI</masterLabel>
-        <translation></translation>
+        <translation><!-- Golf GTI --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Grand Caravan Passenger</masterLabel>
-        <translation></translation>
+        <translation><!-- Grand Caravan Passenger --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Grand Cherokee</masterLabel>
-        <translation></translation>
+        <translation><!-- Grand Cherokee --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>HR-V</masterLabel>
-        <translation></translation>
+        <translation><!-- HR-V --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Hardtop 2 Door</masterLabel>
-        <translation></translation>
+        <translation><!-- Hardtop 2 Door --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Hardtop 4 Door</masterLabel>
-        <translation></translation>
+        <translation><!-- Hardtop 4 Door --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Highlander</masterLabel>
-        <translation></translation>
+        <translation><!-- Highlander --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Highlander Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Highlander Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>I-PACE</masterLabel>
-        <translation></translation>
+        <translation><!-- I-PACE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>ILX</masterLabel>
-        <translation></translation>
+        <translation><!-- ILX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>IS</masterLabel>
-        <translation></translation>
+        <translation><!-- IS --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Impala</masterLabel>
-        <translation></translation>
+        <translation><!-- Impala --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Impreza</masterLabel>
-        <translation></translation>
+        <translation><!-- Impreza --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Insight</masterLabel>
-        <translation></translation>
+        <translation><!-- Insight --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Ioniq Electric</masterLabel>
-        <translation></translation>
+        <translation><!-- Ioniq Electric --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Ioniq Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Ioniq Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Ioniq Plug-in Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Ioniq Plug-in Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Jetta</masterLabel>
-        <translation></translation>
+        <translation><!-- Jetta --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Jetta GLI</masterLabel>
-        <translation></translation>
+        <translation><!-- Jetta GLI --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Journey</masterLabel>
-        <translation></translation>
+        <translation><!-- Journey --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>K900</masterLabel>
-        <translation></translation>
+        <translation><!-- K900 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Kicks</masterLabel>
-        <translation></translation>
+        <translation><!-- Kicks --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Kona</masterLabel>
-        <translation></translation>
+        <translation><!-- Kona --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Kona Electric</masterLabel>
-        <translation></translation>
+        <translation><!-- Kona Electric --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>LC</masterLabel>
-        <translation></translation>
+        <translation><!-- LC --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>LEAF</masterLabel>
-        <translation></translation>
+        <translation><!-- LEAF --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>LS</masterLabel>
-        <translation></translation>
+        <translation><!-- LS --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>LX</masterLabel>
-        <translation></translation>
+        <translation><!-- LX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Land Cruiser</masterLabel>
-        <translation></translation>
+        <translation><!-- Land Cruiser --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Legacy</masterLabel>
-        <translation></translation>
+        <translation><!-- Legacy --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>M2</masterLabel>
-        <translation></translation>
+        <translation><!-- M2 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>MAZDA3</masterLabel>
-        <translation></translation>
+        <translation><!-- MAZDA3 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>MAZDA6</masterLabel>
-        <translation></translation>
+        <translation><!-- MAZDA6 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>MDX</masterLabel>
-        <translation></translation>
+        <translation><!-- MDX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>MDX Sport Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- MDX Sport Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>MKZ</masterLabel>
-        <translation></translation>
+        <translation><!-- MKZ --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>MX-5 Miata</masterLabel>
-        <translation></translation>
+        <translation><!-- MX-5 Miata --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>MX-5 Miata RF</masterLabel>
-        <translation></translation>
+        <translation><!-- MX-5 Miata RF --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Macan</masterLabel>
-        <translation></translation>
+        <translation><!-- Macan --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Malibu</masterLabel>
-        <translation></translation>
+        <translation><!-- Malibu --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Maxima</masterLabel>
-        <translation></translation>
+        <translation><!-- Maxima --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mercedes-AMG A-Class</masterLabel>
-        <translation></translation>
+        <translation><!-- Mercedes-AMG A-Class --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mercedes-AMG C-Class</masterLabel>
-        <translation></translation>
+        <translation><!-- Mercedes-AMG C-Class --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mercedes-AMG CLS</masterLabel>
-        <translation></translation>
+        <translation><!-- Mercedes-AMG CLS --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mercedes-AMG GLC</masterLabel>
-        <translation></translation>
+        <translation><!-- Mercedes-AMG GLC --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mercedes-AMG GLC Coupe</masterLabel>
-        <translation></translation>
+        <translation><!-- Mercedes-AMG GLC Coupe --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Metris WORKER Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- Metris WORKER Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Metris WORKER Passenger</masterLabel>
-        <translation></translation>
+        <translation><!-- Metris WORKER Passenger --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mirage</masterLabel>
-        <translation></translation>
+        <translation><!-- Mirage --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mirage G4</masterLabel>
-        <translation></translation>
+        <translation><!-- Mirage G4 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mirai</masterLabel>
-        <translation></translation>
+        <translation><!-- Mirai --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Model 3</masterLabel>
-        <translation></translation>
+        <translation><!-- Model 3 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Model S</masterLabel>
-        <translation></translation>
+        <translation><!-- Model S --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Model X</masterLabel>
-        <translation></translation>
+        <translation><!-- Model X --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Model Y</masterLabel>
-        <translation></translation>
+        <translation><!-- Model Y --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Murano</masterLabel>
-        <translation></translation>
+        <translation><!-- Murano --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Mustang</masterLabel>
-        <translation></translation>
+        <translation><!-- Mustang --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>NEXO</masterLabel>
-        <translation></translation>
+        <translation><!-- NEXO --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>NSX</masterLabel>
-        <translation></translation>
+        <translation><!-- NSX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>NV1500 Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- NV1500 Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>NV200</masterLabel>
-        <translation></translation>
+        <translation><!-- NV200 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>NV2500 HD Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- NV2500 HD Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>NV3500 HD Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- NV3500 HD Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>NV3500 HD Passenger</masterLabel>
-        <translation></translation>
+        <translation><!-- NV3500 HD Passenger --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>NX</masterLabel>
-        <translation></translation>
+        <translation><!-- NX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Nautilus</masterLabel>
-        <translation></translation>
+        <translation><!-- Nautilus --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Navigator</masterLabel>
-        <translation></translation>
+        <translation><!-- Navigator --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Navigator L</masterLabel>
-        <translation></translation>
+        <translation><!-- Navigator L --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Niro</masterLabel>
-        <translation></translation>
+        <translation><!-- Niro --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Niro EV</masterLabel>
-        <translation></translation>
+        <translation><!-- Niro EV --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Niro Plug-in Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Niro Plug-in Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Odyssey</masterLabel>
-        <translation></translation>
+        <translation><!-- Odyssey --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Optima</masterLabel>
-        <translation></translation>
+        <translation><!-- Optima --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Optima Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Optima Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Optima Plug-in Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Optima Plug-in Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Outback</masterLabel>
-        <translation></translation>
+        <translation><!-- Outback --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Outlander</masterLabel>
-        <translation></translation>
+        <translation><!-- Outlander --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Outlander PHEV</masterLabel>
-        <translation></translation>
+        <translation><!-- Outlander PHEV --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Outlander Sport</masterLabel>
-        <translation></translation>
+        <translation><!-- Outlander Sport --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Pacifica</masterLabel>
-        <translation></translation>
+        <translation><!-- Pacifica --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Pacifica Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Pacifica Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Palisade</masterLabel>
-        <translation></translation>
+        <translation><!-- Palisade --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Panamera</masterLabel>
-        <translation></translation>
+        <translation><!-- Panamera --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Passat</masterLabel>
-        <translation></translation>
+        <translation><!-- Passat --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Passport</masterLabel>
-        <translation></translation>
+        <translation><!-- Passport --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Pathfinder</masterLabel>
-        <translation></translation>
+        <translation><!-- Pathfinder --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Pilot</masterLabel>
-        <translation></translation>
+        <translation><!-- Pilot --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Prius</masterLabel>
-        <translation></translation>
+        <translation><!-- Prius --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Prius Prime</masterLabel>
-        <translation></translation>
+        <translation><!-- Prius Prime --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>ProMaster Cargo Van</masterLabel>
-        <translation></translation>
+        <translation><!-- ProMaster Cargo Van --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>ProMaster City</masterLabel>
-        <translation></translation>
+        <translation><!-- ProMaster City --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Q3</masterLabel>
-        <translation></translation>
+        <translation><!-- Q3 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Q5</masterLabel>
-        <translation></translation>
+        <translation><!-- Q5 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Q50</masterLabel>
-        <translation></translation>
+        <translation><!-- Q50 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Q60</masterLabel>
-        <translation></translation>
+        <translation><!-- Q60 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Q7</masterLabel>
-        <translation></translation>
+        <translation><!-- Q7 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Q8</masterLabel>
-        <translation></translation>
+        <translation><!-- Q8 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>QX50</masterLabel>
-        <translation></translation>
+        <translation><!-- QX50 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>QX60</masterLabel>
-        <translation></translation>
+        <translation><!-- QX60 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>QX80</masterLabel>
-        <translation></translation>
+        <translation><!-- QX80 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>R8</masterLabel>
-        <translation></translation>
+        <translation><!-- R8 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>RAV4</masterLabel>
-        <translation></translation>
+        <translation><!-- RAV4 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>RAV4 Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- RAV4 Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>RC</masterLabel>
-        <translation></translation>
+        <translation><!-- RC --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>RDX</masterLabel>
-        <translation></translation>
+        <translation><!-- RDX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>RLX</masterLabel>
-        <translation></translation>
+        <translation><!-- RLX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>RLX Sport Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- RLX Sport Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>RX</masterLabel>
-        <translation></translation>
+        <translation><!-- RX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Range Rover</masterLabel>
-        <translation></translation>
+        <translation><!-- Range Rover --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Range Rover Evoque</masterLabel>
-        <translation></translation>
+        <translation><!-- Range Rover Evoque --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Range Rover Sport</masterLabel>
-        <translation></translation>
+        <translation><!-- Range Rover Sport --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Range Rover Velar</masterLabel>
-        <translation></translation>
+        <translation><!-- Range Rover Velar --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Ranger SuperCab</masterLabel>
-        <translation></translation>
+        <translation><!-- Ranger SuperCab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Ranger SuperCrew</masterLabel>
-        <translation></translation>
+        <translation><!-- Ranger SuperCrew --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Regal Sportback</masterLabel>
-        <translation></translation>
+        <translation><!-- Regal Sportback --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Regal TourX</masterLabel>
-        <translation></translation>
+        <translation><!-- Regal TourX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Renegade</masterLabel>
-        <translation></translation>
+        <translation><!-- Renegade --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Ridgeline</masterLabel>
-        <translation></translation>
+        <translation><!-- Ridgeline --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Rio</masterLabel>
-        <translation></translation>
+        <translation><!-- Rio --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Rogue</masterLabel>
-        <translation></translation>
+        <translation><!-- Rogue --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Rogue Sport</masterLabel>
-        <translation></translation>
+        <translation><!-- Rogue Sport --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>S-Class</masterLabel>
-        <translation></translation>
+        <translation><!-- S-Class --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>S4</masterLabel>
-        <translation></translation>
+        <translation><!-- S4 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>S60</masterLabel>
-        <translation></translation>
+        <translation><!-- S60 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>S8</masterLabel>
-        <translation></translation>
+        <translation><!-- S8 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>S90</masterLabel>
-        <translation></translation>
+        <translation><!-- S90 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>SLC</masterLabel>
-        <translation></translation>
+        <translation><!-- SLC --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>SQ5</masterLabel>
-        <translation></translation>
+        <translation><!-- SQ5 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Santa Fe</masterLabel>
-        <translation></translation>
+        <translation><!-- Santa Fe --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sedona</masterLabel>
-        <translation></translation>
+        <translation><!-- Sedona --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sentra</masterLabel>
-        <translation></translation>
+        <translation><!-- Sentra --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sequoia</masterLabel>
-        <translation></translation>
+        <translation><!-- Sequoia --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sienna</masterLabel>
-        <translation></translation>
+        <translation><!-- Sienna --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sierra 1500 Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Sierra 1500 Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sierra 1500 Double Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Sierra 1500 Double Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sierra 1500 Regular Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Sierra 1500 Regular Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sierra 2500 HD Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Sierra 2500 HD Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sierra 3500 HD Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Sierra 3500 HD Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Silverado 1500 Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Silverado 1500 Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Silverado 1500 Double Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Silverado 1500 Double Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Silverado 1500 Regular Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Silverado 1500 Regular Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Silverado 2500 HD Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Silverado 2500 HD Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Silverado 2500 HD Double Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Silverado 2500 HD Double Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Silverado 3500 HD Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Silverado 3500 HD Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sonata</masterLabel>
-        <translation></translation>
+        <translation><!-- Sonata --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sonata Hybrid</masterLabel>
-        <translation></translation>
+        <translation><!-- Sonata Hybrid --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sonic</masterLabel>
-        <translation></translation>
+        <translation><!-- Sonic --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sorento</masterLabel>
-        <translation></translation>
+        <translation><!-- Sorento --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Soul</masterLabel>
-        <translation></translation>
+        <translation><!-- Soul --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Spark</masterLabel>
-        <translation></translation>
+        <translation><!-- Spark --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sportage</masterLabel>
-        <translation></translation>
+        <translation><!-- Sportage --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 1500 Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 1500 Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 1500 Passenger</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 1500 Passenger --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 2500 Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 2500 Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 2500 Crew</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 2500 Crew --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 2500 Passenger</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 2500 Passenger --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 3500 Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 3500 Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 3500 Crew</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 3500 Crew --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 3500 XD Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 3500 XD Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 3500 XD Crew</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 3500 XD Crew --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 3500XD Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 3500XD Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 4500 Cargo</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 4500 Cargo --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Sprinter 4500 Crew</masterLabel>
-        <translation></translation>
+        <translation><!-- Sprinter 4500 Crew --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Stelvio</masterLabel>
-        <translation></translation>
+        <translation><!-- Stelvio --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Stinger</masterLabel>
-        <translation></translation>
+        <translation><!-- Stinger --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Suburban</masterLabel>
-        <translation></translation>
+        <translation><!-- Suburban --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>TITAN XD Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- TITAN XD Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>TLX</masterLabel>
-        <translation></translation>
+        <translation><!-- TLX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>TT</masterLabel>
-        <translation></translation>
+        <translation><!-- TT --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Tacoma Access Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Tacoma Access Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Tacoma Double Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Tacoma Double Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Tahoe</masterLabel>
-        <translation></translation>
+        <translation><!-- Tahoe --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Taycan</masterLabel>
-        <translation></translation>
+        <translation><!-- Taycan --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Telluride</masterLabel>
-        <translation></translation>
+        <translation><!-- Telluride --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Terrain</masterLabel>
-        <translation></translation>
+        <translation><!-- Terrain --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Tiguan</masterLabel>
-        <translation></translation>
+        <translation><!-- Tiguan --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Titan Crew Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Titan Crew Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Titan King Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Titan King Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Transit 250 Cargo Van</masterLabel>
-        <translation></translation>
+        <translation><!-- Transit 250 Cargo Van --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Transit 350 Passenger Van</masterLabel>
-        <translation></translation>
+        <translation><!-- Transit 350 Passenger Van --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Transit Connect Cargo Van</masterLabel>
-        <translation></translation>
+        <translation><!-- Transit Connect Cargo Van --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Transit Connect Passenger Wagon</masterLabel>
-        <translation></translation>
+        <translation><!-- Transit Connect Passenger Wagon --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Traverse</masterLabel>
-        <translation></translation>
+        <translation><!-- Traverse --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Trax</masterLabel>
-        <translation></translation>
+        <translation><!-- Trax --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Tucson</masterLabel>
-        <translation></translation>
+        <translation><!-- Tucson --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Tundra CrewMax</masterLabel>
-        <translation></translation>
+        <translation><!-- Tundra CrewMax --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Tundra Double Cab</masterLabel>
-        <translation></translation>
+        <translation><!-- Tundra Double Cab --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>UX</masterLabel>
-        <translation></translation>
+        <translation><!-- UX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>V60</masterLabel>
-        <translation></translation>
+        <translation><!-- V60 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>V90</masterLabel>
-        <translation></translation>
+        <translation><!-- V90 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Veloster</masterLabel>
-        <translation></translation>
+        <translation><!-- Veloster --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Venue</masterLabel>
-        <translation></translation>
+        <translation><!-- Venue --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Versa</masterLabel>
-        <translation></translation>
+        <translation><!-- Versa --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Voyager</masterLabel>
-        <translation></translation>
+        <translation><!-- Voyager --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>WRX</masterLabel>
-        <translation></translation>
+        <translation><!-- WRX --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Wrangler</masterLabel>
-        <translation></translation>
+        <translation><!-- Wrangler --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Wrangler Unlimited</masterLabel>
-        <translation></translation>
+        <translation><!-- Wrangler Unlimited --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>X1</masterLabel>
-        <translation></translation>
+        <translation><!-- X1 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>X2</masterLabel>
-        <translation></translation>
+        <translation><!-- X2 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>X3</masterLabel>
-        <translation></translation>
+        <translation><!-- X3 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>X3 M</masterLabel>
-        <translation></translation>
+        <translation><!-- X3 M --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>X4</masterLabel>
-        <translation></translation>
+        <translation><!-- X4 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>X5</masterLabel>
-        <translation></translation>
+        <translation><!-- X5 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>X6</masterLabel>
-        <translation></translation>
+        <translation><!-- X6 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>X7</masterLabel>
-        <translation></translation>
+        <translation><!-- X7 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>XC40</masterLabel>
-        <translation></translation>
+        <translation><!-- XC40 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>XC60</masterLabel>
-        <translation></translation>
+        <translation><!-- XC60 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>XC90</masterLabel>
-        <translation></translation>
+        <translation><!-- XC90 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>XE</masterLabel>
-        <translation></translation>
+        <translation><!-- XE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>XF</masterLabel>
-        <translation></translation>
+        <translation><!-- XF --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>XT4</masterLabel>
-        <translation></translation>
+        <translation><!-- XT4 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>XT5</masterLabel>
-        <translation></translation>
+        <translation><!-- XT5 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>XT6</masterLabel>
-        <translation></translation>
+        <translation><!-- XT6 --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Yaris</masterLabel>
-        <translation></translation>
+        <translation><!-- Yaris --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Yaris Hatchback</masterLabel>
-        <translation></translation>
+        <translation><!-- Yaris Hatchback --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Yukon</masterLabel>
-        <translation></translation>
+        <translation><!-- Yukon --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Yukon XL</masterLabel>
-        <translation></translation>
+        <translation><!-- Yukon XL --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Z4</masterLabel>
-        <translation></translation>
+        <translation><!-- Z4 --></translation>
     </picklistValues>
 </CustomFieldTranslation>

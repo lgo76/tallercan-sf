@@ -7,10 +7,10 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
-                            <value>Edit</value>
+                            <value>Account.Reparation_Assistant</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>Global.NewOpportunity</value>
+                            <value>Edit</value>
                         </valueListItems>
                         <valueListItems>
                             <value>CustomButton.Account.Deactivate_customer</value>

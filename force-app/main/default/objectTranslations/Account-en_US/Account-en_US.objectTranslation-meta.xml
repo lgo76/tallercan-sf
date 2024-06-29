@@ -9,16 +9,16 @@
         <value>Customers</value>
     </caseValues>
     <recordTypes>
-        <label></label>
+        <label><!-- Business Account --></label>
         <name>Business_Account</name>
     </recordTypes>
     <startsWith>Vowel</startsWith>
     <webLinks>
-        <label></label>
+        <label><!-- Billing --></label>
         <name>Billing</name>
     </webLinks>
     <webLinks>
-        <label></label>
+        <label><!-- Deactivate_customer --></label>
         <name>Deactivate_customer</name>
     </webLinks>
 </CustomObjectTranslation>

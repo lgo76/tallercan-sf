@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label></label>
+    <label><!-- Fuel Type --></label>
     <name>PK_Fuel_Type__c</name>
     <picklistValues>
         <masterLabel>Diesel Oil</masterLabel>
-        <translation></translation>
+        <translation><!-- Diesel Oil --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Fuel Oil</masterLabel>
-        <translation></translation>
+        <translation><!-- Fuel Oil --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Solar Oil</masterLabel>
-        <translation></translation>
+        <translation><!-- Solar Oil --></translation>
     </picklistValues>
 </CustomFieldTranslation>

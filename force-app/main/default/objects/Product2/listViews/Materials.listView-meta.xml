@@ -6,6 +6,7 @@
     <columns>PRODUCT2.DESCRIPTION</columns>
     <columns>PRODUCT2.FAMILY</columns>
     <columns>PRODUCT2.PRODUCT_CLASS</columns>
+    <columns>Category__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>Is_service__c</field>

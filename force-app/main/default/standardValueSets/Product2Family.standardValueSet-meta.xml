@@ -7,29 +7,34 @@
         <label>None</label>
     </standardValue>
     <standardValue>
-        <fullName>Oil</fullName>
+        <fullName>Engine Oil</fullName>
         <default>false</default>
-        <label>Oil</label>
+        <label>Engine Oil</label>
     </standardValue>
     <standardValue>
-        <fullName>Filter</fullName>
+        <fullName>Oil Filter</fullName>
         <default>false</default>
-        <label>Filter</label>
+        <label>Oil Filter</label>
     </standardValue>
     <standardValue>
-        <fullName>Brakes</fullName>
+        <fullName>Brake Pads</fullName>
         <default>false</default>
-        <label>Brakes</label>
+        <label>Brake Pads</label>
     </standardValue>
     <standardValue>
-        <fullName>Fluid</fullName>
+        <fullName>Brake Rotors</fullName>
         <default>false</default>
-        <label>Fluid</label>
+        <label>Brake Rotors</label>
     </standardValue>
     <standardValue>
-        <fullName>Weights</fullName>
+        <fullName>Brake Fluid</fullName>
         <default>false</default>
-        <label>Weights</label>
+        <label>Brake Fluid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wheel Weights</fullName>
+        <default>false</default>
+        <label>Wheel Weights</label>
     </standardValue>
     <standardValue>
         <fullName>Tires</fullName>
@@ -37,63 +42,143 @@
         <label>Tires</label>
     </standardValue>
     <standardValue>
-        <fullName>Custom</fullName>
+        <fullName>Varies by Repair</fullName>
         <default>false</default>
-        <label>Custom</label>
+        <label>Varies by Repair</label>
     </standardValue>
     <standardValue>
-        <fullName>Engine</fullName>
+        <fullName>Rebuilt or New Engine</fullName>
         <default>false</default>
-        <label>Engine</label>
+        <label>Rebuilt or New Engine</label>
     </standardValue>
     <standardValue>
-        <fullName>Parts</fullName>
+        <fullName>Transmission Fluid</fullName>
         <default>false</default>
-        <label>Parts</label>
+        <label>Transmission Fluid</label>
     </standardValue>
     <standardValue>
-        <fullName>Transmission</fullName>
+        <fullName>Transmission Parts</fullName>
         <default>false</default>
-        <label>Transmission</label>
+        <label>Transmission Parts</label>
     </standardValue>
     <standardValue>
-        <fullName>Electrical</fullName>
+        <fullName>Rebuilt or New Transmission</fullName>
         <default>false</default>
-        <label>Electrical</label>
+        <label>Rebuilt or New Transmission</label>
     </standardValue>
     <standardValue>
-        <fullName>Suspension</fullName>
+        <fullName>Battery</fullName>
         <default>false</default>
-        <label>Suspension</label>
+        <label>Battery</label>
     </standardValue>
     <standardValue>
-        <fullName>Cooling</fullName>
+        <fullName>Shocks/Struts</fullName>
         <default>false</default>
-        <label>Cooling</label>
+        <label>Shocks/Struts</label>
     </standardValue>
     <standardValue>
-        <fullName>Exhaust</fullName>
+        <fullName>Ball Joints</fullName>
         <default>false</default>
-        <label>Exhaust</label>
+        <label>Ball Joints</label>
     </standardValue>
     <standardValue>
-        <fullName>AC</fullName>
+        <fullName>Control Arms</fullName>
         <default>false</default>
-        <label>AC</label>
+        <label>Control Arms</label>
     </standardValue>
     <standardValue>
-        <fullName>Fuel</fullName>
+        <fullName>Radiator</fullName>
         <default>false</default>
-        <label>Fuel</label>
+        <label>Radiator</label>
     </standardValue>
     <standardValue>
-        <fullName>Steering</fullName>
+        <fullName>Coolant</fullName>
         <default>false</default>
-        <label>Steering</label>
+        <label>Coolant</label>
     </standardValue>
     <standardValue>
-        <fullName>Ignition</fullName>
+        <fullName>Water Pump</fullName>
         <default>false</default>
-        <label>Ignition</label>
+        <label>Water Pump</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Muffler</fullName>
+        <default>false</default>
+        <label>Muffler</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Catalytic Converter</fullName>
+        <default>false</default>
+        <label>Catalytic Converter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exhaust Pipe</fullName>
+        <default>false</default>
+        <label>Exhaust Pipe</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Refrigerant</fullName>
+        <default>false</default>
+        <label>Refrigerant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AC Compressor</fullName>
+        <default>false</default>
+        <label>AC Compressor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Alternator</fullName>
+        <default>false</default>
+        <label>Alternator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Starter</fullName>
+        <default>false</default>
+        <label>Starter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fuel Injector Cleaner</fullName>
+        <default>false</default>
+        <label>Fuel Injector Cleaner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fuel Pump</fullName>
+        <default>false</default>
+        <label>Fuel Pump</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fuel Filter</fullName>
+        <default>false</default>
+        <label>Fuel Filter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Power Steering Pump</fullName>
+        <default>false</default>
+        <label>Power Steering Pump</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Steering Rack</fullName>
+        <default>false</default>
+        <label>Steering Rack</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tie Rods</fullName>
+        <default>false</default>
+        <label>Tie Rods</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spark Plugs</fullName>
+        <default>false</default>
+        <label>Spark Plugs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Timing Belt</fullName>
+        <default>false</default>
+        <label>Timing Belt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Serpentine Belt</fullName>
+        <default>false</default>
+        <label>Serpentine Belt</label>
     </standardValue>
 </StandardValueSet>

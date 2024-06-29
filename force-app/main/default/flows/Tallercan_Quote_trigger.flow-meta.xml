@@ -39,23 +39,52 @@
         <locationX>264</locationX>
         <locationY>947</locationY>
         <assignmentItems>
-            <assignToReference>monitoringservice.LK_Related_Reception__c</assignToReference>
-            <operator>Add</operator>
+            <assignToReference>monitoringservice.Related_reception_service__c</assignToReference>
+            <operator>Assign</operator>
             <value>
-                <elementReference>$Record__Prior.OpportunityId</elementReference>
+                <elementReference>$Record.OpportunityId</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>monitoringservice.related_service__c</assignToReference>
-            <operator>Add</operator>
+            <operator>Assign</operator>
             <value>
                 <elementReference>Service_loop.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>monitoringservice.Customer_NIF__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Opportunity.Account.Document_Number__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>monitoringservice.Vehicle_Number_Plate__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Opportunity.LK_Vehicle__r.TX_Car_Number_Plate__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>monitoringservice.TXT_Reception_Id__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Opportunity.External_reception_code__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>monitoringservice.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Service_loop.Name</elementReference>
             </value>
         </assignmentItems>
         <connector>
             <targetReference>Add_service_monitoring_to_list</targetReference>
         </connector>
     </assignments>
+    <description>Adding reception status changed.</description>
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Quote trigger {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Tallercan] Quote trigger</label>
@@ -111,6 +140,9 @@
         <label>Create service monitoring</label>
         <locationX>176</locationX>
         <locationY>1247</locationY>
+        <connector>
+            <targetReference>Update_reception_status_to_Quote_Approved</targetReference>
+        </connector>
         <inputReference>servicemonitoringlist</inputReference>
     </recordCreates>
     <recordLookups>
@@ -162,6 +194,19 @@
         <object>QuoteLineItem</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <recordUpdates>
+        <name>Update_reception_status_to_Quote_Approved</name>
+        <label>Update reception status to Quote Approved</label>
+        <locationX>176</locationX>
+        <locationY>1355</locationY>
+        <inputAssignments>
+            <field>StageName</field>
+            <value>
+                <stringValue>Budged Approved</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Opportunity</inputReference>
+    </recordUpdates>
     <start>
         <locationX>50</locationX>
         <locationY>0</locationY>

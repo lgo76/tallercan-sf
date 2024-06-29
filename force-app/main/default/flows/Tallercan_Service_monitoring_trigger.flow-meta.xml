@@ -100,6 +100,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
+    <description>Changing master-detail relationship to lookup.</description>
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Service monitoring trigger {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Tallercan] Service monitoring trigger</label>
@@ -150,7 +151,7 @@
             <field>OpportunityId</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>$Record.LK_Related_Reception__r.Id</elementReference>
+                <elementReference>$Record.Related_reception_service__r.Id</elementReference>
             </value>
         </filters>
         <filters>
@@ -173,9 +174,6 @@
         <connector>
             <targetReference>Loop_of_related_products_of_quote</targetReference>
         </connector>
-        <faultConnector>
-            <targetReference>Quote_error</targetReference>
-        </faultConnector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>QuoteId</field>

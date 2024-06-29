@@ -121,6 +121,18 @@
                 <identifier>RecordParent_material__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Required_materials__c</fieldItem>
+                <identifier>RecordRequired_materials__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Category__c</fieldItem>
+                <identifier>RecordCategory__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-838d1c3f-b78d-4c87-911b-ae350a733a1a</name>
         <type>Facet</type>
     </flexiPageRegions>

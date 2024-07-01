@@ -213,6 +213,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>QuoteTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteLoginController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -230,6 +234,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TallercanUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TallercanUtilsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -5669,6 +5677,10 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Tallercan_Customer_creation_trigger</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Tallercan_Deactivate_customer</flow>
     </flowAccesses>
     <flowAccesses>
@@ -5678,6 +5690,10 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Tallercan_Delete_Account_Trigger</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Quote_Before_Create_Update</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>

@@ -4,8 +4,8 @@
     <assignments>
         <name>Set_control_variable_to_true</name>
         <label>Set control variable to true</label>
-        <locationX>270</locationX>
-        <locationY>719</locationY>
+        <locationX>865</locationX>
+        <locationY>572</locationY>
         <assignmentItems>
             <assignToReference>needsstock</assignToReference>
             <operator>Assign</operator>
@@ -20,8 +20,8 @@
     <assignments>
         <name>Set_status_to_in_queue</name>
         <label>Set status to in queue</label>
-        <locationX>314</locationX>
-        <locationY>1103</locationY>
+        <locationX>724</locationX>
+        <locationY>653</locationY>
         <assignmentItems>
             <assignToReference>$Record.Status__c</assignToReference>
             <operator>Assign</operator>
@@ -33,8 +33,8 @@
     <assignments>
         <name>Set_status_to_waiting_material</name>
         <label>Set status to waiting material</label>
-        <locationX>50</locationX>
-        <locationY>1103</locationY>
+        <locationX>496</locationX>
+        <locationY>652</locationY>
         <assignmentItems>
             <assignToReference>$Record.Status__c</assignToReference>
             <operator>Assign</operator>
@@ -46,8 +46,8 @@
     <decisions>
         <name>Is_material_and_needs_stock</name>
         <label>Is material and needs stock?</label>
-        <locationX>402</locationX>
-        <locationY>611</locationY>
+        <locationX>956</locationX>
+        <locationY>343</locationY>
         <defaultConnector>
             <targetReference>Loop_of_related_products_of_quote</targetReference>
         </defaultConnector>
@@ -78,8 +78,8 @@
     <decisions>
         <name>needsstockfinal</name>
         <label>Needs stock?</label>
-        <locationX>182</locationX>
-        <locationY>995</locationY>
+        <locationX>593</locationX>
+        <locationY>498</locationY>
         <defaultConnector>
             <targetReference>Set_status_to_in_queue</targetReference>
         </defaultConnector>
@@ -103,12 +103,12 @@
     <description>Changing master-detail relationship to lookup.</description>
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Service monitoring trigger {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>[Tallercan] Service monitoring trigger</label>
+    <label>[Tallercan] Work Status trigger</label>
     <loops>
         <name>Loop_of_related_products_of_quote</name>
         <label>Loop of related products of quote</label>
-        <locationX>182</locationX>
-        <locationY>503</locationY>
+        <locationX>736</locationX>
+        <locationY>347</locationY>
         <collectionReference>Get_related_products_of_quotes</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -127,7 +127,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -138,10 +138,10 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
-        <name>Get_approved_quote</name>
-        <label>Get approved quote</label>
-        <locationX>182</locationX>
-        <locationY>287</locationY>
+        <name>Get_accepted_quote</name>
+        <label>Get accepted quote</label>
+        <locationX>466</locationX>
+        <locationY>346</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_related_products_of_quotes</targetReference>
@@ -158,7 +158,7 @@
             <field>Status</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Approved</stringValue>
+                <stringValue>Accepted</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -168,8 +168,8 @@
     <recordLookups>
         <name>Get_related_products_of_quotes</name>
         <label>Get related products of quotes</label>
-        <locationX>182</locationX>
-        <locationY>395</locationY>
+        <locationX>601</locationX>
+        <locationY>346</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_of_related_products_of_quote</targetReference>
@@ -179,7 +179,7 @@
             <field>QuoteId</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>Get_approved_quote.Id</elementReference>
+                <elementReference>Get_accepted_quote.Id</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
@@ -187,10 +187,10 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
-        <locationX>56</locationX>
-        <locationY>0</locationY>
+        <locationX>96</locationX>
+        <locationY>430</locationY>
         <connector>
-            <targetReference>Get_approved_quote</targetReference>
+            <targetReference>Get_accepted_quote</targetReference>
         </connector>
         <object>Service_monitoring__c</object>
         <recordTriggerType>Create</recordTriggerType>

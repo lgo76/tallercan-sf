@@ -1,8 +1,8 @@
 /**
- * @description       : Class using for creating reception line items 
+ * @description       : 
  * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
  * @group             : 
- * @last modified on  : 06-30-2024
+ * @last modified on  : 06-26-2024
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 public class TallercanUtils {

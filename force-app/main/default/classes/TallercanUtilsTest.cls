@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
  * @group             : 
- * @last modified on  : 06-30-2024
+ * @last modified on  : 06-29-2024
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 @isTest
@@ -17,29 +17,13 @@ public class TallercanUtilsTest {
         // Create test Account
         Account acc = new Account(FirstName = 'Test Account', LastName = 'Test', recordTypeId = personAccountRecordTypeId);
         insert acc;
-        Account a = [SELECT Id from Account LIMIT 1];
-
-       
-        Vehicle__c v = new Vehicle__c();
-        v.Name = 'Test1';
-        v.Chasis_number__c = '465859845';
-        v.DT_Car_Registration_Date__c = Date.today();
-        v.DT_Next_ITV_Revision_Date__c = Date.today().addDays(40);
-        v.PK_Fuel_Type__c = 'Fuel Oil';
-        v.PK_Vehicle_Brand__c = 'BMW';
-        v.PK_Vehicle_Model__c = '2 Series';
-        v.TX_Car_Number_Plate__c = '4321HTT';
-        v.LK_Vehicle_Owner__c = a.Id;
 
         // Create test Opportunity (reception)
         Opportunity opp = new Opportunity(
             Name = 'Test Opportunity',
             AccountId = acc.Id,
             StageName = 'Prospecting',
-            CloseDate = Date.today().addDays(30),
-            LK_Vehicle__c = v.Id,
-            StageName  = 'Created',
-            Reception_Date__c = Date.today()
+            CloseDate = Date.today().addDays(30)
         );
         insert opp;
 

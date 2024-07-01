@@ -4,5 +4,5 @@
     <active>true</active>
     <errorConditionFormula>NOT(REGEX( TX_Car_Number_Plate__c  , &quot;^[0-9]{1,4}(?!.*(LL|CH))[BCDFGHJKLMNPRSTVWXYZ]{3}&quot;))</errorConditionFormula>
     <errorDisplayField>TX_Car_Number_Plate__c</errorDisplayField>
-    <errorMessage>Matrícula errónea</errorMessage>
+    <errorMessage>Invalid number plate.</errorMessage>
 </ValidationRule>

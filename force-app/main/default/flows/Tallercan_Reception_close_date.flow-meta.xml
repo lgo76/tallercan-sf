@@ -4,8 +4,8 @@
     <assignments>
         <name>Set_close_date_to_365_days</name>
         <label>Set close date to +365 days</label>
-        <locationX>176</locationX>
-        <locationY>287</locationY>
+        <locationX>493</locationX>
+        <locationY>288</locationY>
         <assignmentItems>
             <assignToReference>$Record.CloseDate</assignToReference>
             <operator>Assign</operator>
@@ -20,8 +20,8 @@
     <assignments>
         <name>Set_owner</name>
         <label>Set owner</label>
-        <locationX>176</locationX>
-        <locationY>395</locationY>
+        <locationX>637</locationX>
+        <locationY>288</locationY>
         <assignmentItems>
             <assignToReference>$Record.AccountId</assignToReference>
             <operator>Assign</operator>
@@ -48,7 +48,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -59,8 +59,8 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>50</locationX>
-        <locationY>0</locationY>
+        <locationX>110</locationX>
+        <locationY>207</locationY>
         <connector>
             <targetReference>Set_close_date_to_365_days</targetReference>
         </connector>

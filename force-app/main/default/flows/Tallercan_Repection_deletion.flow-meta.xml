@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>60.0</apiVersion>
-    <assignments>
-        <name>Assign_Dummy_Account_and_reception</name>
-        <label>Assign Dummy Account and reception</label>
-        <locationX>270</locationX>
-        <locationY>1019</locationY>
-        <assignmentItems>
-            <assignToReference>Loopofquotes.AccountId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Get_Dummy_Metadata.AccountId__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>Loopofquotes.OpportunityId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Get_Dummy_Metadata.ReceptionId__c</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Loopofquotes</targetReference>
-        </connector>
-    </assignments>
+    <decisions>
+        <name>Exists_quotes</name>
+        <label>Exists quotes?</label>
+        <locationX>906</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Quotes_Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_quotes</leftValueReference>
+                <operator>IsEmpty</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Delete_related_quotes</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
     <decisions>
         <name>Exists_work_statuses</name>
         <label>Exists work statuses?</label>
-        <locationX>182</locationX>
-        <locationY>503</locationY>
+        <locationX>506</locationX>
+        <locationY>275</locationY>
         <defaultConnector>
             <targetReference>Get_quotes</targetReference>
         </defaultConnector>
@@ -53,20 +52,6 @@
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Repection deletion {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Tallercan] Repection deletion</label>
-    <loops>
-        <name>Loopofquotes</name>
-        <label>Loop of quotes</label>
-        <locationX>182</locationX>
-        <locationY>911</locationY>
-        <collectionReference>Get_quotes</collectionReference>
-        <iterationOrder>Asc</iterationOrder>
-        <nextValueConnector>
-            <targetReference>Assign_Dummy_Account_and_reception</targetReference>
-        </nextValueConnector>
-        <noMoreValuesConnector>
-            <targetReference>Update_quotes_to_Dummy_Account</targetReference>
-        </noMoreValuesConnector>
-    </loops>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -76,7 +61,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -87,38 +72,30 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordDeletes>
+        <name>Delete_related_quotes</name>
+        <label>Delete related quotes</label>
+        <locationX>1051</locationX>
+        <locationY>272</locationY>
+        <inputReference>Get_quotes</inputReference>
+    </recordDeletes>
+    <recordDeletes>
         <name>Delete_related_work_statuses</name>
         <label>Delete related work statuses</label>
-        <locationX>50</locationX>
-        <locationY>611</locationY>
+        <locationX>669</locationX>
+        <locationY>321</locationY>
         <connector>
             <targetReference>Get_quotes</targetReference>
         </connector>
         <inputReference>Get_work_statuses</inputReference>
     </recordDeletes>
     <recordLookups>
-        <name>Get_Dummy_Metadata</name>
-        <label>Get Dummy Metadata</label>
-        <locationX>182</locationX>
-        <locationY>287</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Get_work_statuses</targetReference>
-        </connector>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Dummy__mdt</object>
-        <sortField>SystemModstamp</sortField>
-        <sortOrder>Asc</sortOrder>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
         <name>Get_quotes</name>
         <label>Get quotes</label>
-        <locationX>182</locationX>
-        <locationY>803</locationY>
+        <locationX>816</locationX>
+        <locationY>274</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Loopofquotes</targetReference>
+            <targetReference>Exists_quotes</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -142,8 +119,8 @@
     <recordLookups>
         <name>Get_work_statuses</name>
         <label>Get work statuses</label>
-        <locationX>182</locationX>
-        <locationY>395</locationY>
+        <locationX>370</locationX>
+        <locationY>273</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Exists_work_statuses</targetReference>
@@ -160,18 +137,11 @@
         <object>Service_monitoring__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-    <recordUpdates>
-        <name>Update_quotes_to_Dummy_Account</name>
-        <label>Update quotes to Dummy Account</label>
-        <locationX>182</locationX>
-        <locationY>1211</locationY>
-        <inputReference>Get_quotes</inputReference>
-    </recordUpdates>
     <start>
-        <locationX>56</locationX>
-        <locationY>0</locationY>
+        <locationX>28</locationX>
+        <locationY>193</locationY>
         <connector>
-            <targetReference>Get_Dummy_Metadata</targetReference>
+            <targetReference>Get_work_statuses</targetReference>
         </connector>
         <object>Opportunity</object>
         <recordTriggerType>Delete</recordTriggerType>

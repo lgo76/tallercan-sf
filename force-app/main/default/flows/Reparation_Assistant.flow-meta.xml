@@ -3,8 +3,8 @@
     <actionCalls>
         <name>Create_related_OppLineItems_with_Standard_category</name>
         <label>Create related OppLineItems with Standard category</label>
-        <locationX>182</locationX>
-        <locationY>1082</locationY>
+        <locationX>989</locationX>
+        <locationY>271</locationY>
         <actionName>TallercanUtils</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -38,8 +38,8 @@
     <decisions>
         <name>Is_accident</name>
         <label>Is accident?</label>
-        <locationX>182</locationX>
-        <locationY>350</locationY>
+        <locationX>633</locationX>
+        <locationY>112</locationY>
         <defaultConnector>
             <targetReference>Get_active_services</targetReference>
         </defaultConnector>
@@ -128,7 +128,7 @@
         <expression>{!Type_of_reception}&amp;&apos;-&apos;&amp;{!Select_the_Vehicle.selectedChoiceLabels}&amp;&apos;-&apos;&amp;TEXT({!Date_time_of_reception})</expression>
     </formulas>
     <interviewLabel>Reparation Assistant {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Reparation Assistant</label>
+    <label>Reception Assistant</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -138,7 +138,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -151,8 +151,8 @@
     <recordCreates>
         <name>Insert_reception</name>
         <label>Insert reception</label>
-        <locationX>182</locationX>
-        <locationY>866</locationY>
+        <locationX>1113</locationX>
+        <locationY>105</locationY>
         <connector>
             <targetReference>Get_recent_reception</targetReference>
         </connector>
@@ -252,8 +252,8 @@
     <recordLookups>
         <name>Get_active_services</name>
         <label>Get active services</label>
-        <locationX>182</locationX>
-        <locationY>650</locationY>
+        <locationX>841</locationX>
+        <locationY>105</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Add_services_screen</targetReference>
@@ -280,8 +280,8 @@
     <recordLookups>
         <name>Get_recent_reception</name>
         <label>Get recent reception</label>
-        <locationX>182</locationX>
-        <locationY>974</locationY>
+        <locationX>1113</locationX>
+        <locationY>271</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Create_related_OppLineItems_with_Standard_category</targetReference>
@@ -295,8 +295,8 @@
     <screens>
         <name>Accident_details</name>
         <label>Accident details</label>
-        <locationX>50</locationX>
-        <locationY>458</locationY>
+        <locationX>742</locationX>
+        <locationY>274</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -415,8 +415,8 @@
     <screens>
         <name>Add_services_screen</name>
         <label>Add services screen</label>
-        <locationX>182</locationX>
-        <locationY>758</locationY>
+        <locationX>1014</locationX>
+        <locationY>105</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -483,8 +483,8 @@
     <screens>
         <name>Reception_details</name>
         <label>Reception details</label>
-        <locationX>182</locationX>
-        <locationY>242</locationY>
+        <locationX>508</locationX>
+        <locationY>110</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -560,8 +560,8 @@
     <screens>
         <name>Vehicle_selection</name>
         <label>Vehicle selection</label>
-        <locationX>182</locationX>
-        <locationY>134</locationY>
+        <locationX>391</locationX>
+        <locationY>117</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -582,8 +582,8 @@
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>56</locationX>
-        <locationY>0</locationY>
+        <locationX>33</locationX>
+        <locationY>91</locationY>
         <connector>
             <targetReference>Vehicle_selection</targetReference>
         </connector>

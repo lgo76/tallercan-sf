@@ -4,8 +4,8 @@
     <decisions>
         <name>Exists_service_statuses</name>
         <label>Exists service statuses?</label>
-        <locationX>182</locationX>
-        <locationY>350</locationY>
+        <locationX>646</locationX>
+        <locationY>360</locationY>
         <defaultConnector>
             <targetReference>Service_Status_Error</targetReference>
         </defaultConnector>
@@ -14,7 +14,7 @@
             <name>Yes</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Get_service_statuses</leftValueReference>
+                <leftValueReference>Get_work_statuses</leftValueReference>
                 <operator>IsNull</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
@@ -35,7 +35,7 @@
     </formulas>
     <interviewLabel>Service Status Assistant {!$Flow.CurrentDateTime}</interviewLabel>
     <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
-    <label>Service Status Assistant</label>
+    <label>Service Statuses Assistant</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -45,7 +45,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -56,10 +56,10 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <recordLookups>
-        <name>Get_service_statuses</name>
-        <label>Get service statuses</label>
-        <locationX>182</locationX>
-        <locationY>242</locationY>
+        <name>Get_work_statuses</name>
+        <label>Get work statuses</label>
+        <locationX>531</locationX>
+        <locationY>358</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Exists_service_statuses</targetReference>
@@ -91,15 +91,15 @@
     </recordLookups>
     <runInMode>SystemModeWithoutSharing</runInMode>
     <screens>
-        <name>Knowing_your_reparation_status</name>
-        <label>Knowing your reparation status</label>
-        <locationX>182</locationX>
-        <locationY>134</locationY>
+        <name>Getting_your_reception_status</name>
+        <label>Getting your reception status</label>
+        <locationX>423</locationX>
+        <locationY>358</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <connector>
-            <targetReference>Get_service_statuses</targetReference>
+            <targetReference>Get_work_statuses</targetReference>
         </connector>
         <fields>
             <name>Reception_code</name>
@@ -121,9 +121,9 @@
     </screens>
     <screens>
         <name>Reparation_status_results</name>
-        <label>Reparation status results</label>
-        <locationX>50</locationX>
-        <locationY>458</locationY>
+        <label>Work statuses results</label>
+        <locationX>802</locationX>
+        <locationY>431</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -161,7 +161,7 @@
             <inputParameters>
                 <name>tableData</name>
                 <value>
-                    <elementReference>Get_service_statuses</elementReference>
+                    <elementReference>Get_work_statuses</elementReference>
                 </value>
             </inputParameters>
             <inputParameters>
@@ -187,8 +187,8 @@
     <screens>
         <name>Service_Status_Error</name>
         <label>Service Status Error</label>
-        <locationX>314</locationX>
-        <locationY>458</locationY>
+        <locationX>806</locationX>
+        <locationY>310</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -201,11 +201,11 @@
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>56</locationX>
-        <locationY>0</locationY>
+        <locationX>46</locationX>
+        <locationY>337</locationY>
         <connector>
-            <targetReference>Knowing_your_reparation_status</targetReference>
+            <targetReference>Getting_your_reception_status</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>

@@ -10,11 +10,11 @@
     </caseValues>
     <gender>Masculine</gender>
     <validationRules>
-        <errorMessage><!-- Matrícula errónea --></errorMessage>
+        <errorMessage><!-- Invalid number plate. --></errorMessage>
         <name>VR_CarNumberPlate</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Introduce una fecha posterior a hoy --></errorMessage>
+        <errorMessage><!-- Cannot set a future date. --></errorMessage>
         <name>VR_NextITVRevisionDate</name>
     </validationRules>
     <webLinks>

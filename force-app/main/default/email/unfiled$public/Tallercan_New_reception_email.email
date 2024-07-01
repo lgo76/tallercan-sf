@@ -1,0 +1,3 @@
+Your reception of type {!Opportunity.Type} has been received. Your code is: 
+{!Opportunity.External_reception_code__c}
+You can get the services statuses in: https://tallercan-dev-ed.develop.my.site.com/customerportal/s/

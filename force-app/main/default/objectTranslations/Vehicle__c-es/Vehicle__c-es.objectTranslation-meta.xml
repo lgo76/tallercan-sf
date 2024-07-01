@@ -14,7 +14,7 @@
         <name>VR_CarNumberPlate</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Cannot set a future date. --></errorMessage>
+        <errorMessage><!-- Cannot set a past date. --></errorMessage>
         <name>VR_NextITVRevisionDate</name>
     </validationRules>
     <webLinks>

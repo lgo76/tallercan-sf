@@ -25,6 +25,8 @@
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>QuoteTest</members>
+        <members>ReceptionTest</members>
+        <members>ServiceMonitoringTest</members>
         <members>SiteLoginController</members>
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
@@ -713,6 +715,7 @@
         <members>Service_Status_Assistant</members>
         <members>Tallercan_Cancel_Vehicle</members>
         <members>Tallercan_Cancel_vehicle_functionality</members>
+        <members>Tallercan_Customer_Deletion</members>
         <members>Tallercan_Customer_creation_trigger</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
@@ -732,6 +735,7 @@
         <members>Service_Status_Assistant</members>
         <members>Tallercan_Cancel_Vehicle</members>
         <members>Tallercan_Cancel_vehicle_functionality</members>
+        <members>Tallercan_Customer_Deletion</members>
         <members>Tallercan_Customer_creation_trigger</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>

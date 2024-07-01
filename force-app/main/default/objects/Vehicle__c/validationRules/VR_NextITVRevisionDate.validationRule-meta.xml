@@ -4,5 +4,5 @@
     <active>true</active>
     <errorConditionFormula>DT_Next_ITV_Revision_Date__c &lt; TODAY()</errorConditionFormula>
     <errorDisplayField>DT_Next_ITV_Revision_Date__c</errorDisplayField>
-    <errorMessage>Cannot set a future date.</errorMessage>
+    <errorMessage>Cannot set a past date.</errorMessage>
 </ValidationRule>

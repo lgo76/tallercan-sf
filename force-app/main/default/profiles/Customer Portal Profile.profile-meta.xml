@@ -217,6 +217,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ReceptionTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ServiceMonitoringTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteLoginController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -5674,6 +5682,10 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Tallercan_Cancel_vehicle_functionality</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Tallercan_Customer_Deletion</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>

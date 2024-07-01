@@ -1,9 +1,9 @@
 @Istest
 public with sharing class QuoteTest {
-        @isTest
-        public static void quoteTest(){
+    @isTest
+    public static void quoteTest(){
 		Id personAccountRecordTypeId =  Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get('PersonAccount').getRecordTypeId();
-        // Crear Account
+        // Create Account
         Account acc = new Account();
         acc.LastName = 'Prueba';
         acc.FirstName = 'Account';
@@ -17,7 +17,7 @@ public with sharing class QuoteTest {
         acc.RecordTypeId = personAccountRecordTypeId;
         insert acc;
 
-        // Crear Vehicle
+        // Create Vehicle
         Vehicle__c v = new Vehicle__c();
         v.Name = 'Test1';
         v.Chasis_number__c = '465859845';
@@ -30,7 +30,7 @@ public with sharing class QuoteTest {
         v.LK_Vehicle_Owner__c = acc.Id;
         insert v;
 
-        // Crear Opportunity asociada a la Account
+        // Create Opportunity asociada a la Account
         Opportunity opp = new Opportunity();
         opp.Name = 'Opp Prueba';
         opp.Description = 'Prueba de oportunidad';
@@ -40,19 +40,18 @@ public with sharing class QuoteTest {
         opp.StageName = 'Created';
         opp.LK_Vehicle__c = v.Id;
         insert opp;
-        
-        //Crear Quote asociada a la Opportunity
+        Test.startTest();
+        //Create Quote asociada a la Opportunity
         Quote quo = new Quote();
         quo.Name = 'Presupuesto Prueba';
         quo.Status = 'Draft';
         quo.OpportunityId = opp.Id;
         insert quo;
-        
-        Test.startTest();
+                
 		List<Quote> presupuesto = [SELECT Id, Name, Status from Quote Where Name IN ('Presupuesto Prueba')];
     	Quote q1 = presupuesto[0];
 
-        // Modificar la Quote
+        // Modify la Quote
         q1.Name = 'Nuevo Nombre de Presupuesto';
         update q1;
         // Obtener la Quote modificada
@@ -66,12 +65,12 @@ public with sharing class QuoteTest {
         List<Quote> deletedQuotes = [SELECT Id FROM Quote WHERE Id = :q1.Id];
         System.assertEquals(0, deletedQuotes.size());
         Test.stopTest();
-        }
+	}
 
-   		@isTest
-    	static void quotesApprovedTest() {   
+	@isTest
+    static void quotesApprovedInReceptionTest() {   
 		Id personAccountRecordTypeId =  Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get('PersonAccount').getRecordTypeId();
-        // Crear Account
+        // Create Account
         Account acc2 = new Account();
         acc2.LastName = 'Prueba2';
         acc2.FirstName = 'Account 2';
@@ -85,7 +84,7 @@ public with sharing class QuoteTest {
         acc2.RecordTypeId = personAccountRecordTypeId;
         insert acc2;
 
-        // Crear Vehicle
+        // Create Vehicle
         Vehicle__c v2 = new Vehicle__c();
         v2.Name = 'Test2';
         v2.Chasis_number__c = '465859845';
@@ -98,40 +97,51 @@ public with sharing class QuoteTest {
         v2.LK_Vehicle_Owner__c = acc2.Id;
         insert v2;
 
-        // Crear Opportunity asociada a la Account
+        // Create Opportunity asociada a la Account
         Opportunity opp2 = new Opportunity();
         opp2.Name = 'Opp Prueba 2';
         opp2.Description = 'Prueba de oportunidad';
         opp2.AccountId = acc2.id;
         opp2.Amount = 500;
-        opp2.CloseDate = Date.today().addDays(10);
         opp2.StageName = 'Created';
         opp2.LK_Vehicle__c = v2.Id;
         insert opp2;
         
-        //Crear Quotes asociada a la Opportunity
+        Opportunity opp2record = [SELECT Id from Opportunity LIMIT 1];
+        
+        //Create Quotes asociada a la Opportunity
         Quote quo2 = new Quote();
         quo2.Name = 'Presupuesto Prueba 2';
         quo2.Status = 'Draft';
-        quo2.OpportunityId = opp2.Id;
+        quo2.OpportunityId = opp2record.Id;
         insert quo2;
 
         Quote quo3 = new Quote();
         quo3.Name = 'Presupuesto Prueba 3';
-        quo3.Status = 'Approved';
-        quo3.OpportunityId = opp2.Id;
+        quo3.Status = 'Accepted';
+        quo3.OpportunityId = opp2record.Id;
         insert quo3;
 
         Test.startTest();
 		List<Quote> pres = [SELECT Id, Name, Status from Quote Where Name IN ('Presupuesto Prueba 2')];
     	Quote q2 = pres[0];
 
-        // Modificar estado de la Quote
-        q2.Status = 'Approved';
+        // Modify estado de la Quote
+        q2.Status = 'Accepted';
+        
+        try{
         update q2;
-        // Obtener la Quote modificada
-        Quote modifiedQuote2 = [SELECT Id, Name FROM Quote WHERE Id = :q2.Id];
-        System.assertEquals('Approved', modifiedQuote2.Status);   
-        Test.stopTest();
+        }catch(System.DMLException e){
+            //System.DmlException: Update failed. First exception on row 0 with id 0Q068000005FWpECAW; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, Cannot approve more than one quote for each reception.: []
+            System.debug(e.getMessage()); 
+            //Assert Error Message
+			System.assert(e.getMessage().contains('Update failed. First exception on row 0 with id'),e.getMessage());
+            System.assert(e.getMessage().contains(' first error: FIELD_CUSTOM_VALIDATION_EXCEPTION,'+' Cannot approve more than one quote for each reception.: []'),e.getMessage());
+            System.assertEquals('FIELD_CUSTOM_VALIDATION_EXCEPTION', e.getDmlStatusCode(0));
         }
+        // Obtener la Quote para comprobar que no ha sido modificada
+        Quote modifiedQuote2 = [SELECT Id, Name, Status FROM Quote WHERE Id = :q2.Id];
+        System.assertEquals('Draft', modifiedQuote2.Status);   
+        Test.stopTest();
+	}
 }

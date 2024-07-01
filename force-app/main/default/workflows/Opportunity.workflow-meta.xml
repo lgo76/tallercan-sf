@@ -7,7 +7,8 @@
         <recipients>
             <type>accountOwner</type>
         </recipients>
-        <senderType>CurrentUser</senderType>
+        <senderAddress>luciagomezbio+tallercan@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>unfiled$public/Tallercan_New_reception_email</template>
     </alerts>
 </Workflow>

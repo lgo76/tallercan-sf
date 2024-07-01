@@ -8,6 +8,10 @@
         <plural>true</plural>
         <value>Customers</value>
     </caseValues>
+    <quickActions>
+        <label><!-- Reparation Assistant --></label>
+        <name>Reparation_Assistant</name>
+    </quickActions>
     <recordTypes>
         <label><!-- Business Account --></label>
         <name>Business_Account</name>

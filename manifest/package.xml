@@ -1,13 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>ChangePasswordController</members>
+        <members>ChangePasswordControllerTest</members>
+        <members>CommunitiesLandingController</members>
+        <members>CommunitiesLandingControllerTest</members>
+        <members>CommunitiesLoginController</members>
+        <members>CommunitiesLoginControllerTest</members>
+        <members>CommunitiesSelfRegConfirmController</members>
+        <members>CommunitiesSelfRegConfirmControllerTest</members>
+        <members>CommunitiesSelfRegController</members>
+        <members>CommunitiesSelfRegControllerTest</members>
         <members>CustomerTest</members>
+        <members>ForgotPasswordController</members>
+        <members>ForgotPasswordControllerTest</members>
+        <members>LightningForgotPasswordController</members>
+        <members>LightningForgotPasswordControllerTest</members>
+        <members>LightningLoginFormController</members>
+        <members>LightningLoginFormControllerTest</members>
+        <members>LightningSelfRegisterController</members>
+        <members>LightningSelfRegisterControllerTest</members>
+        <members>MicrobatchSelfRegController</members>
+        <members>MicrobatchSelfRegControllerTest</members>
+        <members>MyProfilePageController</members>
+        <members>MyProfilePageControllerTest</members>
+        <members>QuoteTest</members>
+        <members>SiteLoginController</members>
+        <members>SiteLoginControllerTest</members>
+        <members>SiteRegisterController</members>
+        <members>SiteRegisterControllerTest</members>
+        <members>TallercanUtils</members>
+        <members>TallercanUtilsTest</members>
         <members>VehicleTest</members>
         <name>ApexClass</name>
     </types>
     <types>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
         <members>apexEmailNotifications</members>
         <name>ApexEmailNotifications</name>
+    </types>
+    <types>
+        <members>AnswersHome</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
+        <members>Exception</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>MicrobatchSelfReg</members>
+        <members>MyProfilePage</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
+        <name>ApexPage</name>
     </types>
     <types>
         <members>AppSwitcher</members>
@@ -29,13 +91,26 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>Default</members>
+        <name>Audience</name>
+    </types>
+    <types>
         <members>ComponentePrueba</members>
+        <members>forgotPassword</members>
+        <members>loginForm</members>
+        <members>selfRegister</members>
+        <members>setExpId</members>
+        <members>setStartUrl</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>SelfSignedCert_26Jun2024_162305</members>
+        <name>Certificate</name>
     </types>
     <types>
         <members>DataCloudGeoLocation</members>
@@ -47,6 +122,8 @@
     </types>
     <types>
         <members>Opportunity.Reception_Compact_Layout</members>
+        <members>Quote.Quote_Compact_Layout</members>
+        <members>Vehicle__c.Vehicle_Compact_Layout</members>
         <name>CompactLayout</name>
     </types>
     <types>
@@ -93,6 +170,9 @@
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Dummy__mdt.AccountId__c</members>
+        <members>Dummy__mdt.ReceptionId__c</members>
+        <members>Dummy__mdt.VehicleId__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
@@ -108,6 +188,7 @@
         <members>Opportunity.Date_Time_of_Reception__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.Expert_name__c</members>
+        <members>Opportunity.External_reception_code__c</members>
         <members>Opportunity.Instructions__c</members>
         <members>Opportunity.Insurance__c</members>
         <members>Opportunity.LK_Vehicle__c</members>
@@ -118,10 +199,13 @@
         <members>Opportunity.Reasons__c</members>
         <members>Opportunity.TXT_Policy_Number__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>PricebookEntry.Category__c</members>
+        <members>Product2.Category__c</members>
         <members>Product2.Estimation_of_time_days__c</members>
         <members>Product2.Is_service__c</members>
         <members>Product2.Parent_material__c</members>
         <members>Product2.Related_service_product__c</members>
+        <members>Product2.Required_materials__c</members>
         <members>Product2.Stock__c</members>
         <members>Registration__c.LK_Customer__c</members>
         <members>Registration__c.LK_Vehicle__c</members>
@@ -129,8 +213,13 @@
         <members>Registration__c.TX_Indications__c</members>
         <members>Registration__c.TX_Reasons__c</members>
         <members>Service_monitoring__c.Comments__c</members>
-        <members>Service_monitoring__c.LK_Related_Reception__c</members>
+        <members>Service_monitoring__c.Customer_NIF__c</members>
+        <members>Service_monitoring__c.FOR_Nif__c</members>
+        <members>Service_monitoring__c.FOR_NumberPlate__c</members>
+        <members>Service_monitoring__c.Related_reception_service__c</members>
         <members>Service_monitoring__c.Status__c</members>
+        <members>Service_monitoring__c.TXT_Reception_Id__c</members>
+        <members>Service_monitoring__c.Vehicle_Number_Plate__c</members>
         <members>Service_monitoring__c.related_service__c</members>
         <members>Vehicle__c.Chasis_number__c</members>
         <members>Vehicle__c.DT_Cancellation_Date__c</members>
@@ -149,8 +238,13 @@
         <name>CustomLabels</name>
     </types>
     <types>
+        <members>Dummy.DummyConfig</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
         <members>Accident__c</members>
         <members>Account</members>
+        <members>AccountBrand</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
         <members>Activity</members>
@@ -197,6 +291,7 @@
         <members>CartCheckoutSession</members>
         <members>CartDeliveryGroup</members>
         <members>CartDeliveryGroupMethod</members>
+        <members>CartDeliveryGroupMethodAdj</members>
         <members>CartItem</members>
         <members>CartItemPriceAdjustment</members>
         <members>CartRelatedItem</members>
@@ -209,6 +304,9 @@
         <members>ChangeRequest</members>
         <members>ChangeRequestRelatedIssue</members>
         <members>ChangeRequestRelatedItem</members>
+        <members>ChannelProgram</members>
+        <members>ChannelProgramLevel</members>
+        <members>ChannelProgramMember</members>
         <members>ChatterActivity</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
@@ -240,11 +338,12 @@
         <members>CreditMemoLine</members>
         <members>Customer</members>
         <members>DandBCompany</members>
-        <members>DataMaskPolicy</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
+        <members>DelegatedAccount</members>
         <members>DigitalSignature</members>
         <members>DigitalWallet</members>
+        <members>Dummy__mdt</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -306,6 +405,8 @@
         <members>MaintenanceWorkRule</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>NetworkMember</members>
+        <members>NetworkMemberChunk</members>
         <members>OperatingHours</members>
         <members>OperatingHoursHoliday</members>
         <members>Opportunity</members>
@@ -316,8 +417,10 @@
         <members>Order</members>
         <members>OrderItem</members>
         <members>OrgDeleteRequest</members>
-        <members>OrgMetricScanResult</members>
-        <members>OrgMetricScanSummary</members>
+        <members>PartnerFundAllocation</members>
+        <members>PartnerFundClaim</members>
+        <members>PartnerFundRequest</members>
+        <members>PartnerMarketingBudget</members>
         <members>PartnerRole</members>
         <members>PartyConsent</members>
         <members>Payment</members>
@@ -483,11 +586,16 @@
     <types>
         <members>Accident__c-es</members>
         <members>Account-en_US</members>
+        <members>Dummy__mdt-es</members>
         <members>Opportunity-en_US</members>
         <members>Registration__c-es</members>
         <members>Service_monitoring__c-es</members>
         <members>Vehicle__c-es</members>
         <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Customer_Portal</members>
+        <name>CustomSite</name>
     </types>
     <types>
         <members>Accident__c</members>
@@ -499,6 +607,15 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>prm_ch_dashboards_sub_folder</members>
+        <members>prm_channel_dashboard_folder</members>
+        <members>prm_spring24_dashboardsSPLIT1719419047308</members>
+        <members>prm_winter24_dashboardsSPLIT1719419047308</members>
+        <members>prm_winter24_dashboardsSPLIT1719419047308/cmc_spring_24_cmc_home_dashboard</members>
+        <members>prm_winter24_dashboardsSPLIT1719419047308/prm_winter24_ch_sales_dashboardSPLIT1719419047308</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
         <members>Account.Standard_Person_Account_Duplicate_Rule</members>
         <members>Contact.Standard_Contact_Duplicate_Rule</members>
@@ -508,6 +625,18 @@
     <types>
         <members>unfiled$public</members>
         <members>unfiled$public/CommerceReorderPortalInvitation</members>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityChgEmailVerNewTemplate</members>
+        <members>unfiled$public/CommunityChgEmailVerOldTemplate</members>
+        <members>unfiled$public/CommunityDeviceActEmailTemplate</members>
+        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityHeadlessForgotPasswordTemplate</members>
+        <members>unfiled$public/CommunityHeadlessRegistrationTemplate</members>
+        <members>unfiled$public/CommunityLockoutEmailTemplate</members>
+        <members>unfiled$public/CommunityPasswordlessRegistrationEmailTemplate</members>
+        <members>unfiled$public/CommunityVerificationEmailTemplate</members>
+        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+        <members>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
         <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
@@ -529,6 +658,7 @@
         <members>unfiled$public/SupportEscalatedCaseReassignment</members>
         <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
         <members>unfiled$public/SupportSelfServiceResetPassword</members>
+        <members>unfiled$public/Tallercan_New_reception_email</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -542,6 +672,15 @@
     <types>
         <members>Case</members>
         <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>Customer_Portal1</members>
+        <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>Rule3ef382f5090d37a129242b2dffc642aba10cd9d34df014c43974c0c05a4f2765</members>
+        <members>Rulec019e9fc920a933d23ec3e340a51d1d008722c9c916a018508d75a37b53e8bc5</members>
+        <name>FieldRestrictionRule</name>
     </types>
     <types>
         <members>User.PersonalInfo_EPIM</members>
@@ -559,6 +698,7 @@
         <members>LightningSales_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
         <members>Materials</members>
+        <members>Quote_Record_Page</members>
         <members>RevenueCloudConsole_UtilityBar</members>
         <members>Service_monitoring_Record_Page</members>
         <members>Services</members>
@@ -570,30 +710,38 @@
     <types>
         <members>Customer_Delete_related_records</members>
         <members>Reparation_Assistant</members>
+        <members>Service_Status_Assistant</members>
         <members>Tallercan_Cancel_Vehicle</members>
         <members>Tallercan_Cancel_vehicle_functionality</members>
+        <members>Tallercan_Customer_creation_trigger</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
+        <members>Tallercan_Quote_Before_Create_Update</members>
         <members>Tallercan_Quote_trigger</members>
         <members>Tallercan_Reception_close_date</members>
         <members>Tallercan_Repection_deletion</members>
         <members>Tallercan_Service_monitoring_trigger</members>
+        <members>Tallercan_Subflow_create_quote</members>
         <members>Tallercan_Vehicle_deletion</members>
         <name>Flow</name>
     </types>
     <types>
         <members>Customer_Delete_related_records</members>
         <members>Reparation_Assistant</members>
+        <members>Service_Status_Assistant</members>
         <members>Tallercan_Cancel_Vehicle</members>
         <members>Tallercan_Cancel_vehicle_functionality</members>
+        <members>Tallercan_Customer_creation_trigger</members>
         <members>Tallercan_Deactivate_customer</members>
         <members>Tallercan_Deactivation_confirmation</members>
         <members>Tallercan_Delete_Account_Trigger</members>
+        <members>Tallercan_Quote_Before_Create_Update</members>
         <members>Tallercan_Quote_trigger</members>
         <members>Tallercan_Reception_close_date</members>
         <members>Tallercan_Repection_deletion</members>
         <members>Tallercan_Service_monitoring_trigger</members>
+        <members>Tallercan_Subflow_create_quote</members>
         <members>Tallercan_Vehicle_deletion</members>
         <name>FlowDefinition</name>
     </types>
@@ -611,11 +759,16 @@
         <name>IframeWhiteListUrlSettings</name>
     </types>
     <types>
+        <members>Customer Portal.Banned</members>
+        <name>KeywordList</name>
+    </types>
+    <types>
         <members>Accident__c-Accident Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>AccountBrand-Account Brand Layout</members>
         <members>Address-Address Layout</members>
         <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
         <members>ApiAnomalyEventStore-API Anomaly Event Store Layout</members>
@@ -674,7 +827,9 @@
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
+        <members>DelegatedAccount-External Managed Account Layout</members>
         <members>DigitalWallet-Digital Wallet Layout</members>
+        <members>Dummy__mdt-Dummy Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>EngagementChannelType-Engagement Channel Type Layout</members>
@@ -813,6 +968,7 @@
         <members>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</members>
         <members>WebCartAdjustmentGroup-Cart Adjustment Group Layout</members>
         <members>WebStore-Store Layout</members>
+        <members>WebStoreConfig-Web Store Configuration Layout</members>
         <members>WorkCapacityAvailability-Work Capacity Availability Layout</members>
         <members>WorkCapacityLimit-Work Capacity Limit Layout</members>
         <members>WorkCapacityUsage-Work Capacity Usage Layout</members>
@@ -836,6 +992,7 @@
         <members>Account.NewLastWeek</members>
         <members>Account.NewThisWeek</members>
         <members>Account.PlatinumandGoldSLACustomers</members>
+        <members>AccountBrand.All_Account_Brands</members>
         <members>Activity.AllActivities</members>
         <members>Activity.MyActivities</members>
         <members>Activity.TodaysTasks</members>
@@ -867,6 +1024,10 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>ChannelProgram.All_Channel_Programs</members>
+        <members>ChannelProgram.My_Channel_Programs</members>
+        <members>ChannelProgramLevel.All_Channel_Program_Levels</members>
+        <members>ChannelProgramLevel.My_Channel_Program_Levels</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
         <members>CommSubscription.All_CommSubscriptions</members>
         <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
@@ -900,6 +1061,8 @@
         <members>Customer.All_Customers</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
+        <members>DelegatedAccount.All_External_Managed_Accounts</members>
+        <members>DelegatedAccount.My_External_Managed_Accounts</members>
         <members>DigitalWallet.DigitalWallet</members>
         <members>EngagementChannelType.All_EngagementChannelTypes</members>
         <members>EngagementChannelWorkType.All_EngagementChannelWorkTypes</members>
@@ -952,6 +1115,14 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
+        <members>PartnerFundAllocation.All_Partner_Fund_Allocations</members>
+        <members>PartnerFundAllocation.My_Partner_Fund_Allocations</members>
+        <members>PartnerFundClaim.All_Partner_Fund_Claims</members>
+        <members>PartnerFundClaim.My_Partner_Fund_Claims</members>
+        <members>PartnerFundRequest.All_Partner_Fund_Requests</members>
+        <members>PartnerFundRequest.My_Partner_Fund_Requests</members>
+        <members>PartnerMarketingBudget.All_Partner_Marketing_Budgets</members>
+        <members>PartnerMarketingBudget.My_Partner_Marketing_Budgets</members>
         <members>PartyConsent.All_PartyConsents</members>
         <members>Payment.Payment</members>
         <members>PaymentAuthAdjustment.PaymentAuthAdjustment</members>
@@ -1088,6 +1259,10 @@
         <name>ManagedContentType</name>
     </types>
     <types>
+        <members>Customer Portal</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
         <members>Account.Standard_Account_Match_Rule_v1_0</members>
         <members>Account.Standard_PersonAccount_Match_Rule_v1_0</members>
         <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
@@ -1107,6 +1282,26 @@
         <members>Distribuir caso</members>
         <members>Primera respuesta al cliente</members>
         <name>MilestoneType</name>
+    </types>
+    <types>
+        <members>Customer Portal.Block_banned_keywords</members>
+        <members>Customer Portal.Flag_banned</members>
+        <members>Customer Portal.Freeze_for_frequent_posting</members>
+        <members>Customer Portal.Replace_banned</members>
+        <members>Customer Portal.Review_the_first_post</members>
+        <name>ModerationRule</name>
+    </types>
+    <types>
+        <members>SFDC_Default_Navigation_Customer_Portal</members>
+        <name>NavigationMenu</name>
+    </types>
+    <types>
+        <members>Customer Portal</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>cbCustomer_Portal</members>
+        <name>NetworkBranding</name>
     </types>
     <types>
         <members>NotificationTypeConfig</members>
@@ -1157,11 +1352,13 @@
         <members>Customer Community User</members>
         <members>Customer Portal Manager Custom</members>
         <members>Customer Portal Manager Standard</members>
+        <members>Customer Portal Profile</members>
         <members>External Apps Login User</members>
         <members>External Identity User</members>
         <members>Force%2Ecom - App Subscription User</members>
         <members>Force%2Ecom - Free User</members>
         <members>Gold Partner User</members>
+        <members>Guest License User</members>
         <members>High Volume Customer Portal User</members>
         <members>HighVolumePortal</members>
         <members>Identity User</members>
@@ -1182,22 +1379,29 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Customer_Community_User_profilePasswordPolicy1719424133438</members>
+        <members>Customer_Portal_Profile_profilePasswordPolicy1719422990309</members>
         <members>PT1_profilePasswordPolicy1673459420108</members>
         <name>ProfilePasswordPolicy</name>
     </types>
     <types>
+        <members>Customer_Community_User_profileSessionSetting1719424133557</members>
+        <members>Customer_Portal_Profile_profileSessionSetting1719422990460</members>
         <members>PT1_profileSessionSetting1673459420203</members>
         <name>ProfileSessionSetting</name>
     </types>
     <types>
+        <members>Account.Reparation_Assistant</members>
         <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
         <members>FeedItem.NewTaskFromFeedItem</members>
+        <members>GuestCommunityCase</members>
         <members>LogACall</members>
         <members>NewAccount</members>
         <members>NewCase</members>
+        <members>NewCommunityCase</members>
         <members>NewContact</members>
         <members>NewEvent</members>
         <members>NewGroup</members>
@@ -1233,6 +1437,26 @@
         <members>EBotR_v5</members>
         <members>EinsteinBotReports</members>
         <members>EinsteinBotReports_v2</members>
+        <members>prm_ch_reports_sub_folder</members>
+        <members>prm_channel_reports_folder</members>
+        <members>prm_spring24_ch_marketing_reports_folderSPLIT1719419047308</members>
+        <members>prm_spring24_ch_marketing_reports_folderSPLIT1719419047308/prm_approved_claim_by_partnerSPLIT1719419047308</members>
+        <members>prm_spring24_ch_marketing_reports_folderSPLIT1719419047308/prm_mdf_approved_request_by_partnerSPLIT1719419047308</members>
+        <members>prm_spring24_ch_marketing_reports_folderSPLIT1719419047308/prm_mdf_submitted_request_by_partnerSPLIT1719419047308</members>
+        <members>prm_spring24_ch_marketing_reports_folderSPLIT1719419047308/prm_submitted_claim_by_partnerSPLIT1719419047308</members>
+        <members>prm_spring24_ch_marketing_reports_folderSPLIT1719419047308/prm_total_marketing_budgetSPLIT1719419047308</members>
+        <members>prm_spring24_pt_engagement_reports_folderSPLIT1719419047308</members>
+        <members>prm_spring24_pt_engagement_reports_folderSPLIT1719419047308/prm_total_portal_login_reportSPLIT1719419047308</members>
+        <members>prm_spring24_pt_engagement_reports_folderSPLIT1719419047308/prm_unique_portal_login_reportSPLIT1719419047308</members>
+        <members>prm_spring24_reportsSPLIT1719419047308</members>
+        <members>prm_winter24_ch_prod_reports_folderSPLIT1719419047308</members>
+        <members>prm_winter24_ch_sales_reports_folderSPLIT1719419047308</members>
+        <members>prm_winter24_ch_sales_reports_folderSPLIT1719419047308/prm_lead_conversionSPLIT1719419047308</members>
+        <members>prm_winter24_ch_sales_reports_folderSPLIT1719419047308/prm_open_opportunity_by_partnerSPLIT1719419047308</members>
+        <members>prm_winter24_ch_sales_reports_folderSPLIT1719419047308/prm_open_opportunity_by_stageSPLIT1719419047308</members>
+        <members>prm_winter24_ch_sales_reports_folderSPLIT1719419047308/prm_opportunity_by_amountSPLIT1719419047308</members>
+        <members>prm_winter24_ch_sales_reports_folderSPLIT1719419047308/prm_revenue_closedSPLIT1719419047308</members>
+        <members>prm_winter24_reportsSPLIT1719419047308</members>
         <members>unfiled$public</members>
         <members>unfiled$public/flow_orchestration_log_ootb_report_two_four_eight</members>
         <members>unfiled$public/flow_orchestration_run_ootb_report_two_four_eight</members>
@@ -1243,11 +1467,16 @@
         <name>Report</name>
     </types>
     <types>
+        <members>MDF_Claim_Request_Crt</members>
         <members>flow_orchestration_log_ootb_crt_two_four_eight</members>
         <members>flow_orchestration_run_ootb_crt_two_four_eight</members>
         <members>flow_orchestration_stage_run_ootb_crt_two_four_eight</members>
         <members>flow_orchestration_step_run_ootb_crt_two_four_eight</members>
         <members>flow_orchestration_work_item_ootb_crt_two_four_eight</members>
+        <members>prm_partner_fund_request_crt</members>
+        <members>prm_partner_marketing_budget_crt</members>
+        <members>prm_total_portal_login_crt</members>
+        <members>prm_unique_portal_crt</members>
         <members>screen_flows_prebuilt_crt</members>
         <name>ReportType</name>
     </types>
@@ -1405,6 +1634,7 @@
     <types>
         <members>Accident__c</members>
         <members>Account</members>
+        <members>AccountBrand</members>
         <members>ActivityRecurrence2</members>
         <members>ActivityRecurrence2Exception</members>
         <members>AlternativePaymentMethod</members>
@@ -1427,6 +1657,7 @@
         <members>Campaign</members>
         <members>Case</members>
         <members>ChangeRequest</members>
+        <members>ChannelProgram</members>
         <members>CleanLeadBackup</members>
         <members>CommSubscription</members>
         <members>CommSubscriptionChannelType</members>
@@ -1446,6 +1677,7 @@
         <members>Customer</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
+        <members>DelegatedAccount</members>
         <members>EngagementChannelType</members>
         <members>ExchangeUserMapping</members>
         <members>Expense</members>
@@ -1481,11 +1713,16 @@
         <members>MaintenanceWorkRule</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>NetworkMemberChunk</members>
         <members>NotifDeliveryUserPref</members>
         <members>OperatingHours</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>OrgDeleteRequest</members>
+        <members>PartnerFundAllocation</members>
+        <members>PartnerFundClaim</members>
+        <members>PartnerFundRequest</members>
+        <members>PartnerMarketingBudget</members>
         <members>PartyConsent</members>
         <members>PrivacyJobSession</members>
         <members>PrivacyObjectSession</members>
@@ -1569,6 +1806,10 @@
         <name>SharingRules</name>
     </types>
     <types>
+        <members>Customer_Portal1</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
         <members>AccountContactRole</members>
         <members>AccountOwnership</members>
         <members>AccountRating</members>
@@ -1631,6 +1872,10 @@
         <name>StandardValueSet</name>
     </types>
     <types>
+        <members>SiteSamples</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
         <members>Accident__c</members>
         <members>Account</members>
         <members>ApptBundleAggrDurDnscale</members>
@@ -1649,6 +1894,8 @@
         <members>Campaign</members>
         <members>Case</members>
         <members>ChangeRequest</members>
+        <members>ChannelProgram</members>
+        <members>ChannelProgramLevel</members>
         <members>Contact</members>
         <members>ContentDocument</members>
         <members>Contract</members>
@@ -1664,6 +1911,10 @@
         <members>MaintenancePlan</members>
         <members>Opportunity</members>
         <members>Order</members>
+        <members>PartnerFundAllocation</members>
+        <members>PartnerFundClaim</members>
+        <members>PartnerFundRequest</members>
+        <members>PartnerMarketingBudget</members>
         <members>Problem</members>
         <members>ProductConsumed</members>
         <members>ProductItem</members>
@@ -1716,11 +1967,18 @@
         <members>Account_Record_Page</members>
         <members>Car_Registration_Record_Page</members>
         <members>Materials</members>
+        <members>Quote_Record_Page</members>
         <members>Service_monitoring_Record_Page</members>
         <members>Services</members>
         <members>Services_and_materials</members>
         <members>Vehicle_Record_Page</members>
         <name>UiViewDefinition</name>
+    </types>
+    <types>
+        <members>Customer Portal.Customer_Members</members>
+        <members>Customer Portal.Members_without_contribution</members>
+        <members>Customer Portal.Partner_and_Customer_members</members>
+        <name>UserCriteria</name>
     </types>
     <types>
         <members>Vehicle__c.VR_CarNumberPlate</members>
@@ -1738,7 +1996,12 @@
     </types>
     <types>
         <members>Case</members>
+        <members>Opportunity</members>
         <name>Workflow</name>
+    </types>
+    <types>
+        <members>Opportunity.Reception_Id_Email</members>
+        <name>WorkflowAlert</name>
     </types>
     <types>
         <members>Case.ChangePriorityToHigh</members>

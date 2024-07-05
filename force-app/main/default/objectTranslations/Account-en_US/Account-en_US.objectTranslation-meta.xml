@@ -9,7 +9,7 @@
         <value>Customers</value>
     </caseValues>
     <quickActions>
-        <label><!-- Reparation Assistant --></label>
+        <label><!-- Reception Assistant --></label>
         <name>Reparation_Assistant</name>
     </quickActions>
     <recordTypes>

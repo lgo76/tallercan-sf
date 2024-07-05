@@ -28,7 +28,6 @@ public class CustomerTest{
         
     }
     
-    
     @isTest
     static void deleteAccountWithActiveReceptionsTest() {
         Id personAccountRecordTypeId =  Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get('PersonAccount').getRecordTypeId();

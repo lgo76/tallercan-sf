@@ -4,8 +4,8 @@
     <decisions>
         <name>Exists_service_statuses</name>
         <label>Exists service statuses?</label>
-        <locationX>646</locationX>
-        <locationY>360</locationY>
+        <locationX>182</locationX>
+        <locationY>350</locationY>
         <defaultConnector>
             <targetReference>Service_Status_Error</targetReference>
         </defaultConnector>
@@ -14,7 +14,7 @@
             <name>Yes</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Get_work_statuses</leftValueReference>
+                <leftValueReference>Get_service_statuses</leftValueReference>
                 <operator>IsNull</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
@@ -26,16 +26,16 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>Changing NIF for Reception code.</description>
+    <description>Changing Reception code for Document Number</description>
     <environments>Default</environments>
     <formulas>
         <name>description_text</name>
         <dataType>String</dataType>
-        <expression>&apos;Your lasts reparation statuses of vehicle &apos;&amp;{!Vehicle_Number_Plate}&amp;&apos; are:&apos;</expression>
+        <expression>&apos;Your lasts reparation statuses of vehicle &apos;&amp;{!Document_Number}&amp;&apos; are:&apos;</expression>
     </formulas>
     <interviewLabel>Service Status Assistant {!$Flow.CurrentDateTime}</interviewLabel>
     <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
-    <label>Service Statuses Assistant</label>
+    <label>Service Status Assistant</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -45,7 +45,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -56,20 +56,20 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <recordLookups>
-        <name>Get_work_statuses</name>
-        <label>Get work statuses</label>
-        <locationX>531</locationX>
-        <locationY>358</locationY>
+        <name>Get_service_statuses</name>
+        <label>Get service statuses</label>
+        <locationX>182</locationX>
+        <locationY>242</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Exists_service_statuses</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>Vehicle_Number_Plate__c</field>
+            <field>Customer_NIF__c</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>Vehicle_Number_Plate</elementReference>
+                <elementReference>Document_Number</elementReference>
             </value>
         </filters>
         <filters>
@@ -91,15 +91,15 @@
     </recordLookups>
     <runInMode>SystemModeWithoutSharing</runInMode>
     <screens>
-        <name>Getting_your_reception_status</name>
-        <label>Getting your reception status</label>
-        <locationX>423</locationX>
-        <locationY>358</locationY>
+        <name>Knowing_your_reparation_status</name>
+        <label>Knowing your reparation status</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <connector>
-            <targetReference>Get_work_statuses</targetReference>
+            <targetReference>Get_service_statuses</targetReference>
         </connector>
         <fields>
             <name>Reception_code</name>
@@ -109,11 +109,11 @@
             <isRequired>true</isRequired>
         </fields>
         <fields>
-            <name>Vehicle_Number_Plate</name>
+            <name>Document_Number</name>
             <dataType>String</dataType>
-            <fieldText>Vehicle Number Plate</fieldText>
+            <fieldText>Document Number</fieldText>
             <fieldType>InputField</fieldType>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
         </fields>
         <nextOrFinishButtonLabel>Get reception status</nextOrFinishButtonLabel>
         <showFooter>true</showFooter>
@@ -121,9 +121,9 @@
     </screens>
     <screens>
         <name>Reparation_status_results</name>
-        <label>Work statuses results</label>
-        <locationX>802</locationX>
-        <locationY>431</locationY>
+        <label>Reparation status results</label>
+        <locationX>50</locationX>
+        <locationY>458</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -161,7 +161,7 @@
             <inputParameters>
                 <name>tableData</name>
                 <value>
-                    <elementReference>Get_work_statuses</elementReference>
+                    <elementReference>Get_service_statuses</elementReference>
                 </value>
             </inputParameters>
             <inputParameters>
@@ -187,8 +187,8 @@
     <screens>
         <name>Service_Status_Error</name>
         <label>Service Status Error</label>
-        <locationX>806</locationX>
-        <locationY>310</locationY>
+        <locationX>314</locationX>
+        <locationY>458</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -201,11 +201,11 @@
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>46</locationX>
-        <locationY>337</locationY>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
         <connector>
-            <targetReference>Getting_your_reception_status</targetReference>
+            <targetReference>Knowing_your_reparation_status</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
 </Flow>

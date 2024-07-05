@@ -5713,6 +5713,10 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Tallercan_Reception_Product_Trigger</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Tallercan_Reception_close_date</flow>
     </flowAccesses>
     <flowAccesses>

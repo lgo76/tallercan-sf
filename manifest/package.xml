@@ -340,6 +340,7 @@
         <members>CreditMemoLine</members>
         <members>Customer</members>
         <members>DandBCompany</members>
+        <members>DataKitDeploymentLog</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>DelegatedAccount</members>
@@ -700,6 +701,7 @@
         <members>LightningSales_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
         <members>Materials</members>
+        <members>Opportunity_Product_Record_Page</members>
         <members>Quote_Record_Page</members>
         <members>RevenueCloudConsole_UtilityBar</members>
         <members>Service_monitoring_Record_Page</members>
@@ -722,6 +724,7 @@
         <members>Tallercan_Delete_Account_Trigger</members>
         <members>Tallercan_Quote_Before_Create_Update</members>
         <members>Tallercan_Quote_trigger</members>
+        <members>Tallercan_Reception_Product_Trigger</members>
         <members>Tallercan_Reception_close_date</members>
         <members>Tallercan_Repection_deletion</members>
         <members>Tallercan_Service_monitoring_trigger</members>
@@ -742,6 +745,7 @@
         <members>Tallercan_Delete_Account_Trigger</members>
         <members>Tallercan_Quote_Before_Create_Update</members>
         <members>Tallercan_Quote_trigger</members>
+        <members>Tallercan_Reception_Product_Trigger</members>
         <members>Tallercan_Reception_close_date</members>
         <members>Tallercan_Repection_deletion</members>
         <members>Tallercan_Service_monitoring_trigger</members>
@@ -1679,6 +1683,7 @@
         <members>CouponCodeRedemption</members>
         <members>CreditMemo</members>
         <members>Customer</members>
+        <members>DataKitDeploymentLog</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>DelegatedAccount</members>
@@ -1971,6 +1976,7 @@
         <members>Account_Record_Page</members>
         <members>Car_Registration_Record_Page</members>
         <members>Materials</members>
+        <members>Opportunity_Product_Record_Page</members>
         <members>Quote_Record_Page</members>
         <members>Service_monitoring_Record_Page</members>
         <members>Services</members>

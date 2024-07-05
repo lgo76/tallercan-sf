@@ -4,8 +4,8 @@
     <assignments>
         <name>Add_service_monitoring_to_list</name>
         <label>Add service monitoring to list</label>
-        <locationX>587</locationX>
-        <locationY>552</locationY>
+        <locationX>138</locationX>
+        <locationY>1163</locationY>
         <assignmentItems>
             <assignToReference>servicemonitoringlist</assignToReference>
             <operator>Add</operator>
@@ -20,8 +20,8 @@
     <assignments>
         <name>Set_product_id</name>
         <label>Set product id</label>
-        <locationX>956</locationX>
-        <locationY>204</locationY>
+        <locationX>138</locationX>
+        <locationY>647</locationY>
         <assignmentItems>
             <assignToReference>productidlist</assignToReference>
             <operator>Add</operator>
@@ -36,8 +36,8 @@
     <assignments>
         <name>Set_service_monitoring_values</name>
         <label>Set service monitoring values</label>
-        <locationX>586</locationX>
-        <locationY>409</locationY>
+        <locationX>138</locationX>
+        <locationY>1055</locationY>
         <assignmentItems>
             <assignToReference>monitoringservice.Related_reception_service__c</assignToReference>
             <operator>Assign</operator>
@@ -87,8 +87,8 @@
     <decisions>
         <name>Has_status_changed_to_approved</name>
         <label>Has status changed to approved?</label>
-        <locationX>504</locationX>
-        <locationY>207</locationY>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Yes</name>
@@ -97,14 +97,14 @@
                 <leftValueReference>$Record.Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Approved</stringValue>
+                    <stringValue>Accepted</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
                 <leftValueReference>$Record__Prior.Status</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <stringValue>Approved</stringValue>
+                    <stringValue>Accepted</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -113,15 +113,15 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>Adding reception status changed.</description>
+    <description>Change approved for accepted.</description>
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Quote trigger {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Tallercan] Quote After Update Trigger</label>
     <loops>
         <name>Quote_line_items_loop</name>
         <label>Quote line items loop</label>
-        <locationX>767</locationX>
-        <locationY>205</locationY>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
         <collectionReference>Getrelatedquotelineitems</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -134,8 +134,8 @@
     <loops>
         <name>Service_loop</name>
         <label>Service loop</label>
-        <locationX>787</locationX>
-        <locationY>417</locationY>
+        <locationX>50</locationX>
+        <locationY>947</locationY>
         <collectionReference>Get_services</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -154,7 +154,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -167,18 +167,18 @@
     <recordCreates>
         <name>Create_service_monitoring</name>
         <label>Create service monitoring</label>
-        <locationX>951</locationX>
-        <locationY>613</locationY>
+        <locationX>50</locationX>
+        <locationY>1355</locationY>
         <connector>
-            <targetReference>Update_reception_status_to_Budget_Approved</targetReference>
+            <targetReference>Update_reception_status_to_Quote_Approved</targetReference>
         </connector>
         <inputReference>servicemonitoringlist</inputReference>
     </recordCreates>
     <recordLookups>
         <name>Get_services</name>
         <label>Get services</label>
-        <locationX>937</locationX>
-        <locationY>402</locationY>
+        <locationX>50</locationX>
+        <locationY>839</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Service_loop</targetReference>
@@ -205,8 +205,8 @@
     <recordLookups>
         <name>Getrelatedquotelineitems</name>
         <label>Get related quote line items</label>
-        <locationX>648</locationX>
-        <locationY>205</locationY>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Quote_line_items_loop</targetReference>
@@ -224,10 +224,10 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
-        <name>Update_reception_status_to_Budget_Approved</name>
-        <label>Update reception status to Budget Approved</label>
-        <locationX>747</locationX>
-        <locationY>613</locationY>
+        <name>Update_reception_status_to_Quote_Approved</name>
+        <label>Update reception status to Quote Approved</label>
+        <locationX>50</locationX>
+        <locationY>1463</locationY>
         <inputAssignments>
             <field>StageName</field>
             <value>
@@ -237,8 +237,8 @@
         <inputReference>$Record.Opportunity</inputReference>
     </recordUpdates>
     <start>
-        <locationX>55</locationX>
-        <locationY>356</locationY>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
         <connector>
             <targetReference>Has_status_changed_to_approved</targetReference>
         </connector>
@@ -246,7 +246,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>monitoringservice</name>
         <dataType>SObject</dataType>

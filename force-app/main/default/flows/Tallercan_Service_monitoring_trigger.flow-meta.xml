@@ -46,8 +46,8 @@
     <decisions>
         <name>Is_material_and_needs_stock</name>
         <label>Is material and needs stock?</label>
-        <locationX>956</locationX>
-        <locationY>343</locationY>
+        <locationX>957</locationX>
+        <locationY>342</locationY>
         <defaultConnector>
             <targetReference>Loop_of_related_products_of_quote</targetReference>
         </defaultConnector>
@@ -66,7 +66,14 @@
                 <leftValueReference>Loop_of_related_products_of_quote.Product2.Stock__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <booleanValue>true</booleanValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.related_service__r.Required_materials__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>Loop_of_related_products_of_quote.Product2.Family</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -100,14 +107,14 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>Changing master-detail relationship to lookup.</description>
+    <description>Fixing decision.</description>
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Service monitoring trigger {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Tallercan] Work Status trigger</label>
     <loops>
         <name>Loop_of_related_products_of_quote</name>
         <label>Loop of related products of quote</label>
-        <locationX>736</locationX>
+        <locationX>717</locationX>
         <locationY>347</locationY>
         <collectionReference>Get_related_products_of_quotes</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -140,7 +147,7 @@
     <recordLookups>
         <name>Get_accepted_quote</name>
         <label>Get accepted quote</label>
-        <locationX>466</locationX>
+        <locationX>465</locationX>
         <locationY>346</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -168,8 +175,8 @@
     <recordLookups>
         <name>Get_related_products_of_quotes</name>
         <label>Get related products of quotes</label>
-        <locationX>601</locationX>
-        <locationY>346</locationY>
+        <locationX>600</locationX>
+        <locationY>347</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_of_related_products_of_quote</targetReference>
@@ -187,7 +194,7 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
-        <locationX>96</locationX>
+        <locationX>95</locationX>
         <locationY>430</locationY>
         <connector>
             <targetReference>Get_accepted_quote</targetReference>

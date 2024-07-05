@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
  * @group             : 
- * @last modified on  : 06-26-2024
+ * @last modified on  : 07-04-2024
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 public class TallercanUtils {
@@ -19,16 +19,15 @@ public class TallercanUtils {
         
         @InvocableVariable(required=true)
         public String category;
+
+        @InvocableVariable(required=true)
+        public boolean addServices;
     }
 
     
 
     @InvocableMethod(label='create related opplineitems')
     public static void createRelatedQuotesByCategory(List<Request> requests){
-
-        
-
-
 
         
         List<OpportunityLineItem> oppslineitems = new List<OpportunityLineItem>();
@@ -53,20 +52,25 @@ public class TallercanUtils {
 
             //Get reception and its
             List<Opportunity> receptioncreated = [SELECT id FROM Opportunity WHERE id =: req.receptionId];
-            //Get materials
-            List<Product2> serviceandrelatedmaterials = [SELECT id, productcode, name, family, category__c, Is_service__c 
-            FROM Product2 
-            WHERE Family in :materialServicesList AND category__c =: req.category AND IsActive = true];
-
-            //Adding services to list of material objects
-            serviceandrelatedmaterials.addAll(req.servicesObject);
-
+            List<Product2> serviceandrelatedmaterials = null;
+            if(!req.addServices){
+                //Get materials
+                serviceandrelatedmaterials = [SELECT id, productcode, name, family, category__c, Is_service__c 
+                FROM Product2 
+                WHERE Family in :materialServicesList AND category__c =: req.category AND IsActive = true];
+            }else{
+                serviceandrelatedmaterials = new List<Product2>();
+                serviceandrelatedmaterials.addAll(req.servicesObject);
+            }
+            
+            
             // get Set of Ids of the Object
             Set<Id> ids = new Set<Id>(new Map<Id, Product2>(serviceandrelatedmaterials).keySet());
             System.debug('Product2 Ids as Set<Id>: ' + ids);
 
             //Get pricebook entries for each material/service
-            String pricebookidvar = '01s68000002vx5zAAA';
+            Pricebook2 pbStandard1 = [SELECT Id from Pricebook2 where IsStandard = true LIMIT 1];
+            String pricebookidvar = pbStandard1.Id;//'01s68000002vx5zAAA';
             List<PricebookEntry> pricebookentries = [SELECT Id, UnitPrice, Product2Id
             FROM PricebookEntry
             WHERE Product2Id in :ids and isactive = true and Pricebook2Id =: pricebookidvar];

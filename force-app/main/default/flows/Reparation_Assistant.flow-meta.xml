@@ -3,11 +3,17 @@
     <actionCalls>
         <name>Create_related_OppLineItems_with_Standard_category</name>
         <label>Create related OppLineItems with Standard category</label>
-        <locationX>989</locationX>
+        <locationX>988</locationX>
         <locationY>271</locationY>
         <actionName>TallercanUtils</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>addServices</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
         <inputParameters>
             <name>category</name>
             <value>
@@ -60,7 +66,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>Adding search list to service table.</description>
+    <description>Delete add documents to accident reception</description>
     <dynamicChoiceSets>
         <name>Getproducts</name>
         <dataType>String</dataType>
@@ -296,7 +302,7 @@
         <name>Accident_details</name>
         <label>Accident details</label>
         <locationX>742</locationX>
-        <locationY>274</locationY>
+        <locationY>273</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -388,26 +394,6 @@
             </fields>
             <isRequired>false</isRequired>
             <regionContainerType>SectionWithoutHeader</regionContainerType>
-        </fields>
-        <fields>
-            <name>accident_document</name>
-            <extensionName>forceContent:fileUpload</extensionName>
-            <fieldType>ComponentInstance</fieldType>
-            <inputParameters>
-                <name>label</name>
-                <value>
-                    <stringValue>Add documents of the accident</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>recordId</name>
-                <value>
-                    <elementReference>Select_the_Vehicle.selectedChoiceValues</elementReference>
-                </value>
-            </inputParameters>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
-            <isRequired>true</isRequired>
-            <storeOutputAutomatically>true</storeOutputAutomatically>
         </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>

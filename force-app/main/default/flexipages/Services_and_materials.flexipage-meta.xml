@@ -38,43 +38,20 @@
                 <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Product2.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>Products__r</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListComponentOverride</name>
-                    <value>NONE</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>rowsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>force:relatedListSingleContainer</componentName>
-                <identifier>force_relatedListSingleContainer</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Is_service__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
         <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.IsActive</fieldItem>
+                <identifier>RecordIsActiveField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
@@ -93,44 +70,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.ProductCode</fieldItem>
                 <identifier>RecordProductCodeField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.IsActive</fieldItem>
-                <identifier>RecordIsActiveField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Stock__c</fieldItem>
-                <identifier>RecordStock__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.Parent_material__c</fieldItem>
-                <identifier>RecordParent_material__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.Required_materials__c</fieldItem>
-                <identifier>RecordRequired_materials__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.Category__c</fieldItem>
-                <identifier>RecordCategory__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-838d1c3f-b78d-4c87-911b-ae350a733a1a</name>
@@ -153,8 +92,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Related_service_product__c</fieldItem>
-                <identifier>RecordRelated_service_product_cField</identifier>
+                <fieldItem>Record.Family</fieldItem>
+                <identifier>RecordFamilyField</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.Is_service__c}</leftValue>
@@ -170,8 +109,15 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Estimation_of_time_days__c</fieldItem>
-                <identifier>RecordEstimation_of_time_days_cField</identifier>
+                <fieldItem>Record.Stock__c</fieldItem>
+                <identifier>RecordStock__cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Is_service__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>false</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -180,8 +126,42 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Family</fieldItem>
-                <identifier>RecordFamilyField</identifier>
+                <fieldItem>Record.Parent_material__c</fieldItem>
+                <identifier>RecordParent_material__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Required_materials__c</fieldItem>
+                <identifier>RecordRequired_materials__cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Is_service__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Category__c</fieldItem>
+                <identifier>RecordCategory__cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Is_service__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>false</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-14a01bd0-14b6-4d48-904b-84f6e976329a</name>

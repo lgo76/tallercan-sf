@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <name>create_related_opplineitems</name>
-        <label>create related opplineitems</label>
+        <name>create_related_opplineitems_Action_1</name>
+        <label>create related opplineitems Action 1</label>
         <locationX>50</locationX>
         <locationY>539</locationY>
         <actionName>TallercanUtils</actionName>
@@ -29,27 +29,11 @@
         <inputParameters>
             <name>servicesObject</name>
             <value>
-                <elementReference>productservicelist</elementReference>
+                <elementReference>Getservice</elementReference>
             </value>
         </inputParameters>
     </actionCalls>
     <apiVersion>61.0</apiVersion>
-    <assignments>
-        <name>Assign_related_product_type_to_list</name>
-        <label>Assign related product type to list</label>
-        <locationX>50</locationX>
-        <locationY>431</locationY>
-        <assignmentItems>
-            <assignToReference>productservicelist</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <elementReference>$Record.Product2</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>create_related_opplineitems</targetReference>
-        </connector>
-    </assignments>
     <decisions>
         <name>Is_service</name>
         <label>Is service?</label>
@@ -67,11 +51,12 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Assign_related_product_type_to_list</targetReference>
+                <targetReference>Getservice</targetReference>
             </connector>
             <label>Yes</label>
         </rules>
     </decisions>
+    <description>Change query</description>
     <environments>Default</environments>
     <interviewLabel>[Tallercan] Reception Product Trigger {!$Flow.CurrentDateTime}</interviewLabel>
     <label>[Tallercan] Reception Product Trigger</label>
@@ -94,6 +79,27 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Getservice</name>
+        <label>Get service</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>create_related_opplineitems_Action_1</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Product2Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Product2</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <start>
         <locationX>56</locationX>
         <locationY>0</locationY>
@@ -104,11 +110,19 @@
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>productservicelist</name>
         <dataType>SObject</dataType>
         <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Product2</objectType>
+    </variables>
+    <variables>
+        <name>servicetoinsert</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
         <objectType>Product2</objectType>

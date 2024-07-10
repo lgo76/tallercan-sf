@@ -8,30 +8,6 @@
         <allowEmail>true</allowEmail>
     </standardValue>
     <standardValue>
-        <fullName>Needs Review</fullName>
-        <default>false</default>
-        <label>Needs Review</label>
-        <allowEmail>true</allowEmail>
-    </standardValue>
-    <standardValue>
-        <fullName>In Review</fullName>
-        <default>false</default>
-        <label>In Review</label>
-        <allowEmail>true</allowEmail>
-    </standardValue>
-    <standardValue>
-        <fullName>Approved</fullName>
-        <default>false</default>
-        <label>Approved</label>
-        <allowEmail>true</allowEmail>
-    </standardValue>
-    <standardValue>
-        <fullName>Rejected</fullName>
-        <default>false</default>
-        <label>Rejected</label>
-        <allowEmail>true</allowEmail>
-    </standardValue>
-    <standardValue>
         <fullName>Presented</fullName>
         <default>false</default>
         <label>Presented</label>

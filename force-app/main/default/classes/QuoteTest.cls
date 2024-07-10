@@ -28,25 +28,10 @@ public with sharing class QuoteTest {
     
     static List<OpportunityLineItem> createOppLineItems(Opportunity reception, List<Product2> products){
         
-        Id standardPricebookId = Test.getStandardPricebookId();
-        
-               
+        Map<Id, PricebookEntry> mapProductPricebook = getPBMap();
         List<OpportunityLineItem> oliToInsert = new List<OpportunityLineItem>();
         OpportunityLineItem oli1 = null;
-        List<PricebookEntry> pbentries = new List<PricebookEntry>();
-        for(Product2 p: products){
-            //Create PBEntries
-            pbentries.add(new PricebookEntry(
-            Pricebook2Id = standardPricebookId,
-            Product2Id = p.Id,
-            UnitPrice = 100,
-            IsActive = true));
-        }
-        insert pbentries;
-        
-        Map<Id, PricebookEntry> mapProductPricebook = getPBMap();
-        
-        
+		        
         for(Product2 p : products){
             //Create OppLineItems
             oli1 = new OpportunityLineItem();
@@ -272,6 +257,22 @@ public with sharing class QuoteTest {
         insert materialAndServiceList;
         
         List<Product2> productsList = [SELECT Id, ProductCode, Name, Is_Service__c, Stock__c from Product2];
+        
+        //Create pricebookentries
+        Id standardPricebookId = Test.getStandardPricebookId();
+        System.debug('Standard Pricebook Id: ' + standardPricebookId);
+
+        System.debug('Products List: ' + productsList);
+        List<PricebookEntry> pbentries = new List<PricebookEntry>();
+        for(Product2 p: productsList){
+            //Create PBEntries
+            pbentries.add(new PricebookEntry(
+            Pricebook2Id = standardPricebookId,
+            Product2Id = p.Id,
+            UnitPrice = 100,
+            IsActive = true));
+        }
+        insert pbentries;
 
         // Create reception
         Opportunity opp2 = new Opportunity();

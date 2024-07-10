@@ -621,6 +621,7 @@
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
         <members>Account.Standard_Person_Account_Duplicate_Rule</members>
+        <members>Account.Tallercan_Person_Account_Duplicate_Rule</members>
         <members>Contact.Standard_Contact_Duplicate_Rule</members>
         <members>Lead.Standard_Lead_Duplicate_Rule</members>
         <name>DuplicateRule</name>
@@ -1273,6 +1274,7 @@
     <types>
         <members>Account.Standard_Account_Match_Rule_v1_0</members>
         <members>Account.Standard_PersonAccount_Match_Rule_v1_0</members>
+        <members>Account.Tallercan_Person_Account_Matching_Rule</members>
         <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
         <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
         <name>MatchingRule</name>

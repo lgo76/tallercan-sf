@@ -68,9 +68,15 @@ public class TallercanUtils {
             Set<Id> ids = new Set<Id>(new Map<Id, Product2>(serviceandrelatedmaterials).keySet());
             System.debug('Product2 Ids as Set<Id>: ' + ids);
 
+            Id pricebookidvar = null;
             //Get pricebook entries for each material/service
-            Pricebook2 pbStandard1 = [SELECT Id from Pricebook2 where IsStandard = true LIMIT 1];
-            String pricebookidvar = pbStandard1.Id;//'01s68000002vx5zAAA';
+            if(!Test.isRunningTest()){
+               	Pricebook2 pbStandard1 = [SELECT Id from Pricebook2 where IsStandard = true LIMIT 1];
+            	pricebookidvar = pbStandard1.Id;//'01s68000002vx5zAAA'; 
+            }else{
+                pricebookidvar = Test.getStandardPricebookId();
+            }
+            
             List<PricebookEntry> pricebookentries = [SELECT Id, UnitPrice, Product2Id
             FROM PricebookEntry
             WHERE Product2Id in :ids and isactive = true and Pricebook2Id =: pricebookidvar];
